@@ -6,7 +6,7 @@ SRC = json.load(open("scripts/sources.json"))
 KEY = os.environ["ANTHROPIC_API_KEY"]
 TODAY = datetime.date.today().isoformat()
 MAX_ITEMS = int(os.environ.get("MAX_ITEMS", "25"))
-RUBRICS = ["AI Signals","Model Watch","Policy Radar","Toolbox","Research Digest","PKM","Час і фокус","Письмо"]
+RUBRICS = ["AI Signals","Model Watch","Policy Radar","Toolbox","Research Digest","PKM","Время и фокус","Письмо"]
 UA = {"User-Agent": "Mozilla/5.0 SignalFeed/1.0"}
 
 def feeds():
@@ -76,11 +76,11 @@ for i in ids:
     if not text or len(text.split()) < 600:
         print("skip thin", c["url"]); continue
     words = len(text.split())
-    out = claude("claude-sonnet-5-5", f"""Зроби ПЕРЕКАЗ (не переклад) статті українською для публічного сайту Signal Feed.
-Поверни лише JSON-об'єкт: {{"rubric": одна з {RUBRICS}, "author": "...", "title": "власний інформативний заголовок", "thesis": "1 речення",
-"key": [4-5 коротких пунктів «що взяти собі»], "body": [3-5 абзаців, разом не більше {int(words*0.35)} слів, своїми словами, без вигаданих фактів],
-"quote": "одна цитата до 15 слів українською або порожньо"}}. Природна українська, коротке тире «–».
-Якщо стаття порожня, рекламна чи неглибока – поверни {{"skip": true}}.
+    out = claude("claude-sonnet-5-5", f"""Сделай ПЕРЕСКАЗ (не перевод) статьи НА РУССКОМ ЯЗЫКЕ для публичного сайта Signal Feed. Все поля – на русском.
+Поверни лише JSON-об'єкт: {{"rubric": одна з {RUBRICS}, "author": "...", "title": "собственный информативный заголовок", "thesis": "1 предложение",
+"key": [4-5 коротких пунктов «что взять себе»], "body": [3-5 абзацев, всего не больше {int(words*0.35)} слов, своими словами, без выдуманных фактов],
+"quote": "одна цитата до 15 слов на русском или пусто"}}. Естественный русский, короткое тире «–».
+Если статья пустая, рекламная или неглубокая – верни {{"skip": true}}.
 
 Джерело: {c["src"]}\nURL: {c["url"]}\nЗаголовок: {c["title"]}\n\n{text[:40000]}""", 8000)
     try:

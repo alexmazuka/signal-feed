@@ -9,7 +9,7 @@ for i in items:
     e = html.escape
     key = "\n".join(f"– {e(k)}" for k in i.get("key", [])[:4])
     text = (f"<b>{e(i['rubric'])}</b> · {e(i['source'])}\n\n<b>{e(i['title'])}</b>\n\n{e(i['thesis'])}\n\n{key}\n\n"
-            f"<a href=\"{SITE}\">Читати переказ</a> · <a href=\"{e(i['url'])}\">Оригінал</a>")
+            f"<a href=\"{SITE}a/{i['slug']}/\">Читать пересказ</a> · <a href=\"{e(i['url'])}\">Оригинал</a>")
     data = urllib.parse.urlencode({"chat_id": ch, "text": text, "parse_mode": "HTML", "disable_web_page_preview": "true"}).encode()
     r = json.load(urllib.request.urlopen(f"https://api.telegram.org/bot{tok}/sendMessage", data))
     print(r.get("ok"), i["title"][:60]); posted.add(i["url"])

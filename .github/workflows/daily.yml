@@ -1,14 +1,17 @@
 name: daily-issue
 on:
   schedule:
-    - cron: "0 5 * * *"   # 08:00 Київ (літо 08:00, взимку 07:00)
+    - cron: "0 5 * * *"   # 08:00 Київ влітку, 07:00 взимку
   workflow_dispatch:
 permissions:
   contents: write
+  pages: write
+  id-token: write
 concurrency: signal-feed
 jobs:
-  collect:
+  run:
     runs-on: ubuntu-latest
+    environment: { name: github-pages }
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -17,10 +20,14 @@ jobs:
       - run: python3 scripts/collect.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - run: python3 scripts/build.py
       - run: python3 scripts/post_tg.py
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
       - run: |
           git config user.name signal-feed-bot && git config user.email bot@users.noreply.github.com
-          git add data && git commit -m "Випуск $(date +%F)" && git push || true
+          git add data && git commit -m "Выпуск $(date +%F)" && git push || true
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site_out }
+      - uses: actions/deploy-pages@v4
