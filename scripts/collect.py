@@ -15,6 +15,7 @@ def feeds():
     for t in SRC["medium_tags"]:
         yield f"https://medium.com/feed/tag/{t}"
     yield from SRC["ua"]
+    yield from SRC.get("ru", [])
     for r in SRC["reddit"]:
         yield f"https://www.reddit.com/r/{r}/top/.rss?t=day"
     yield from SRC["extra"]

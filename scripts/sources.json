@@ -11,9 +11,6 @@
   "www.oneusefulthing.org",
   "www.lennysnewsletter.com",
   "every.to",
-  "simonwillison.net",
-  "fortelabs.com/blog",
-  "nesslabs.com",
   "www.platformer.news",
   "stratechery.com",
   "www.exponentialview.co",
@@ -28,13 +25,7 @@
   "natesnewsletter.substack.com",
   "www.howtogeekonai.com",
   "writingcooperative.substack.com",
-  "www.experimental-history.com",
-  "calnewport.com/blog",
-  "maggieappleton.com",
-  "www.nngroup.com/articles",
-  "www.niemanlab.org",
-  "pressgazette.co.uk",
-  "www.journalism.co.uk"
+  "www.experimental-history.com"
  ],
  "medium_tags": [
   "artificial-intelligence",
@@ -98,6 +89,36 @@
   "https://www.bcg.com/rss",
   "https://www.bain.com/insights/rss/",
   "https://www2.deloitte.com/us/en/insights/rss.xml",
-  "https://reutersinstitute.politics.ox.ac.uk/rss.xml"
+  "https://reutersinstitute.politics.ox.ac.uk/rss.xml",
+  "https://simonwillison.net/atom/everything/",
+  "https://calnewport.com/feed/",
+  "https://maggieappleton.com/rss.xml",
+  "https://www.nngroup.com/feed/rss/",
+  "https://www.niemanlab.org/feed/",
+  "https://pressgazette.co.uk/feed/",
+  "https://fortelabs.com/feed/",
+  "https://nesslabs.com/feed",
+  "https://www.ben-evans.com/benedictevans?format=rss",
+  "https://hnrss.org/best?points=300",
+  "https://lobste.rs/t/ai.rss",
+  "https://www.lesswrong.com/feed.xml?view=curated-rss",
+  "https://jack-clark.net/feed/",
+  "https://www.understandingai.org/feed",
+  "https://stackoverflow.blog/feed/",
+  "https://zettelkasten.de/feed.atom"
+ ],
+ "ru": [
+  "https://habr.com/ru/rss/hubs/artificial_intelligence/articles/top/daily/?fl=ru",
+  "https://habr.com/ru/rss/hubs/machine_learning/articles/top/daily/?fl=ru",
+  "https://habr.com/ru/rss/hubs/natural_language_processing/articles/?fl=ru",
+  "https://habr.com/ru/rss/hubs/pm/articles/top/weekly/?fl=ru",
+  "https://habr.com/ru/rss/hubs/business-laws/articles/?fl=ru",
+  "https://habr.com/ru/rss/hubs/media_management/articles/?fl=ru",
+  "https://vc.ru/rss/all",
+  "https://sysblok.ru/feed/",
+  "https://knife.media/feed/",
+  "https://tproger.ru/feed/",
+  "https://habr.com/ru/rss/hubs/career/articles/top/weekly/?fl=ru",
+  "https://habr.com/ru/rss/hubs/popular_science/articles/top/weekly/?fl=ru"
  ]
 }
