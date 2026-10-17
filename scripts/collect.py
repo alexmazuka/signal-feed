@@ -5,7 +5,7 @@ import feedparser, trafilatura
 SRC = json.load(open("scripts/sources.json"))
 KEY = os.environ["ANTHROPIC_API_KEY"]
 TODAY = datetime.date.today().isoformat()
-MAX_ITEMS = int(os.environ.get("MAX_ITEMS", "5"))
+MAX_ITEMS = int(os.environ.get("MAX_ITEMS", "25"))
 RUBRICS = ["AI Signals","Model Watch","Policy Radar","Toolbox","Research Digest","PKM","Час і фокус","Письмо"]
 UA = {"User-Agent": "Mozilla/5.0 SignalFeed/1.0"}
 
@@ -53,7 +53,7 @@ if not cands: raise SystemExit
 
 listing = "\n".join(f'{c["id"]}. [{c["src"]}] {c["title"]} — {c["summary"]}' for c in cands[:400])
 pick = claude("claude-haiku-5-5", f"""Ти редактор Signal Feed. Теми: ШІ-автоматизації, агенти, моделі, PKM, тайм-менеджмент і фокус, принципи письма і постів, вплив ШІ на медіа/бізнес/суспільство.
-Обери до {MAX_ITEMS*3} найглибших матеріалів (аналіз, досвід, методика; НЕ новини-анонси, НЕ лістикли «10 інструментів», НЕ реклама, НЕ політика без зв'язку з технологіями).
+Обери ВСІ справді глибокі матеріали (але не більше {MAX_ITEMS*2}) (аналіз, досвід, методика; НЕ новини-анонси, НЕ лістикли «10 інструментів», НЕ реклама, НЕ політика без зв'язку з технологіями).
 Відповідь – лише JSON-масив id, найкращі першими.\n\n{listing}""", 4000)
 print("pick:", pick[:500])
 ids = [int(x) for x in re.findall(r"\d+", pick)]
