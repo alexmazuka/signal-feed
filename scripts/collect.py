@@ -93,13 +93,14 @@ for i in ids:
     except Exception:
         print("bad json", c["url"]); continue
     if o.get("skip"): print("skip by model", c["url"]); continue
-    try:
-        ukr = claude("claude-haiku-5-5", "Переклади на природну українську мову значення полів title, thesis, key, body, why, apply, quote цього JSON. "
+    for model in ("claude-haiku-5-5", "claude-sonnet-5-5"):
+      try:
+        ukr = claude(model, "Переклади на природну українську мову значення полів title, thesis, key, body, why, apply, quote цього JSON. "
                      "Поверни лише JSON-об'єкт з тими самими ключами, коротке тире «–».\n\n" +
                      json.dumps({k: o.get(k) for k in ["title","thesis","key","body","why","apply","quote"]}, ensure_ascii=False), 10000)
-        o["uk"] = json.loads(ukr[ukr.find("{"):ukr.rfind("}")+1])
-    except Exception as ex:
-        print("uk fail", ex)
+        o["uk"] = json.loads(ukr[ukr.find("{"):ukr.rfind("}")+1]); break
+      except Exception as ex:
+        print("uk fail", model, ex)
     o.update({"date": TODAY, "source": c["src"], "url": c["url"], "minutes": max(1, round(words/220))})
     items.append(o); seen.add(c["url"]); added += 1; print("added", o["title"])
 
