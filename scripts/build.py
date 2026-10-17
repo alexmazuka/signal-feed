@@ -1,25 +1,68 @@
-"""Собирает статический сайт Signal Feed з data/items.json: головна, випуски, переказ, теми, архів, RSS, sitemap."""
+"""Собирает статический сайт Signal Feed (RU + UK) из data/items.json.
+
+Страницы: главная (свежие выпуски + темы), /issue/<дата>/, /a/<slug>/, /topic/<rubric>/, /archive/.
+Украинская версия — те же страницы под /uk/. Плюс RSS, sitemap с hreflang, robots.txt, llms.txt, IndexNow-ключ.
+Адрес сайта задаётся переменными SITE_URL и SITE_BASE (для своего домена: SITE_URL=https://feed.matsuka.online/ SITE_BASE=/).
+"""
 import json, os, re, html, datetime, shutil
 from collections import defaultdict, OrderedDict
 
-BASE = "/signal-feed/"
-SITE = "https://alexmazuka.github.io/signal-feed/"
+SITE = os.environ.get("SITE_URL") or "https://alexmazuka.github.io/signal-feed/"
+BASE = os.environ.get("SITE_BASE") or "/signal-feed/"
+SUBSCRIBE_ACTION = os.environ.get("SUBSCRIBE_ACTION") or ""  # адрес формы email-рассылки (Buttondown и т. п.)
+GSC_VERIFY = os.environ.get("GSC_VERIFY") or ""              # код подтверждения Google Search Console
+INDEXNOW_KEY = "5f1c9a7e3b2d4e8fa6c0d9b1e2f34a57"
+TG = "https://t.me/signalfeedai"
+YEAR = datetime.date.today().year
+
 RUBRICS = ["AI Signals", "Model Watch", "Policy Radar", "Toolbox", "Research Digest", "PKM", "Время и фокус", "Письмо"]
-RUB_NOTE = {
-    "AI Signals": "Как ИИ меняет работу, бизнес и медиа",
-    "Model Watch": "Новые модели, релизы, открытые веса",
-    "Policy Radar": "Регулирование, право, политика технологий",
-    "Toolbox": "Инструменты и рабочие приёмы",
-    "Research Digest": "Исследования и данные",
-    "PKM": "Вторая память, заметки, системы знаний",
-    "Время и фокус": "Тайм-менеджмент, внимание, ритм",
-    "Письмо": "Как писать тексты и посты",
+RUB_SLUG = {"Время и фокус": "focus", "Письмо": "writing"}
+
+L = {
+ "ru": dict(
+  prefix="", lang="ru", og="ru_RU", other="uk", other_label="UA",
+  lede="Подборка важных сигналов об ИИ, технологиях и их влиянии на медиа, бизнес и общество.",
+  kicker="Ежедневные выпуски · на русском", issues="Выпуски", topics="Темы", archive="Архив",
+  fresh_issues="Свежие выпуски", all_archive="Архив →", topics_note="Пересказы из разных выпусков",
+  fresh="Свежий выпуск", issue="Выпуск", texts="текстов", open_issue="Открыть выпуск →", all_n="Все {n} →",
+  prev="← Предыдущий", next="Следующий →", min="мин", min_orig="мин оригинала", main="Главное",
+  why="Почему это важно", apply="Что применить", source="Первоисточник", more="Ещё по теме", all="Все →",
+  topic_n="Тема · {n} пересказов", arch_desc="Все выпуски Signal Feed", arch_n="{a} выпусков · {b} пересказов",
+  sub_h="Получайте Signal Feed", sub_p="Каждое утро – новые глубокие тексты об ИИ, автоматизации, PKM и письме.",
+  sub_tg="Telegram-канал", sub_email="Ваш email", sub_btn="Подписаться",
+  rights="Пересказы идей со ссылкой на первоисточники. Права на оригиналы принадлежат авторам.",
+  months=["января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря"],
+  months_nom=["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"],
+  rub={"AI Signals":"AI Signals","Model Watch":"Model Watch","Policy Radar":"Policy Radar","Toolbox":"Toolbox",
+       "Research Digest":"Research Digest","PKM":"PKM","Время и фокус":"Время и фокус","Письмо":"Письмо"},
+  note={"AI Signals":"Как ИИ меняет работу, бизнес и медиа","Model Watch":"Новые модели, релизы, открытые веса",
+        "Policy Radar":"Регулирование, право, политика технологий","Toolbox":"Инструменты и рабочие приёмы",
+        "Research Digest":"Исследования и данные","PKM":"Вторая память, заметки, системы знаний",
+        "Время и фокус":"Тайм-менеджмент, внимание, ритм","Письмо":"Как писать тексты и посты"}),
+ "uk": dict(
+  prefix="uk/", lang="uk", og="uk_UA", other="ru", other_label="RU",
+  lede="Добірка важливих сигналів про ШІ, технології та їхній вплив на медіа, бізнес і суспільство.",
+  kicker="Щоденні випуски · українською", issues="Випуски", topics="Теми", archive="Архів",
+  fresh_issues="Свіжі випуски", all_archive="Архів →", topics_note="Перекази з різних випусків",
+  fresh="Свіжий випуск", issue="Випуск", texts="текстів", open_issue="Відкрити випуск →", all_n="Усі {n} →",
+  prev="← Попередній", next="Наступний →", min="хв", min_orig="хв оригіналу", main="Головне",
+  why="Чому це важливо", apply="Що застосувати", source="Першоджерело", more="Ще з теми", all="Усі →",
+  topic_n="Тема · {n} переказів", arch_desc="Усі випуски Signal Feed", arch_n="{a} випусків · {b} переказів",
+  sub_h="Отримуйте Signal Feed", sub_p="Щоранку – нові глибокі тексти про ШІ, автоматизацію, PKM і письмо.",
+  sub_tg="Telegram-канал", sub_email="Ваш email", sub_btn="Підписатися",
+  rights="Перекази ідей з посиланням на першоджерела. Права на оригінали належать авторам.",
+  months=["січня","лютого","березня","квітня","травня","червня","липня","серпня","вересня","жовтня","листопада","грудня"],
+  months_nom=["Січень","Лютий","Березень","Квітень","Травень","Червень","Липень","Серпень","Вересень","Жовтень","Листопад","Грудень"],
+  rub={"AI Signals":"AI Signals","Model Watch":"Model Watch","Policy Radar":"Policy Radar","Toolbox":"Toolbox",
+       "Research Digest":"Research Digest","PKM":"PKM","Время и фокус":"Час і фокус","Письмо":"Письмо"},
+  note={"AI Signals":"Як ШІ змінює роботу, бізнес і медіа","Model Watch":"Нові моделі, релізи, відкриті ваги",
+        "Policy Radar":"Регулювання, право, політика технологій","Toolbox":"Інструменти й робочі прийоми",
+        "Research Digest":"Дослідження і дані","PKM":"Друга пам'ять, нотатки, системи знань",
+        "Время и фокус":"Тайм-менеджмент, увага, ритм","Письмо":"Як писати тексти і пости"}),
 }
-MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"]
-MONTHS_NOM = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"]
+TEXT_FIELDS = ["title", "thesis", "key", "body", "quote", "why", "apply"]
 TR = dict(zip("абвгґдеєжзиіїйклмнопрстуфхцчшщьюяыэёъ",
               ["a","b","v","h","g","d","e","ie","zh","z","y","i","i","i","k","l","m","n","o","p","r","s","t","u","f","kh","ts","ch","sh","shch","","iu","ia","y","e","e",""]))
-
 e = html.escape
 
 
@@ -29,112 +72,164 @@ def slugify(s, n=60):
     return s[:n].rstrip("-") or "item"
 
 
-def udate(d):
-    d = datetime.date.fromisoformat(d)
-    return f"{d.day} {MONTHS[d.month - 1]}"
-
-
 def rub_slug(r):
-    return slugify(r)
+    return RUB_SLUG.get(r) or slugify(r)
 
 
-CSS = """
-:root{--bg:#fff;--ink:#0a0a0a;--mute:#6e6e6e;--line:#0a0a0a;--soft:#e8e8e8;--card:#f6f6f6;
---display:"Spectral",Georgia,serif;--body:"IBM Plex Sans",-apple-system,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
-@media (prefers-color-scheme:dark){:root{--bg:#0a0a0a;--ink:#f2f2f2;--mute:#8f8f8f;--line:#f2f2f2;--soft:#262626;--card:#141414}}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 var(--body)}
-a{color:inherit;text-decoration:none}
-.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
-.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--soft)}
-.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:52px;gap:16px}
-.logo{font:700 20px var(--display);letter-spacing:-.01em}
-.nav{display:flex;gap:18px;font:500 12px var(--mono);text-transform:uppercase;letter-spacing:.08em;overflow-x:auto;white-space:nowrap}
-.nav a{color:var(--mute)}.nav a:hover,.nav a.on{color:var(--ink)}
-.k{font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--mute)}
-.hero{padding:56px 0 40px;border-bottom:3px solid var(--line)}
-.hero h1{font:700 clamp(52px,11vw,128px)/.9 var(--display);margin:0 0 18px;letter-spacing:-.03em}
-.hero p{font:400 clamp(18px,2.4vw,23px)/1.4 var(--display);max-width:760px;margin:0}
-.hero .tag{font-style:italic;color:var(--mute);margin-top:8px}
-.sec{padding:44px 0 8px}
-.sh{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:22px}
-.sh h2{font:600 28px var(--display);margin:0}
-.sh a{font:500 12px var(--mono);text-transform:uppercase;letter-spacing:.08em}
-.sh a:hover{text-decoration:underline}
-.rail{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(280px,1fr);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;scrollbar-width:thin}
-.rail>*{scroll-snap-align:start}
-.issue-card{display:flex;flex-direction:column;border:1px solid var(--line);padding:20px;min-height:300px;transition:background .15s,color .15s}
-.issue-card:hover{background:var(--ink);color:var(--bg)}
-.issue-card:hover .k{color:inherit;opacity:.7}
-.issue-card .d{font:700 46px/1 var(--display);margin:10px 0 4px;letter-spacing:-.02em}
-.issue-card ol{margin:16px 0 0;padding-left:18px;font:400 15px/1.4 var(--body)}
-.issue-card ol li{margin-bottom:6px}
-.issue-card .more{margin-top:auto;padding-top:14px;font:500 12px var(--mono);text-transform:uppercase;letter-spacing:.08em}
-.issue-card.first{background:var(--ink);color:var(--bg)}
-.issue-card.first .k{color:inherit;opacity:.7}
-.card{display:flex;flex-direction:column;background:var(--card);padding:20px;min-height:220px;border-top:3px solid var(--line);transition:transform .15s}
-.card:hover{transform:translateY(-3px)}
-.card h3{font:600 20px/1.25 var(--display);margin:10px 0 8px}
-.card p{margin:0;font-size:15px;color:var(--mute);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.card .k:last-child{margin-top:auto;padding-top:12px}
-.topic{margin-bottom:34px}
-.topic .th{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px;gap:12px}
-.topic .th h3{font:600 22px var(--display);margin:0}
-.topic .th span{color:var(--mute);font-size:14px}
-.topic .th a{font:500 12px var(--mono);text-transform:uppercase;letter-spacing:.08em;white-space:nowrap}
-.page-h{padding:44px 0 22px;border-bottom:3px solid var(--line)}
-.page-h h1{font:700 clamp(36px,6vw,64px)/1.05 var(--display);margin:8px 0 8px;letter-spacing:-.02em}
-.page-h p{margin:0;color:var(--mute);font:400 19px var(--display)}
-.row{display:grid;grid-template-columns:64px 1fr;gap:18px;padding:24px 0;border-bottom:1px solid var(--soft)}
-.row .n{font:700 36px/1 var(--display)}
-.row h3{font:600 24px/1.25 var(--display);margin:6px 0}
-.row h3 a:hover{text-decoration:underline}
-.row p{margin:0;max-width:70ch}
-.art{max-width:720px;margin:0 auto;padding:44px 0}
-.art h1{font:700 clamp(32px,5vw,52px)/1.1 var(--display);margin:10px 0 14px;letter-spacing:-.015em}
-.art .lead{font:400 21px/1.45 var(--display);margin:0 0 26px}
-.key{border:2px solid var(--line);padding:18px 22px;margin:0 0 30px}
-.key ol{margin:8px 0 0;padding-left:20px}.key li{margin-bottom:6px}
-.art .body p{font-size:18.5px;line-height:1.72;margin:0 0 18px}
-blockquote{border-left:6px solid var(--line);margin:26px 0;padding:4px 0 4px 18px;font:italic 400 22px/1.4 var(--display)}
-.src{border-top:1px solid var(--line);margin-top:30px;padding-top:16px;font:14px var(--mono)}
-.src a{text-decoration:underline}
-.pn{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:30px}
-.pn a{border:1px solid var(--soft);padding:14px;font:600 16px/1.3 var(--display)}
-.pn a:hover{border-color:var(--line)}
-.pn .k{display:block;margin-bottom:6px}
-.mon{font:600 22px var(--display);margin:30px 0 8px}
-.list a{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--soft)}
-.list a:hover b{text-decoration:underline}
-.list b{font:600 18px/1.3 var(--display)}
-footer{border-top:3px solid var(--line);margin-top:70px;padding:24px 0 48px}
-footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font:12px var(--mono);color:var(--mute)}
-footer a{text-decoration:underline}
-@media (max-width:640px){.row{grid-template-columns:38px 1fr}.row .n{font-size:24px}.pn{grid-template-columns:1fr}.rail{grid-auto-columns:82%}.nav{gap:12px}}
-"""
-
-HEAD = """<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{title}</title><meta name="description" content="{desc}">
-<meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:type" content="{ogtype}">
-<link rel="alternate" type="application/rss+xml" title="Signal Feed" href="{base}feed.xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{base}style.css"></head><body>
-<header class="bar"><div class="wrap"><a class="logo" href="{base}">Signal Feed</a>
-<nav class="nav"><a href="{base}#issues">Выпуски</a><a href="{base}#topics">Темы</a><a href="{base}archive/">Архив</a><a href="https://t.me/signalfeedai">Telegram</a></nav></div></header>
-"""
-FOOT = """<footer><div class="wrap"><span>Signal Feed · From feeds to insight</span>
-<span>Пересказы идей со ссылкой на первоисточники. Права на оригиналы принадлежат авторам. <a href="{base}feed.xml">RSS</a></span></div></footer></body></html>"""
-
-
-def page(title, desc, body, ogtype="website"):
-    return HEAD.format(title=e(title), desc=e(desc), base=BASE, ogtype=ogtype) + body + FOOT.format(base=BASE)
+def tx(it, lang):
+    """Текстовые поля пересказа на нужном языке (украинские – из it['uk'], иначе русские)."""
+    src = it.get("uk") if lang == "uk" and it.get("uk") else it
+    return {k: src.get(k, it.get(k)) for k in TEXT_FIELDS}
 
 
 def write(path, content):
     path = os.path.join("site_out", path)
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    os.makedirs(os.path.dirname(path) or "site_out", exist_ok=True)
     open(path, "w").write(content)
+
+
+def jsonld(obj):
+    return '<script type="application/ld+json">' + json.dumps(obj, ensure_ascii=False).replace("</", "<\\/") + "</script>"
+
+
+def build_lang(lang, items, issues, by_rub):
+    t = L[lang]
+    P = BASE + t["prefix"]
+    OP = BASE + L[t["other"]]["prefix"]
+    udate = lambda d: f'{datetime.date.fromisoformat(d).day} {t["months"][datetime.date.fromisoformat(d).month - 1]}'
+    url_a = lambda it: f"{P}a/{it['slug']}/"
+    url_i = lambda d: f"{P}issue/{d}/"
+    url_t = lambda r: f"{P}topic/{rub_slug(r)}/"
+    abs_ = lambda p: SITE.rstrip("/") + "/" + p[len(BASE):] if p.startswith(BASE) else p
+
+    def page(rel, title, desc, body, ogtype="website", ld=None):
+        here, there = P + rel, OP + rel
+        head = (f'<!doctype html><html lang="{t["lang"]}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+                f'<title>{e(title)}</title><meta name="description" content="{e(desc)}">'
+                f'<link rel="canonical" href="{abs_(here)}">'
+                f'<link rel="alternate" hreflang="{t["lang"]}" href="{abs_(here)}"><link rel="alternate" hreflang="{L[t["other"]]["lang"]}" href="{abs_(there)}">'
+                f'<link rel="alternate" hreflang="x-default" href="{abs_(BASE + rel)}">'
+                f'<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">'
+                f'<meta property="og:site_name" content="Signal Feed"><meta property="og:locale" content="{t["og"]}">'
+                f'<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">'
+                f'<meta property="og:type" content="{ogtype}"><meta property="og:url" content="{abs_(here)}">'
+                f'<meta name="twitter:card" content="summary"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}">'
+                + (f'<meta name="google-site-verification" content="{e(GSC_VERIFY)}">' if GSC_VERIFY else "") +
+                f'<meta name="author" content="matsuka.online"><link rel="alternate" type="application/rss+xml" title="Signal Feed" href="{P}feed.xml">'
+                f'<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+                f'<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">'
+                f'<link rel="stylesheet" href="{BASE}style.css">' + (jsonld(ld) if ld else "") + '</head><body>'
+                f'<header class="bar"><div class="wrap"><a class="logo" href="{P}">Signal Feed</a><nav class="nav">'
+                f'<a href="{P}#issues">{t["issues"]}</a><a href="{P}#topics">{t["topics"]}</a><a href="{P}archive/">{t["archive"]}</a>'
+                f'<a href="{TG}">Telegram</a><a class="lang" href="{there}" hreflang="{L[t["other"]]["lang"]}">{t["other_label"]}</a></nav></div></header>')
+        foot = (f'<footer><div class="wrap"><span>© {YEAR} <a href="https://matsuka.online">matsuka.online</a> · Signal Feed · From feeds to insight</span>'
+                f'<span>{t["rights"]} <a href="{P}feed.xml">RSS</a></span></div></footer></body></html>')
+        write(t["prefix"] + rel + "index.html", head + body + foot)
+
+    def card(it):
+        x = tx(it, lang)
+        return (f'<a class="card" href="{url_a(it)}"><span class="k">{e(t["rub"][it["rubric"]])} · {udate(it["date"])}</span>'
+                f'<h3>{e(x["title"])}</h3><p>{e(x["thesis"])}</p><span class="k">{e(it["source"])} · {it.get("minutes", 5)} {t["min"]}</span></a>')
+
+    sub_form = (f'<form action="{e(SUBSCRIBE_ACTION)}" method="post" target="_blank"><input type="email" name="email" required placeholder="{t["sub_email"]}" aria-label="{t["sub_email"]}">'
+                f'<button type="submit">{t["sub_btn"]}</button></form>') if SUBSCRIBE_ACTION else ""
+    subscribe = (f'<section class="sub" id="subscribe"><div><h2>{t["sub_h"]}</h2><p>{t["sub_p"]}</p></div>'
+                 f'<div><div class="btns"><a class="btn solid" href="{TG}">{t["sub_tg"]} →</a><a class="btn" href="{P}feed.xml">RSS</a></div>{sub_form}</div></section>')
+
+    # главная
+    ic = []
+    for n, (d, lst) in enumerate(list(issues.items())[:8]):
+        rubs = " · ".join(OrderedDict.fromkeys(t["rub"][i["rubric"]] for i in lst))
+        ic.append(f'<a class="issue-card{" first" if n == 0 else ""}" href="{url_i(d)}">'
+                  f'<span class="k">{t["fresh"] if n == 0 else t["issue"]} · {len(lst)} {t["texts"]}</span>'
+                  f'<div class="d">{udate(d)}</div><span class="k">{e(rubs)}</span>'
+                  f'<ol>{"".join("<li>" + e(tx(i, lang)["title"]) + "</li>" for i in lst[:3])}</ol>'
+                  f'<span class="more">{t["open_issue"]}</span></a>')
+    topics = []
+    for r in RUBRICS:
+        lst = by_rub.get(r)
+        if lst:
+            topics.append(f'<div class="topic"><div class="th"><div><h3>{e(t["rub"][r])}</h3> <span>{e(t["note"][r])}</span></div>'
+                          f'<a href="{url_t(r)}">{t["all_n"].format(n=len(lst))}</a></div><div class="rail">{"".join(card(i) for i in lst[:6])}</div></div>')
+    home = (f'<div class="wrap"><section class="hero"><span class="k">{t["kicker"]}</span><h1>Signal Feed</h1>'
+            f'<p>{t["lede"]}</p><p class="tag">From feeds to insight.</p></section>'
+            f'<section class="sec" id="issues"><div class="sh"><h2>{t["fresh_issues"]}</h2><a href="{P}archive/">{t["all_archive"]}</a></div>'
+            f'<div class="rail">{"".join(ic)}</div></section>'
+            f'<section class="sec" id="topics"><div class="sh"><h2>{t["topics"]}</h2><span class="k">{t["topics_note"]}</span></div>{"".join(topics)}</section>'
+            f'{subscribe}</div>')
+    page("", "Signal Feed — From feeds to insight", t["lede"], home,
+         ld={"@context": "https://schema.org", "@type": "WebSite", "name": "Signal Feed", "url": abs_(P), "inLanguage": t["lang"],
+             "description": t["lede"], "publisher": {"@type": "Organization", "name": "matsuka.online", "url": "https://matsuka.online"}})
+
+    # выпуски
+    dates = list(issues)
+    for idx, (d, lst) in enumerate(issues.items()):
+        rows = "".join(
+            f'<article class="row"><div class="n">{n:02d}</div><div><span class="k">{e(t["rub"][i["rubric"]])} · {e(i["source"])} · {i.get("minutes", 5)} {t["min"]}</span>'
+            f'<h3><a href="{url_a(i)}">{e(tx(i, lang)["title"])}</a></h3><p>{e(tx(i, lang)["thesis"])}</p></div></article>'
+            for n, i in enumerate(lst, 1))
+        nav = [f'<a href="{url_i(dates[idx+1])}"><span class="k">{t["prev"]}</span>{t["issue"]} {udate(dates[idx+1])}</a>' if idx + 1 < len(dates) else "<span></span>"]
+        if idx > 0:
+            nav.append(f'<a href="{url_i(dates[idx-1])}" style="text-align:right"><span class="k">{t["next"]}</span>{t["issue"]} {udate(dates[idx-1])}</a>')
+        body = (f'<div class="wrap"><div class="page-h"><span class="k">{t["issue"]} · {len(lst)} {t["texts"]}</span>'
+                f'<h1>{udate(d)} {d[:4]}</h1><p>{e(" · ".join(OrderedDict.fromkeys(t["rub"][i["rubric"]] for i in lst)))}</p></div>'
+                f'{rows}<div class="pn">{"".join(nav)}</div>{subscribe}</div>')
+        page(f"issue/{d}/", f'{t["issue"]} {udate(d)} {d[:4]} — Signal Feed', "; ".join(tx(i, lang)["title"] for i in lst[:4]), body,
+             ld={"@context": "https://schema.org", "@type": "ItemList", "name": f'{t["issue"]} {udate(d)}',
+                 "itemListElement": [{"@type": "ListItem", "position": n, "url": abs_(url_a(i))} for n, i in enumerate(lst, 1)]})
+
+    # пересказы
+    for d, lst in issues.items():
+        for it in lst:
+            x = tx(it, lang)
+            more = [m for m in by_rub[it["rubric"]] if m is not it][:3]
+            lists = lambda title, arr: (f'<div class="sec2"><h2>{title}</h2><ul>{"".join("<li>" + e(a) + "</li>" for a in arr)}</ul></div>' if arr else "")
+            body = (f'<div class="wrap"><article class="art"><span class="k"><a href="{url_t(it["rubric"])}">{e(t["rub"][it["rubric"]])}</a> · '
+                    f'<a href="{url_i(d)}">{t["issue"]} {udate(d)}</a> · {it.get("minutes", 5)} {t["min_orig"]}</span>'
+                    f'<h1>{e(x["title"])}</h1><p class="lead">{e(x["thesis"])}</p>'
+                    f'<div class="key"><span class="k">{t["main"]}</span><ol>{"".join("<li>" + e(k) + "</li>" for k in (x["key"] or []))}</ol></div>'
+                    f'<div class="body">{"".join("<p>" + e(p) + "</p>" for p in (x["body"] or []))}</div>'
+                    + (f'<blockquote>{e(x["quote"])}</blockquote>' if x.get("quote") else "")
+                    + lists(t["why"], x.get("why")) + lists(t["apply"], x.get("apply")) +
+                    f'<p class="src">{t["source"]}: <a href="{e(it["url"])}" target="_blank" rel="noopener">{e(it.get("author", ""))} — {e(it["source"])}</a></p>'
+                    + (f'<div class="sec"><div class="sh"><h2>{t["more"]}</h2><a href="{url_t(it["rubric"])}">{t["all"]}</a></div>'
+                       f'<div class="rail">{"".join(card(m) for m in more)}</div></div>' if more else "")
+                    + f'</article>{subscribe}</div>')
+            ld = {"@context": "https://schema.org", "@type": "Article", "headline": x["title"][:110], "description": x["thesis"],
+                  "datePublished": d, "dateModified": d, "inLanguage": t["lang"], "url": abs_(url_a(it)),
+                  "mainEntityOfPage": abs_(url_a(it)), "articleSection": t["rub"][it["rubric"]],
+                  "author": {"@type": "Organization", "name": "Signal Feed · matsuka.online", "url": "https://matsuka.online"},
+                  "publisher": {"@type": "Organization", "name": "matsuka.online", "url": "https://matsuka.online"},
+                  "isBasedOn": {"@type": "CreativeWork", "url": it["url"], "author": it.get("author", ""), "publisher": it["source"]},
+                  "keywords": ", ".join([t["rub"][it["rubric"]], "ИИ" if lang == "ru" else "ШІ", "AI"])}
+            page(f"a/{it['slug']}/", f'{x["title"]} — Signal Feed', x["thesis"], body, "article", ld)
+
+    # темы
+    for r in RUBRICS:
+        lst = by_rub.get(r, [])
+        if lst:
+            body = (f'<div class="wrap"><div class="page-h"><span class="k">{t["topic_n"].format(n=len(lst))}</span><h1>{e(t["rub"][r])}</h1><p>{e(t["note"][r])}</p></div>'
+                    f'<div class="sec"><div class="rail" style="grid-auto-flow:row;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">{"".join(card(i) for i in lst)}</div></div>{subscribe}</div>')
+            page(f"topic/{rub_slug(r)}/", f'{t["rub"][r]} — Signal Feed', t["note"][r], body)
+
+    # архив
+    months = OrderedDict()
+    for d, lst in issues.items():
+        dd = datetime.date.fromisoformat(d)
+        months.setdefault(f'{t["months_nom"][dd.month-1]} {dd.year}', []).append((d, lst))
+    arch = "".join(f'<div class="mon">{m}</div><div class="list">' + "".join(
+        f'<a href="{url_i(d)}"><b>{t["issue"]} {udate(d)}</b><span class="k">{len(lst)} {t["texts"]}</span></a>' for d, lst in v) + "</div>"
+        for m, v in months.items())
+    page("archive/", f'{t["archive"]} — Signal Feed', t["arch_desc"],
+         f'<div class="wrap"><div class="page-h"><span class="k">{t["arch_n"].format(a=len(issues), b=len(items))}</span><h1>{t["archive"]}</h1></div>{arch}</div>')
+
+    # RSS
+    latest = sorted(items, key=lambda i: i["date"], reverse=True)[:50]
+    rss = "".join(f"<item><title>{e(tx(i, lang)['title'])}</title><link>{abs_(url_a(i))}</link><guid>{abs_(url_a(i))}</guid>"
+                  f"<pubDate>{datetime.date.fromisoformat(i['date']).strftime('%a, %d %b %Y 05:00:00 +0000')}</pubDate>"
+                  f"<category>{e(t['rub'][i['rubric']])}</category><description>{e(tx(i, lang)['thesis'])}</description></item>" for i in latest)
+    write(t["prefix"] + "feed.xml", f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Signal Feed</title><link>{abs_(P)}</link>'
+          f'<description>{e(t["lede"])}</description><language>{t["lang"]}</language><copyright>© {YEAR} matsuka.online</copyright>{rss}</channel></rss>')
 
 
 def main():
@@ -142,10 +237,12 @@ def main():
     used = set()
     for it in items:
         s = it.get("slug") or slugify(it["title"])
-        base, k = s, 2
+        b, k = s, 2
         while s in used:
-            s = f"{base}-{k}"; k += 1
+            s = f"{b}-{k}"; k += 1
         it["slug"] = s; used.add(s)
+        if it.get("rubric") == "Час і фокус":
+            it["rubric"] = "Время и фокус"
         if it.get("rubric") not in RUBRICS:
             it["rubric"] = "AI Signals"
     json.dump(items, open("data/items.json", "w"), ensure_ascii=False, indent=1)
@@ -154,112 +251,47 @@ def main():
     for it in sorted(items, key=lambda x: x["date"], reverse=True):
         issues.setdefault(it["date"], []).append(it)
     by_rub = defaultdict(list)
-    for d, lst in issues.items():
+    for lst in issues.values():
         for it in lst:
             by_rub[it["rubric"]].append(it)
 
     if os.path.exists("site_out"):
         shutil.rmtree("site_out")
     os.makedirs("site_out")
-    write("style.css", CSS)
-    url_a = lambda it: f"{BASE}a/{it['slug']}/"
-    url_i = lambda d: f"{BASE}issue/{d}/"
-    url_t = lambda r: f"{BASE}topic/{rub_slug(r)}/"
+    shutil.copy("scripts/style.css", "site_out/style.css")
+    for lang in L:
+        build_lang(lang, items, issues, by_rub)
 
-    def card(it):
-        return (f'<a class="card" href="{url_a(it)}"><span class="k">{e(it["rubric"])} · {udate(it["date"])}</span>'
-                f'<h3>{e(it["title"])}</h3><p>{e(it["thesis"])}</p><span class="k">{e(it["source"])} · {it.get("minutes", 5)} мин</span></a>')
+    # sitemap с hreflang
+    rels = ["", "archive/"] + [f"issue/{d}/" for d in issues] + [f"a/{i['slug']}/" for i in items] + [f"topic/{rub_slug(r)}/" for r in by_rub]
+    last = {f"a/{i['slug']}/": i["date"] for i in items} | {f"issue/{d}/": d for d in issues}
+    today = datetime.date.today().isoformat()
+    urls = []
+    for rel in rels:
+        for lang in L:
+            alt = "".join(f'<xhtml:link rel="alternate" hreflang="{L[l]["lang"]}" href="{SITE}{L[l]["prefix"]}{rel}"/>' for l in L)
+            urls.append(f'<url><loc>{SITE}{L[lang]["prefix"]}{rel}</loc><lastmod>{last.get(rel, today)}</lastmod>{alt}</url>')
+    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+          'xmlns:xhtml="http://www.w3.org/1999/xhtml">' + "".join(urls) + "</urlset>")
 
-    # головна
-    ic = []
-    for n, (d, lst) in enumerate(list(issues.items())[:8]):
-        dd = datetime.date.fromisoformat(d)
-        rubs = " · ".join(OrderedDict.fromkeys(i["rubric"] for i in lst))
-        ic.append(f'<a class="issue-card{" first" if n == 0 else ""}" href="{url_i(d)}">'
-                  f'<span class="k">{"Свежий выпуск" if n == 0 else "Выпуск"} · {len(lst)} текстов</span>'
-                  f'<div class="d">{dd.day} {MONTHS[dd.month-1]}</div><span class="k">{e(rubs)}</span>'
-                  f'<ol>{"".join("<li>" + e(i["title"]) + "</li>" for i in lst[:3])}</ol>'
-                  f'<span class="more">Открыть выпуск →</span></a>')
-    topics = []
-    for r in RUBRICS:
-        lst = by_rub.get(r)
-        if not lst:
-            continue
-        topics.append(f'<div class="topic"><div class="th"><div><h3>{e(r)}</h3> <span>{e(RUB_NOTE[r])}</span></div>'
-                      f'<a href="{url_t(r)}">Все {len(lst)} →</a></div><div class="rail">{"".join(card(i) for i in lst[:6])}</div></div>')
-    home = (f'<div class="wrap"><section class="hero"><span class="k">Ежедневные выпуски · на русском</span><h1>Signal Feed</h1>'
-            f'<p>Подборка важных сигналов об ИИ, технологиях и их влиянии на медиа, бизнес и общество.</p>'
-            f'<p class="tag">From feeds to insight.</p></section>'
-            f'<section class="sec" id="issues"><div class="sh"><h2>Свежие выпуски</h2><a href="{BASE}archive/">Архив →</a></div>'
-            f'<div class="rail">{"".join(ic)}</div></section>'
-            f'<section class="sec" id="topics"><div class="sh"><h2>Темы</h2><span class="k">Пересказы из разных выпусков</span></div>{"".join(topics)}</section></div>')
-    write("index.html", page("Signal Feed — From feeds to insight",
-                             "Подборка важных сигналов об ИИ, технологиях и их влиянии на медиа, бизнес и общество.", home))
+    # robots: открыт для поисковиков и ИИ-ботов
+    bots = ["Googlebot", "Google-Extended", "Bingbot", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot",
+            "Claude-User", "anthropic-ai", "PerplexityBot", "Perplexity-User", "Applebot", "Applebot-Extended", "CCBot", "YandexBot", "DuckDuckBot"]
+    write("robots.txt", "".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots) + f"User-agent: *\nAllow: /\n\nSitemap: {SITE}sitemap.xml\n")
 
-    # випуски
-    dates = list(issues)
-    for idx, (d, lst) in enumerate(issues.items()):
-        rows = "".join(
-            f'<article class="row"><div class="n">{n:02d}</div><div><span class="k">{e(i["rubric"])} · {e(i["source"])} · {i.get("minutes", 5)} мин</span>'
-            f'<h3><a href="{url_a(i)}">{e(i["title"])}</a></h3><p>{e(i["thesis"])}</p></div></article>'
-            for n, i in enumerate(lst, 1))
-        nav = []
-        if idx + 1 < len(dates): nav.append(f'<a href="{url_i(dates[idx+1])}"><span class="k">← Предыдущий</span>Выпуск {udate(dates[idx+1])}</a>')
-        else: nav.append("<span></span>")
-        if idx > 0: nav.append(f'<a href="{url_i(dates[idx-1])}" style="text-align:right"><span class="k">Следующий →</span>Выпуск {udate(dates[idx-1])}</a>')
-        body = (f'<div class="wrap"><div class="page-h"><span class="k">Выпуск · {len(lst)} текстов</span>'
-                f'<h1>{udate(d)} {d[:4]}</h1><p>{e(" · ".join(OrderedDict.fromkeys(i["rubric"] for i in lst)))}</p></div>'
-                f'{rows}<div class="pn">{"".join(nav)}</div></div>')
-        write(f"issue/{d}/index.html", page(f"Выпуск {udate(d)} — Signal Feed", lst[0]["thesis"], body))
+    # llms.txt — карта сайта для ИИ-ассистентов
+    lines = [f"# Signal Feed", "", f"> {L['ru']['lede']} From feeds to insight. © matsuka.online", "",
+             "Ежедневные пересказы глубоких англоязычных текстов об ИИ, автоматизации, PKM, тайм-менеджменте и письме, "
+             "на русском и украинском. Каждый пересказ ссылается на первоисточник.", "",
+             f"- [Архив]({SITE}archive/)", f"- [Українська версія]({SITE}uk/)", f"- [RSS]({SITE}feed.xml)", "", "## Пересказы", ""]
+    for it in sorted(items, key=lambda x: x["date"], reverse=True)[:300]:
+        lines.append(f"- [{it['title']}]({SITE}a/{it['slug']}/): {it['thesis']}")
+    write("llms.txt", "\n".join(lines) + "\n")
 
-    # перекази
-    for d, lst in issues.items():
-        for n, it in enumerate(lst):
-            more = [x for x in by_rub[it["rubric"]] if x is not it][:3]
-            body = (f'<div class="wrap"><article class="art"><span class="k"><a href="{url_t(it["rubric"])}">{e(it["rubric"])}</a> · '
-                    f'<a href="{url_i(d)}">Выпуск {udate(d)}</a> · {it.get("minutes", 5)} мин оригинала</span>'
-                    f'<h1>{e(it["title"])}</h1><p class="lead">{e(it["thesis"])}</p>'
-                    f'<div class="key"><span class="k">Главное</span><ol>{"".join("<li>" + e(k) + "</li>" for k in it.get("key", []))}</ol></div>'
-                    f'<div class="body">{"".join("<p>" + e(p) + "</p>" for p in it.get("body", []))}</div>'
-                    + (f'<blockquote>{e(it["quote"])}</blockquote>' if it.get("quote") else "") +
-                    f'<p class="src">Первоисточник: <a href="{e(it["url"])}" target="_blank" rel="noopener">{e(it.get("author", ""))} — {e(it["source"])}</a></p>'
-                    + (f'<div class="sec"><div class="sh"><h2>Ещё по теме</h2><a href="{url_t(it["rubric"])}">Все →</a></div>'
-                       f'<div class="rail">{"".join(card(x) for x in more)}</div></div>' if more else "")
-                    + '</article></div>')
-            write(f"a/{it['slug']}/index.html", page(f'{it["title"]} — Signal Feed', it["thesis"], body, "article"))
-
-    # теми
-    for r in RUBRICS:
-        lst = by_rub.get(r, [])
-        if not lst: continue
-        body = (f'<div class="wrap"><div class="page-h"><span class="k">Тема · {len(lst)} пересказов</span><h1>{e(r)}</h1><p>{e(RUB_NOTE[r])}</p></div>'
-                f'<div class="sec"><div class="rail" style="grid-auto-flow:row;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">{"".join(card(i) for i in lst)}</div></div></div>')
-        write(f"topic/{rub_slug(r)}/index.html", page(f"{r} — Signal Feed", RUB_NOTE[r], body))
-
-    # архів
-    months = OrderedDict()
-    for d, lst in issues.items():
-        dd = datetime.date.fromisoformat(d)
-        months.setdefault(f"{MONTHS_NOM[dd.month-1]} {dd.year}", []).append((d, lst))
-    arch = "".join(f'<div class="mon">{m}</div><div class="list">' + "".join(
-        f'<a href="{url_i(d)}"><b>Выпуск {udate(d)}</b><span class="k">{len(lst)} текстов</span></a>' for d, lst in v) + "</div>"
-        for m, v in months.items())
-    write("archive/index.html", page("Архив — Signal Feed", "Все выпуски Signal Feed",
-          f'<div class="wrap"><div class="page-h"><span class="k">{len(issues)} выпусков · {len(items)} пересказов</span><h1>Архив</h1></div>{arch}</div>'))
-
-    # RSS + sitemap
-    latest = sorted(items, key=lambda x: x["date"], reverse=True)[:50]
-    rss = "".join(f"<item><title>{e(i['title'])}</title><link>{SITE}a/{i['slug']}/</link><guid>{SITE}a/{i['slug']}/</guid>"
-                  f"<pubDate>{datetime.date.fromisoformat(i['date']).strftime('%a, %d %b %Y 05:00:00 +0000')}</pubDate>"
-                  f"<category>{e(i['rubric'])}</category><description>{e(i['thesis'])}</description></item>" for i in latest)
-    write("feed.xml", f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Signal Feed</title><link>{SITE}</link>'
-          f'<description>From feeds to insight</description><language>ru</language>{rss}</channel></rss>')
-    urls = [SITE, SITE + "archive/"] + [f"{SITE}issue/{d}/" for d in issues] + [f"{SITE}a/{i['slug']}/" for i in items] + \
-           [f"{SITE}topic/{rub_slug(r)}/" for r in by_rub]
-    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-          + "".join(f"<url><loc>{u}</loc></url>" for u in urls) + "</urlset>")
-    write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}sitemap.xml\n")
+    write(f"{INDEXNOW_KEY}.txt", INDEXNOW_KEY)
     open("site_out/.nojekyll", "w").close()
+    if SITE.startswith("https://") and "github.io" not in SITE:
+        write("CNAME", SITE.split("//")[1].strip("/"))
     print("built", len(issues), "issues", len(items), "items")
 
 

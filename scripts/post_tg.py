@@ -1,5 +1,5 @@
 import json, os, urllib.request, urllib.parse, html
-SITE = "https://alexmazuka.github.io/signal-feed/"
+SITE = os.environ.get("SITE_URL") or "https://alexmazuka.github.io/signal-feed/"
 items = json.load(open("data/items.json"))
 try: posted = set(json.load(open("data/posted.json")))
 except FileNotFoundError: posted = set()

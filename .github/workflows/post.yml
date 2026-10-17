@@ -16,8 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 scripts/build.py
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_BASE: ${{ vars.SITE_BASE }}
+          SUBSCRIBE_ACTION: ${{ vars.SUBSCRIBE_ACTION }}
+          GSC_VERIFY: ${{ vars.GSC_VERIFY }}
       - run: python3 scripts/post_tg.py
         env:
+          SITE_URL: ${{ vars.SITE_URL }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
       - run: |
@@ -26,3 +32,7 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with: { path: site_out }
       - uses: actions/deploy-pages@v4
+      - run: sleep 60 && PYTHONPATH=scripts python3 scripts/indexnow.py
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_BASE: ${{ vars.SITE_BASE }}
