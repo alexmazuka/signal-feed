@@ -45,7 +45,9 @@ for f in feeds():
         if not url or url in seen or (t and datetime.datetime(*t[:6]) < cutoff):
             continue
         summ = re.sub("<[^>]+>", " ", html.unescape(e.get("summary", "")))[:300]
-        cands.append({"id": len(cands), "url": url, "title": e.get("title", ""), "src": d.feed.get("title", f), "summary": summ})
+        full = " ".join(x.get("value", "") for x in e.get("content", [])) or e.get("summary", "")
+        full = re.sub(r"\s+", " ", re.sub("<[^>]+>", " ", html.unescape(full)))
+        cands.append({"id": len(cands), "url": url, "title": e.get("title", ""), "src": d.feed.get("title", f), "summary": summ, "full": full})
 print("candidates", len(cands))
 if not cands: raise SystemExit
 
@@ -63,6 +65,8 @@ for i in ids:
     try:
         raw = trafilatura.fetch_url(c["url"]); text = trafilatura.extract(raw) if raw else None
     except Exception: text = None
+    if (not text or len(text.split()) < 600) and len(c["full"].split()) > len((text or "").split()):
+        text = c["full"]
     if not text or len(text.split()) < 600:
         print("skip thin", c["url"]); continue
     words = len(text.split())
