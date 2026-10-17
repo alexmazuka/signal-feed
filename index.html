@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Signal Feed</title>
+<meta name="description" content="Signal Feed — добірка важливих сигналів про ШІ, технології та їхній вплив на медіа, бізнес і суспільство. From feeds to insight.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--ink:#000;--mute:#6b6b6b;--rule:#000;--soft:#e6e6e6;
+--display:"Spectral",Georgia,serif;--body:"IBM Plex Sans",-apple-system,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--ink:#fff;--mute:#9a9a9a;--rule:#fff;--soft:#222}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.6 var(--body)}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.mast{border-bottom:3px solid var(--rule);padding:28px 0 18px}
+.top{display:flex;justify-content:space-between;font:500 12px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--mute)}
+h1{font:700 clamp(48px,10vw,104px)/.95 var(--display);margin:18px 0 10px;letter-spacing:-.02em}
+.lede{font:400 20px/1.45 var(--display);max-width:720px;margin:0}
+.tag{font:italic 400 18px var(--display);color:var(--mute);margin:6px 0 0}
+nav.rub{display:flex;flex-wrap:wrap;gap:0;border-bottom:1px solid var(--rule)}
+nav.rub button{background:none;border:0;border-right:1px solid var(--soft);color:var(--ink);font:500 12px var(--mono);text-transform:uppercase;letter-spacing:.08em;padding:12px 14px;cursor:pointer}
+nav.rub button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.search{display:flex;gap:10px;align-items:center;padding:14px 0;border-bottom:1px solid var(--soft)}
+.search input{flex:1;background:none;border:0;border-bottom:1px solid var(--ink);color:var(--ink);font:400 16px var(--body);padding:6px 0;outline:none}
+.issue{display:flex;justify-content:space-between;align-items:baseline;margin:34px 0 8px;border-bottom:1px solid var(--rule);padding-bottom:8px}
+.issue h2{font:600 26px var(--display);margin:0}
+.issue span{font:12px var(--mono);color:var(--mute);text-transform:uppercase}
+article.item{display:grid;grid-template-columns:56px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--soft)}
+.num{font:700 34px/1 var(--display)}
+.meta{font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--mute)}
+.item h3{font:600 24px/1.25 var(--display);margin:6px 0}
+.item p{margin:0;max-width:68ch}
+.item details{margin-top:10px}
+.item summary{cursor:pointer;font:500 12px var(--mono);text-transform:uppercase;letter-spacing:.08em}
+.key{border:1px solid var(--ink);padding:14px 18px;margin:12px 0}
+.key ol{margin:0;padding-left:20px}
+blockquote{border-left:6px solid var(--ink);margin:14px 0;padding:2px 0 2px 16px;font:italic 400 19px var(--display)}
+.src{font:13px var(--mono)}
+.empty{padding:60px 0;text-align:center;color:var(--mute);font:italic 20px var(--display)}
+footer{border-top:3px solid var(--rule);margin-top:60px;padding:22px 0 40px;font:12px var(--mono);color:var(--mute);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media (max-width:600px){article.item{grid-template-columns:36px 1fr}.num{font-size:24px}.top span:last-child{display:none}}
+</style>
+</head>
+<body>
+<header class="mast"><div class="wrap">
+  <div class="top"><span id="today"></span><span>Щоденні випуски · українською</span></div>
+  <h1>Signal Feed</h1>
+  <p class="lede">Добірка важливих сигналів про ШІ, технології та їхній вплив на медіа, бізнес і суспільство.</p>
+  <p class="tag">From feeds to insight.</p>
+</div></header>
+<div class="wrap">
+  <nav class="rub" id="rub"></nav>
+  <div class="search"><span class="meta">Пошук</span><input id="q" placeholder="тема, автор, ідея…" aria-label="Пошук"></div>
+  <main id="feed"></main>
+</div>
+<footer class="wrap"><span>Signal Feed · From feeds to insight</span><span>Переказ ідей з посиланням на першоджерело. Права на оригінали належать авторам.</span></footer>
+<script>
+const RUBRICS=["Усе","AI Signals","Model Watch","Policy Radar","Toolbox","Research Digest","PKM","Час і фокус","Письмо"];
+let rub="Усе",items=[];
+document.getElementById("today").textContent=new Date().toLocaleDateString("uk-UA",{day:"numeric",month:"long",year:"numeric"});
+const nav=document.getElementById("rub");
+RUBRICS.forEach(r=>{const b=document.createElement("button");b.textContent=r;b.onclick=()=>{rub=r;draw()};nav.appendChild(b)});
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function draw(){
+  [...nav.children].forEach(b=>b.setAttribute("aria-pressed",b.textContent===rub));
+  const q=document.getElementById("q").value.toLowerCase();
+  const list=items.filter(i=>(rub==="Усе"||i.rubric===rub)&&(!q||JSON.stringify(i).toLowerCase().includes(q)));
+  const feed=document.getElementById("feed");
+  if(!list.length){feed.innerHTML='<div class="empty">Перший випуск готується.</div>';return}
+  const byDay={};list.forEach(i=>(byDay[i.date]??=[]).push(i));
+  feed.innerHTML=Object.keys(byDay).sort().reverse().map(d=>`
+    <div class="issue"><h2>Випуск ${new Date(d).toLocaleDateString("uk-UA",{day:"numeric",month:"long"})}</h2><span>${byDay[d].length} сигналів</span></div>
+    ${byDay[d].map((i,n)=>`<article class="item"><div class="num">${String(n+1).padStart(2,"0")}</div><div>
+      <div class="meta">${esc(i.rubric)} · ${esc(i.source)} · ${esc(i.minutes)} хв</div>
+      <h3>${esc(i.title)}</h3><p>${esc(i.thesis)}</p>
+      <details><summary>Читати переказ</summary>
+        <div class="key"><div class="meta">Головне</div><ol>${(i.key||[]).map(k=>`<li>${esc(k)}</li>`).join("")}</ol></div>
+        ${(i.body||[]).map(p=>`<p>${esc(p)}</p>`).join("")}
+        ${i.quote?`<blockquote>${esc(i.quote)}</blockquote>`:""}
+        <p class="src">Першоджерело: <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.author)} — ${esc(i.source)}</a></p>
+      </details></div></article>`).join("")}`).join("");
+}
+document.getElementById("q").oninput=draw;
+fetch("data/items.json").then(r=>r.ok?r.json():[]).then(d=>{items=d;draw()}).catch(draw);
+draw();
+</script>
+</body>
+</html>
