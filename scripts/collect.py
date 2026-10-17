@@ -68,6 +68,12 @@ for i in ids:
     if (not text or len(text.split()) < 600) and len(c["full"].split()) > len((text or "").split()):
         text = c["full"]
     if not text or len(text.split()) < 600:
+        try:
+            req = urllib.request.Request("https://r.jina.ai/" + c["url"], headers=UA)
+            j = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "ignore")
+            if len(j.split()) > len((text or "").split()): text = j
+        except Exception as ex: print("reader fail", ex)
+    if not text or len(text.split()) < 600:
         print("skip thin", c["url"]); continue
     words = len(text.split())
     out = claude("claude-sonnet-5-5", f"""Зроби ПЕРЕКАЗ (не переклад) статті українською для публічного сайту Signal Feed.
