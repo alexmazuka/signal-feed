@@ -25,7 +25,9 @@ def claude(model, prompt, max_tokens):
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", body,
         {"x-api-key": KEY, "anthropic-version": "2023-06-01", "content-type": "application/json"})
     r = json.load(urllib.request.urlopen(req, timeout=300))
-    return "".join(b.get("text", "") for b in r["content"])
+    txt = "".join(b.get("text", "") for b in r["content"])
+    if not txt: print("empty:", r.get("stop_reason"), [b.get("type") for b in r["content"]])
+    return txt
 
 items = json.load(open("data/items.json"))
 seen = {i["url"] for i in items}
@@ -50,7 +52,7 @@ if not cands: raise SystemExit
 listing = "\n".join(f'{c["id"]}. [{c["src"]}] {c["title"]} — {c["summary"]}' for c in cands[:400])
 pick = claude("claude-haiku-5-5", f"""Ти редактор Signal Feed. Теми: ШІ-автоматизації, агенти, моделі, PKM, тайм-менеджмент і фокус, принципи письма і постів, вплив ШІ на медіа/бізнес/суспільство.
 Обери до {MAX_ITEMS*3} найглибших матеріалів (аналіз, досвід, методика; НЕ новини-анонси, НЕ лістикли «10 інструментів», НЕ реклама, НЕ політика без зв'язку з технологіями).
-Відповідь – лише JSON-масив id, найкращі першими.\n\n{listing}""", 400)
+Відповідь – лише JSON-масив id, найкращі першими.\n\n{listing}""", 4000)
 print("pick:", pick[:500])
 ids = [int(x) for x in re.findall(r"\d+", pick)]
 
@@ -70,7 +72,7 @@ for i in ids:
 "quote": "одна цитата до 15 слів українською або порожньо"}}. Природна українська, коротке тире «–».
 Якщо стаття порожня, рекламна чи неглибока – поверни {{"skip": true}}.
 
-Джерело: {c["src"]}\nURL: {c["url"]}\nЗаголовок: {c["title"]}\n\n{text[:40000]}""", 3000)
+Джерело: {c["src"]}\nURL: {c["url"]}\nЗаголовок: {c["title"]}\n\n{text[:40000]}""", 8000)
     try:
         o = json.loads(out[out.find("{"):out.rfind("}")+1])
     except Exception:
