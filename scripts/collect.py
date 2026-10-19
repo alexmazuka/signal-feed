@@ -28,6 +28,8 @@ def claude(model, prompt, max_tokens):
     r = json.load(urllib.request.urlopen(req, timeout=300))
     txt = "".join(b.get("text", "") for b in r["content"])
     if not txt: print("empty:", r.get("stop_reason"), [b.get("type") for b in r["content"]])
+    if not txt and r.get("stop_reason") == "max_tokens" and max_tokens < 32000:
+        return claude(model, prompt, max_tokens * 4)  # модель израсходовала лимит на размышления — повтор с запасом
     return txt
 
 items = json.load(open("data/items.json"))
