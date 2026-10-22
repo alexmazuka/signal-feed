@@ -1,7 +1,7 @@
 name: daily-issue
 on:
   schedule:
-    - cron: "0 5 * * *"   # 08:00 Київ влітку, 07:00 взимку
+    - cron: "17 2 * * *"   # ~05:17 Киев; GitHub часто запускает с опозданием на 2–4 часа
   workflow_dispatch:
 permissions:
   contents: write
