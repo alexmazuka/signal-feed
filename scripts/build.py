@@ -76,10 +76,27 @@ def rub_slug(r):
     return RUB_SLUG.get(r) or slugify(r)
 
 
+def flat(v):
+    """Модель иногда отдаёт пункт как объект или список – приводим к строке."""
+    if isinstance(v, dict):
+        return " – ".join(flat(x) for x in v.values() if x)
+    if isinstance(v, list):
+        return " ".join(flat(x) for x in v if x)
+    return "" if v is None else str(v)
+
+
 def tx(it, lang):
     """Текстовые поля пересказа на нужном языке (украинские – из it['uk'], иначе русские)."""
-    src = it.get("uk") if lang == "uk" and it.get("uk") else it
-    return {k: src.get(k, it.get(k)) for k in TEXT_FIELDS}
+    src = it.get("uk") if lang == "uk" and isinstance(it.get("uk"), dict) else it
+    out = {}
+    for k in TEXT_FIELDS:
+        v = src.get(k, it.get(k))
+        if k in ("key", "body", "why", "apply"):
+            v = [flat(x) for x in (v if isinstance(v, list) else [v] if v else [])]
+        else:
+            v = flat(v)
+        out[k] = v
+    return out
 
 
 def write(path, content):
