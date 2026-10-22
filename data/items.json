@@ -5724,7 +5724,8 @@
   "date": "2026-10-22",
   "source": "The Pragmatic Engineer",
   "url": "https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "novye-pravyla-ynzhenernoho-menedzhmenta-pochemu-uyll-larson"
  },
  {
   "rubric": "AI Signals",
@@ -5798,7 +5799,8 @@
   "date": "2026-10-22",
   "source": "Latent.Space",
   "url": "https://www.latent.space/p/modal-d",
-  "minutes": 89
+  "minutes": 89,
+  "slug": "pochemu-spros-na-gpu-ne-priamouholnyi-ceo-modal-o-zakupke-mo"
  },
  {
   "rubric": "Toolbox",
@@ -5874,7 +5876,8 @@
   "date": "2026-10-22",
   "source": "Latent.Space",
   "url": "https://www.latent.space/p/claude-mods",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "claude-mods-kak-prohrammyruemaia-obviazka-claude-code-prevra"
  },
  {
   "rubric": "AI Signals",
@@ -5950,7 +5953,8 @@
   "date": "2026-10-22",
   "source": "Latent.Space",
   "url": "https://www.latent.space/p/sfcompute2",
-  "minutes": 37
+  "minutes": 37,
+  "slug": "prohrammyruemyi-data-tsentr-pochemu-rynok-gpu-chasov-ne-rabo"
  },
  {
   "rubric": "AI Signals",
@@ -6024,7 +6028,8 @@
   "date": "2026-10-22",
   "source": "Latent.Space",
   "url": "https://www.latent.space/p/moshi",
-  "minutes": 23
+  "minutes": 23,
+  "slug": "moshi-rekomendatelnaia-systema-dlia-treiderov-doverennye-yst"
  },
  {
   "rubric": "AI Signals",
@@ -6100,7 +6105,8 @@
   "date": "2026-10-22",
   "source": "Artificial Intelligence on Medium",
   "url": "https://medium.com/@contact_31046/163-million-users-wasnt-enough-what-character-ai-s-2700e966b4f5",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "163-mln-polzovatelei-y-bankrotstvo-pochemu-ekonomyka-ai-komp"
  },
  {
   "rubric": "AI Signals",
@@ -6176,7 +6182,8 @@
   "date": "2026-10-22",
   "source": "Productivity on Medium",
   "url": "https://medium.com/@dcorrupts/ai-has-a-business-problem-so-why-are-we-being-asked-to-believe-c80d67b862fa",
-  "minutes": 15
+  "minutes": 15,
+  "slug": "lozh-o-revoliutsyy-produktyvnosty-hde-u-yy-byznesa-ne-skhodi"
  },
  {
   "rubric": "Toolbox",
@@ -6250,7 +6257,8 @@
   "date": "2026-10-22",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1098004/",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "autoharness-kak-zastavyt-yy-ahenta-yskat-znanyia-zameriat-re"
  },
  {
   "rubric": "Research Digest",
@@ -6326,7 +6334,8 @@
   "date": "2026-10-22",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/companies/otus/articles/1088892/",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "neiroset-pyshet-tz-na-yntehratsyiu-voprosy-zadaet-no-dorohye"
  },
  {
   "rubric": "AI Signals",
@@ -6400,7 +6409,8 @@
   "date": "2026-10-22",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/companies/avito/articles/1095230/",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "llm-v-moderatsyy-avyto-prompt-vmesto-rag-avtopodbor-gepa-y-s"
  },
  {
   "rubric": "Research Digest",
@@ -6474,7 +6484,8 @@
   "date": "2026-10-22",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1097762/",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "doneset-ly-llm-ahent-na-kompanyiu-snitchbench-na-27-modeliak"
  },
  {
   "rubric": "Research Digest",
@@ -6548,7 +6559,8 @@
   "date": "2026-10-22",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1097906/",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "lovushka-obuchenyia-yy-podnymaet-otsenky-za-domashku-na-18-n"
  },
  {
   "rubric": "Research Digest",
@@ -6622,7 +6634,8 @@
   "date": "2026-10-22",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1097830/",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "kod-reviu-v-epokhu-yy-potok-rastet-vnymanye-reviuerov-padaet"
  },
  {
   "rubric": "Toolbox",
@@ -6698,7 +6711,8 @@
   "date": "2026-10-22",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/companies/sovcombank_technologies/articles/1097382/",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "refaktorynh-lehasy-s-yy-agents-md-nabor-navykov-y-orkestrato"
  },
  {
   "rubric": "PKM",
@@ -6772,7 +6786,8 @@
   "date": "2026-10-22",
   "source": "Obsidian on Medium",
   "url": "https://medium.com/@christopherramm/my-second-brain-has-a-cockpit-now-claude-does-the-driving-865bc6f4144b",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "kabyna-dlia-vtoroho-mozha-kak-ochered-yz-soten-otkrytykh-vop"
  },
  {
   "rubric": "PKM",
@@ -6848,7 +6863,8 @@
   "date": "2026-10-22",
   "source": "Obsidian on Medium",
   "url": "https://paulineoliveira.medium.com/por-que-eu-fiz-o-claude-e-o-cursor-lerem-meus-to-dos-no-obsidian-4f0ab55eed84",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "obsidian-mcp-kak-podkliuchyt-zametky-obsidian-k-claude-y-cur"
  },
  {
   "rubric": "AI Signals",
@@ -6924,7 +6940,8 @@
   "date": "2026-10-22",
   "source": "Second Brain on Medium",
   "url": "https://medium.com/@maclarensg_50191/when-your-agent-has-a-2nd-brain-does-it-need-skills-203651f143df",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "navyk-kak-pobochnyi-produkt-pamiaty-zachem-ahentu-papka-skil"
  },
  {
   "rubric": "Toolbox",
@@ -7000,7 +7017,8 @@
   "date": "2026-10-22",
   "source": "Ai Agents on Medium",
   "url": "https://medium.com/@imahnoor460/how-to-build-a-personal-ai-agent-that-actually-remembers-you-a9c277adbe84",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "personalnyi-yy-ahent-s-pamiatiu-piat-sloev-arkhytektury-chet"
  },
  {
   "rubric": "PKM",
@@ -7074,7 +7092,8 @@
   "date": "2026-10-22",
   "source": "Note Taking on Medium",
   "url": "https://kurtis-redux.medium.com/trying-logseqs-db-version-goodbye-local-markdown-66e9a5e76899",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "logseq-na-sqlite-chto-ostaetsia-ot-local-first-kohda-zametky"
  },
  {
   "rubric": "Toolbox",
@@ -7148,7 +7167,8 @@
   "date": "2026-10-22",
   "source": "Automation on Medium",
   "url": "https://medium.com/@automatedincomelifestyle/a-smaller-engaged-list-beats-a-big-cold-one-every-time-683c94c0b2cf",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "malenkaia-vovlechennaia-rassylka-vyyhryvaet-u-bolshoi-kholod"
  },
  {
   "rubric": "AI Signals",
@@ -7224,7 +7244,8 @@
   "date": "2026-10-22",
   "source": "Ai Agents on Medium",
   "url": "https://medium.com/engineering-playbook/the-cfo-killed-the-companys-ai-project-after-asking-one-question-nobody-could-answer-39739865c25a",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "pochemu-fyndyrektor-zamorozyl-ai-proekt-za-300-tysiach-metry"
  },
  {
   "rubric": "Время и фокус",
@@ -7298,7 +7319,8 @@
   "date": "2026-10-22",
   "source": "Productivity on Medium",
   "url": "https://medium.com/@agmirkan/when-useful-isnt-a-good-enough-reason-to-keep-a-task-74cf36da0e87",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "poleznost-ne-arhument-kak-reshyt-kakoi-zadache-otdat-ohranyc"
  },
  {
   "rubric": "Research Digest",
@@ -7374,7 +7396,8 @@
   "date": "2026-10-22",
   "source": "Лучшие статьи за неделю / Управление проектами / Хабр",
   "url": "https://habr.com/ru/articles/1097290/",
-  "minutes": 20
+  "minutes": 20,
+  "slug": "zomby-agile-kak-rassohlasovanye-pravyl-praktyk-y-smyslov-try"
  },
  {
   "rubric": "PKM",
@@ -7450,7 +7473,8 @@
   "date": "2026-10-22",
   "source": "Лучшие статьи за неделю / Управление проектами / Хабр",
   "url": "https://habr.com/ru/companies/basis/articles/1096662/",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "nanymaly-za-khard-uvolnialy-za-soft-kak-proektnyi-ofys-otsyf"
  },
  {
   "rubric": "Toolbox",
@@ -7526,6 +7550,7 @@
   "date": "2026-10-22",
   "source": "Лучшие статьи за неделю / Управление проектами / Хабр",
   "url": "https://habr.com/ru/companies/directum/articles/1097876/",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "pochemu-posle-vnedrenyia-ysup-liudy-vozvrashchaiutsia-v-exce"
  }
 ]
