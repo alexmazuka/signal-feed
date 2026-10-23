@@ -7625,7 +7625,8 @@
   "date": "2026-10-23",
   "source": "Ai Agents on Medium",
   "url": "https://medium.com/@shivanathd/give-your-ai-agent-its-own-postgres-login-a-hands-on-walkthrough-4b8ac71502ec",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "svoi-lohyn-dlia-kazhdoho-yy-ahenta-v-postgres-vosem-shahov-y"
  },
  {
   "rubric": "Research Digest",
@@ -7699,7 +7700,8 @@
   "date": "2026-10-23",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1098088/",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "ahent-znaet-o-zaprete-no-deistvuet-3360-yspytanyi-deepseek-v"
  },
  {
   "rubric": "AI Signals",
@@ -7773,7 +7775,8 @@
   "date": "2026-10-23",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/companies/nlmk/articles/1091666/",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "myhratsyia-legacy-s-yy-ahentamy-v-nlmk-stoymost-upala-v-5-10"
  },
  {
   "rubric": "AI Signals",
@@ -7852,7 +7855,8 @@
   "date": "2026-10-23",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1097826/",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "kohnytyvnyi-dolh-v-pet-proekte-s-yy-ahentom-kak-lyneinyi-raz"
  },
  {
   "rubric": "AI Signals",
@@ -7928,7 +7932,8 @@
   "date": "2026-10-23",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/companies/diasoft_company/articles/1097972/",
-  "minutes": 19
+  "minutes": 19,
+  "slug": "oshybky-neirosetei-kak-dyry-v-dokumentatsyy-kak-obviazka-del"
  },
  {
   "rubric": "AI Signals",
@@ -8002,7 +8007,8 @@
   "date": "2026-10-23",
   "source": "Лучшие статьи за неделю / Карьера в IT-индустрии / Хабр",
   "url": "https://habr.com/ru/articles/1097460/",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "professyia-prohrammysta-perezhyvet-yy-no-shtatnoe-raspysanye"
  },
  {
   "rubric": "AI Signals",
@@ -8076,7 +8082,8 @@
   "date": "2026-10-23",
   "source": "Лучшие статьи за неделю / Карьера в IT-индустрии / Хабр",
   "url": "https://habr.com/ru/articles/1097200/",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "ai-soc-na-maloi-modely-kak-perenos-pravyl-na-ahenta-podnial"
  },
  {
   "rubric": "Toolbox",
@@ -8150,7 +8157,8 @@
   "date": "2026-10-23",
   "source": "Prompt Engineering on Medium",
   "url": "https://medium.com/@ai.art.wakitaitai/why-ai-gets-japanese-patterns-wrong-and-the-prompts-that-fix-them-fcea59b633ad",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "pochemu-yy-lomaet-iaponskye-ornamenty-y-kak-pysat-prompty-dl"
  },
  {
   "rubric": "Research Digest",
@@ -8224,7 +8232,8 @@
   "date": "2026-10-23",
   "source": "Stack Overflow Blog",
   "url": "https://stackoverflow.blog/2026/10/21/survey-says-you-ll-swap-the-model-but-everything-you-build-around-it-is-staying-put/",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "model-meniaiut-lehko-a-obviazku-net-opros-520-tekhnycheskykh"
  },
  {
   "rubric": "PKM",
@@ -8298,7 +8307,8 @@
   "date": "2026-10-23",
   "source": "Zettelkasten.de",
   "url": "https://zettelkasten.de/posts/graphviz-complex-models-bottom-up/",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "graphviz-snyzu-vverkh-kak-sobrat-model-slozhnoi-problemy-yz"
  },
  {
   "rubric": "Research Digest",
@@ -8372,7 +8382,8 @@
   "date": "2026-10-23",
   "source": "Nieman Lab",
   "url": "https://www.niemanlab.org/2026/10/when-hackers-become-sources-inside-the-new-craft-of-reporting-on-hacked-data/",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "kohda-khakery-stanoviatsia-ystochnykamy-kak-zhurnalysty-ucha"
  },
  {
   "rubric": "AI Signals",
@@ -8446,7 +8457,8 @@
   "date": "2026-10-23",
   "source": "Speka - онлайн медіа про технології та підприємництво",
   "url": "https://speka.ua/news/metr-openai-monitoring-vulnerabilities-p6wezo",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "metr-nashla-dyry-v-monytorynhe-openai-ahenty-codex-mohly-skr"
  },
  {
   "rubric": "Research Digest",
@@ -8520,7 +8532,8 @@
   "date": "2026-10-23",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/companies/ru_mts/articles/1097914/",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "sheneryrovannyi-ynternet-kakuiu-doliu-yy-uzhe-zanial-v-novos"
  },
  {
   "rubric": "AI Signals",
@@ -8594,6 +8607,7 @@
   "date": "2026-10-23",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/companies/directum/articles/1098174/",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "yy-v-upravlenyy-proektamy-hde-on-lovyt-rysky-y-svodyt-otchet"
  }
 ]
