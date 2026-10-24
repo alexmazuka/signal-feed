@@ -8684,7 +8684,8 @@
   "date": "2026-10-24",
   "source": "Latent Space",
   "url": "https://latent.space/p/ai-is-getting-good-at-math/",
-  "minutes": 16
+  "minutes": 16,
+  "slug": "pochemu-yy-stal-reshat-matematycheskye-zadachy-hlubyna-vmest"
  },
  {
   "rubric": "AI Signals",
@@ -8758,7 +8759,8 @@
   "date": "2026-10-24",
   "source": "Latent Space",
   "url": "https://latent.space/p/modal-d/",
-  "minutes": 89
+  "minutes": 89,
+  "slug": "pochemu-spros-na-gpu-ne-priamouholnyi-kak-modal-vyros-do-1-m"
  },
  {
   "rubric": "AI Signals",
@@ -8834,7 +8836,8 @@
   "date": "2026-10-24",
   "source": "Latent Space",
   "url": "https://latent.space/p/moshi/",
-  "minutes": 23
+  "minutes": 23,
+  "slug": "moshi-rekomendatelnaia-systema-dlia-treiderov-doverennye-yst-2"
  },
  {
   "rubric": "Toolbox",
@@ -8909,7 +8912,8 @@
   "date": "2026-10-24",
   "source": "Latent Space",
   "url": "https://latent.space/p/claude-mods/",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "claude-mods-kak-prohrammyruemyi-ynterfeis-vnymanyia-meniaet"
  },
  {
   "rubric": "Research Digest",
@@ -8985,7 +8989,8 @@
   "date": "2026-10-24",
   "source": "NN/g latest articles and announcements",
   "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/",
-  "minutes": 17
+  "minutes": 17,
+  "slug": "yy-v-ux-zadachy-uskorylys-no-rabota-ne-stala-luchshe-a-spets"
  },
  {
   "rubric": "Toolbox",
@@ -9057,7 +9062,8 @@
   "date": "2026-10-24",
   "source": "LLM on Medium",
   "url": "https://aparnapradhan01.medium.com/when-optimisation-backfires-the-production-risks-of-llm-speculative-decoding-d98b1fd70713",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "spekuliatyvnoe-dekodyrovanye-llm-pochemu-uskorenye-yz-demo-p"
  },
  {
   "rubric": "Research Digest",
@@ -9133,7 +9139,8 @@
   "date": "2026-10-24",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1098234/",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "0-yz-10-ne-bezopasnost-kak-poschytat-skolko-zaprosov-nuzhno"
  },
  {
   "rubric": "Toolbox",
@@ -9209,7 +9216,8 @@
   "date": "2026-10-24",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1098650/",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "vershyna-kak-sobrat-yy-trenazher-perehovorov-hde-reshaet-kod"
  },
  {
   "rubric": "Model Watch",
@@ -9285,7 +9293,8 @@
   "date": "2026-10-24",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1098612/",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "jarvis-112m-kak-sobrat-russkoiazychnuiu-gpt-s-nulia-na-pytor"
  },
  {
   "rubric": "AI Signals",
@@ -9359,7 +9368,8 @@
   "date": "2026-10-24",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1098802/",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "ot-fyltra-statei-do-ynvest-ofysa-kak-lychnye-yy-ahenty-vyros"
  },
  {
   "rubric": "AI Signals",
@@ -9435,7 +9445,8 @@
   "date": "2026-10-24",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1098640/",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "26-400-partyi-bota-vmesto-pleitesterov-kak-ahenty-za-chetyre"
  },
  {
   "rubric": "Toolbox",
@@ -9509,7 +9520,8 @@
   "date": "2026-10-24",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/companies/koda/articles/1098702/",
-  "minutes": 15
+  "minutes": 15,
+  "slug": "myhratsyia-spring-boot-2-7-3-5-sylamy-yy-ahenta-kontraktnye"
  },
  {
   "rubric": "AI Signals",
@@ -9583,7 +9595,8 @@
   "date": "2026-10-24",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1098292/",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "ralph-kak-ustroen-pochty-avtonomnyi-ahent-dlia-pet-proektov"
  },
  {
   "rubric": "AI Signals",
@@ -9659,7 +9672,8 @@
   "date": "2026-10-24",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1098246/",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "ynstruktsyia-v-prompte-ne-zameniaet-prava-dostupa-chemu-ynts"
  },
  {
   "rubric": "Toolbox",
@@ -9737,7 +9751,8 @@
   "date": "2026-10-24",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1098516/",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "sdd-naoborot-kak-slimspec-zameniaet-dvesty-failov-spek-odnym"
  },
  {
   "rubric": "Research Digest",
@@ -9811,7 +9826,8 @@
   "date": "2026-10-24",
   "source": "Все статьи подряд / Natural Language Processing / Хабр",
   "url": "https://habr.com/ru/articles/1098288/",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "prompt-injection-protyv-1s-ahenta-podtverzhdenye-chelovekom"
  },
  {
   "rubric": "Toolbox",
@@ -9891,7 +9907,8 @@
   "date": "2026-10-24",
   "source": "Все статьи подряд / Natural Language Processing / Хабр",
   "url": "https://habr.com/ru/articles/1098152/",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "chat-kotoryi-ne-vret-kak-zastavyt-assystenta-na-saite-otvech"
  },
  {
   "rubric": "Toolbox",
@@ -9967,7 +9984,8 @@
   "date": "2026-10-24",
   "source": "Все статьи подряд / Natural Language Processing / Хабр",
   "url": "https://habr.com/ru/articles/1091058/",
-  "minutes": 18
+  "minutes": 18,
+  "slug": "rag-bot-po-materyalam-eksperta-stend-yz-24-voprosov-pokazal"
  },
  {
   "rubric": "Toolbox",
@@ -10041,7 +10059,8 @@
   "date": "2026-10-24",
   "source": "Лучшие статьи за сутки / Искусственный интеллект / Хабр",
   "url": "https://habr.com/ru/articles/1098496/",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "kak-zamenyt-openclaw-na-deepseek-harness-yy-assystent-na-vds"
  },
  {
   "rubric": "Research Digest",
@@ -10117,7 +10136,8 @@
   "date": "2026-10-24",
   "source": "Speka - онлайн медіа про технології та підприємництво",
   "url": "https://speka.ua/news/si-vze-ne-lise-dlya-molodi-nim-koristuyutsya-36-ukrayinciv-60-9381yq",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "yy-vykhodyt-za-predely-molodezhy-opros-pokazal-chto-chat-bot"
  },
  {
   "rubric": "Policy Radar",
@@ -10191,7 +10211,8 @@
   "date": "2026-10-24",
   "source": "Детектор медіа",
   "url": "https://ms.detector.media/trendi/post/39624/2026-10-23-olena-andriienko-neviddilnym-elementom-shi-gramotnosti-maie-buty-navchannya-lyudey-dumaty-a-ne-vykorystovuvaty-yogo-yak-protez-yakyy-zaminyuie-myslennya/",
-  "minutes": 24
+  "minutes": 24,
+  "slug": "ne-protez-a-sparrynh-partner-iuryst-publicis-groupe-ukraine"
  },
  {
   "rubric": "AI Signals",
@@ -10265,7 +10286,8 @@
   "date": "2026-10-24",
   "source": "Speka - онлайн медіа про технології та підприємництво",
   "url": "https://speka.ua/videos-and-podcasts/stucnii-intelekt-zminit-use-erik-smidt-pro-maibutnje-texnologii-ta-biznesu-9dm1g0",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "shmydt-o-sverkhskorostiakh-yy-modely-stareiut-za-piat-mesiat"
  },
  {
   "rubric": "AI Signals",
@@ -10337,6 +10359,7 @@
   "date": "2026-10-24",
   "source": "Speka - онлайн медіа про технології та підприємництво",
   "url": "https://speka.ua/videos-and-podcasts/demis-xassabis-pro-prodaz-deepmind-google-svii-nobel-prize-ta-realni-zagrozi-agi-9q4ezm",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "khassabys-o-prodazhe-deepmind-za-650-mln-predupredytelnykh-v"
  }
 ]
