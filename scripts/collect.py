@@ -37,7 +37,19 @@ seen = {i["url"] for i in items}
 cutoff = datetime.datetime.utcnow() - datetime.timedelta(days=3)
 
 cands = []
-for f in feeds():
+# Нестор: кандидаты уже собраны и размечены на сервере (data/nestor_candidates.json, обновляется каждый час).
+# Если файл свежий (до 6 часов) — берём их и не качаем RSS сами; иначе — старый сбор по лентам.
+NC = "data/nestor_candidates.json"
+if os.path.exists(NC):
+    nc = json.load(open(NC))
+    age = datetime.datetime.utcnow() - datetime.datetime.fromisoformat(nc["generated_at"].rstrip("Z"))
+    if age < datetime.timedelta(hours=6):
+        for c in nc["candidates"]:
+            url = (c["url"] or "").split("?")[0]
+            if url and url not in seen:
+                cands.append({"id": len(cands), "url": url, "title": c["title"], "src": c["src"], "summary": c["summary"], "full": c["full"]})
+        print("кандидаты из Нестора:", len(cands), "(возраст", age, ")")
+for f in ([] if cands else feeds()):
     try:
         d = feedparser.parse(f, request_headers=UA)
     except Exception as e:
