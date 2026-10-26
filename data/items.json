@@ -10434,7 +10434,8 @@
   "date": "2026-10-26",
   "source": "medium:artificial-intelligence",
   "url": "https://dantorbz.medium.com/ai-can-write-the-code-who-owns-it-five-years-later-40987c2c9919",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "yy-napysal-kod-a-kto-budet-otvechat-za-neho-cherez-piat-let"
  },
  {
   "rubric": "Время и фокус",
@@ -10508,7 +10509,8 @@
   "date": "2026-10-26",
   "source": "medium:productivity",
   "url": "https://jpromanonet.medium.com/how-to-tell-whether-an-engineering-team-is-busy-or-actually-making-progress-c1f5344fb8c1",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "zaniata-yly-dvyzhetsia-vpered-kak-rukovodyteliu-otlychyt-akt"
  },
  {
   "rubric": "AI Signals",
@@ -10580,7 +10582,8 @@
   "date": "2026-10-26",
   "source": "medium:automation",
   "url": "https://bedirhan-yilmaz.medium.com/on-ai-steam-engines-a-master-shoemaker-and-your-future-90121e19df31",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "parovaia-mashyna-y-yy-chto-stalo-s-sapozhnykom-y-kak-spetsya"
  },
  {
   "rubric": "Toolbox",
@@ -10656,7 +10659,8 @@
   "date": "2026-10-26",
   "source": "medium:llm",
   "url": "https://pub.towardsai.net/claude-code-mods-explained-what-they-can-do-that-hooks-and-skills-cant-538f91fe6f77",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "mody-claude-code-chto-ony-umeiut-sverkh-khukov-y-skyllov-che"
  },
  {
   "rubric": "AI Signals",
@@ -10732,6 +10736,7 @@
   "date": "2026-10-26",
   "source": "discover: ссылаются 2 источников",
   "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-  "minutes": 16
+  "minutes": 16,
+  "slug": "kohnytyvnyi-merkantylyzm-pochemu-panyka-vokruh-yy-povtoriaet"
  }
 ]
