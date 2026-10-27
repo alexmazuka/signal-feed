@@ -10811,7 +10811,8 @@
   "date": "2026-10-27",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@maruthiprithivirajan/agent-memory-provenance-how-to-make-ai-agents-remember-where-they-learned-it-81161367a737",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "kvytantsyia-dlia-pamiaty-ahenta-vosem-polei-y-piat-shahov-ch"
  },
  {
   "rubric": "Research Digest",
@@ -10885,7 +10886,8 @@
   "date": "2026-10-27",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@mohammadsaqlain1626/memopops-remembering-why-an-ai-agent-believes-something-bf51ae7323cb",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "memopops-kak-khranyt-ne-tolko-otvet-ahenta-no-y-prychyny-na"
  },
  {
   "rubric": "Toolbox",
@@ -10961,7 +10963,8 @@
   "date": "2026-10-27",
   "source": "src:habr.com",
   "url": "https://habr.com/ru/companies/otus/articles/1098056/",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "codemode-v-pi-1-0-ahent-pyshet-kod-vmesto-tsepochky-vyzovov"
  },
  {
   "rubric": "AI Signals",
@@ -11037,7 +11040,8 @@
   "date": "2026-10-27",
   "source": "src:habr.com",
   "url": "https://habr.com/ru/articles/1099342/",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "ai-ahenty-v-zakaznoi-razrabotke-400-tys-vyruchky-23-tys-zatr"
  },
  {
   "rubric": "AI Signals",
@@ -11113,7 +11117,8 @@
   "date": "2026-10-27",
   "source": "medium:artificial-intelligence",
   "url": "https://blog.stackademic.com/working-with-ai-is-management-78a8effb5e99",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "rabota-s-yy-eto-menedzhment-dva-eksperymenta-pro-polnomochyi"
  },
  {
   "rubric": "Время и фокус",
@@ -11187,7 +11192,8 @@
   "date": "2026-10-27",
   "source": "medium:time-management",
   "url": "https://medium.com/@five-scared-canned/time-blocking-can-make-you-faster-but-not-necessarily-better-e2fe9d7a5c57",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "taim-blokynh-uskoriaet-rabotu-no-ne-harantyruet-kachestva-ch"
  },
  {
   "rubric": "PKM",
@@ -11261,7 +11267,8 @@
   "date": "2026-10-27",
   "source": "medium:second-brain",
   "url": "https://medium.com/@nurazispakaya16/my-obsidian-vault-has-notes-i-never-wrote-6b862fa5ec33",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "vyky-bez-byblyotekaria-kak-llm-beret-na-sebia-rutynu-vtoroho"
  },
  {
   "rubric": "Toolbox",
@@ -11338,7 +11345,8 @@
   "date": "2026-10-27",
   "source": "medium:prompt-engineering",
   "url": "https://medium.com/@riseandriches111/i-stopped-starting-prompts-with-act-as-an-expert-4-openers-work-better-2a16fcdd751e",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "vmesto-deistvui-kak-ekspert-chetyre-zachyna-prompta-kotorye"
  },
  {
   "rubric": "Toolbox",
@@ -11412,7 +11420,8 @@
   "date": "2026-10-27",
   "source": "medium:artificial-intelligence",
   "url": "https://medium.com/@paulhoke/your-model-is-not-the-benchmark-0b0037abe800",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "lychnyi-nabor-testov-dlia-llm-kak-proveriat-model-na-svoykh"
  },
  {
   "rubric": "Toolbox",
@@ -11488,7 +11497,8 @@
   "date": "2026-10-27",
   "source": "medium:llm",
   "url": "https://medium.com/@peeyushkmisra_79926/llm-said-json-pydantic-said-no-build-a-self-healing-structured-output-loop-in-50-lines-of-python-246b0c09023a",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "samovosstanavlyvaiushchyisia-tsykl-dlia-strukturyrovannoho-v"
  },
  {
   "rubric": "Toolbox",
@@ -11562,7 +11572,8 @@
   "date": "2026-10-27",
   "source": "medium:ai-agents",
   "url": "https://mediaboss.medium.com/how-to-automate-your-business-and-get-out-of-day-to-day-operations-23bb7ab0bafb",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "pravylo-bolshe-dvukh-raz-kak-osnovatel-vyvodyt-byznes-yz-ruc"
  },
  {
   "rubric": "Model Watch",
@@ -11636,7 +11647,8 @@
   "date": "2026-10-27",
   "source": "discover: ссылаются 2 источников",
   "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "kak-dovesty-tochnost-vyzova-ynstrumentov-v-vllm-do-100-const"
  },
  {
   "rubric": "Toolbox",
@@ -11710,7 +11722,8 @@
   "date": "2026-10-27",
   "source": "medium:llm",
   "url": "https://medium.com/@carlospatriawan/porting-and-running-glm-5-3-in-single-dgx-spark-with-project-maya-strata-b5882df3edf1",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "glm-5-3-flash-na-odnom-dgx-spark-kak-port-project-maya-dal-2"
  },
  {
   "rubric": "Toolbox",
@@ -11784,7 +11797,8 @@
   "date": "2026-10-27",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@indraaristya/ai-wrote-my-playwright-tests-now-what-444492270196",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "zelenyi-test-eshche-ne-zashchyta-kak-proveriat-playwright-te"
  },
  {
   "rubric": "AI Signals",
@@ -11862,7 +11876,8 @@
   "date": "2026-10-27",
   "source": "medium:artificial-intelligence",
   "url": "https://medium.com/@sebastienfaivre_79559/writing-the-code-is-the-short-part-5870e850c2d6",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "kod-korotkaia-chast-kak-radiant-logic-prevratyl-ves-zhyznenn"
  },
  {
   "rubric": "AI Signals",
@@ -11936,7 +11951,8 @@
   "date": "2026-10-27",
   "source": "medium:artificial-intelligence",
   "url": "https://medium.com/@shahbazalisyed/ai-assisted-software-delivery-from-code-to-production-b910d37c721e",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "yy-uskoryl-napysanye-koda-no-ne-relyzy-hde-zastrevaet-postav"
  },
  {
   "rubric": "Toolbox",
@@ -12010,7 +12026,8 @@
   "date": "2026-10-27",
   "source": "medium:llm",
   "url": "https://medium.com/@promptmastershop/why-your-ai-agent-forgets-everything-and-the-4-kinds-of-memory-that-fix-it-ead412237d4a",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "chetyre-vyda-pamiaty-yy-ahenta-pochemu-on-zabyvaet-y-kak-dya"
  },
  {
   "rubric": "Toolbox",
@@ -12082,7 +12099,8 @@
   "date": "2026-10-27",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@omanyuk/how-to-retire-an-ai-workflow-when-its-dependencies-change-9fbfb0d1c88a",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "kak-vyvodyt-yz-obrashchenyia-workflow-yy-ahenta-kohda-meniai"
  },
  {
   "rubric": "AI Signals",
@@ -12158,7 +12176,8 @@
   "date": "2026-10-27",
   "source": "medium:ai-agents",
   "url": "https://medium.com/bansng/code-comments-in-the-agent-era-22553a13081c",
-  "minutes": 18
+  "minutes": 18,
+  "slug": "kommentaryy-v-kode-kak-prompty-pochemu-v-epokhu-ahentov-neve"
  },
  {
   "rubric": "AI Signals",
@@ -12234,7 +12253,8 @@
   "date": "2026-10-27",
   "source": "medium:ai-agents",
   "url": "https://medium.com/toward-next-ai/ai-coding-agents-for-low-resource-languages-build-a-compiler-first-safety-net-d81bec08b6ed",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "yy-ahenty-dlia-redkykh-iazykov-prohrammyrovanyia-kompyliator"
  },
  {
   "rubric": "Research Digest",
@@ -12310,7 +12330,8 @@
   "date": "2026-10-27",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@sarathc225/how-do-you-benchmark-ai-agents-on-ml-research-mle-bench-paperbench-re-bench-and-what-they-miss-0b3bd10d9b18",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "kak-yzmeriat-yy-ahentov-v-ml-yssledovanyiakh-chto-pokazyvaiu"
  },
  {
   "rubric": "Toolbox",
@@ -12386,7 +12407,8 @@
   "date": "2026-10-27",
   "source": "medium:prompt-engineering",
   "url": "https://medium.com/@saasseebuilds/six-ai-assistants-walk-into-a-repo-and-nobody-agrees-on-the-rules-32add266780c",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "shest-yy-assystentov-y-odyn-repozytoryi-kak-ne-utonut-v-razr"
  },
  {
   "rubric": "Время и фокус",
@@ -12462,7 +12484,8 @@
   "date": "2026-10-27",
   "source": "medium:productivity",
   "url": "https://medium.com/@eliteconsult.eu/i-guess-i-will-is-not-a-decision-c55889a0b865",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "pozhalui-zaimus-eto-ne-reshenye-chto-kheddok-v-1907-hodu-pys"
  },
  {
   "rubric": "Время и фокус",
@@ -12536,7 +12559,8 @@
   "date": "2026-10-27",
   "source": "medium:productivity",
   "url": "https://medium.com/@jamesandrewmurimi/how-to-track-habits-without-obsessing-over-your-streak-fd6388af2607",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "treker-pryvychek-kak-nedelnyi-eksperyment-planka-tsel-y-zame"
  },
  {
   "rubric": "Время и фокус",
@@ -12612,6 +12636,7 @@
   "date": "2026-10-27",
   "source": "medium:productivity",
   "url": "https://medium.com/@lambertakwa/post-exhaustion-59ecf4fdbe20",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "postystoshchenye-vyhoranye-kotoroe-pereezzhaet-vmeste-s-vamy"
  }
 ]
