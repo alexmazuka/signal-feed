@@ -12709,7 +12709,8 @@
   "date": "2026-10-28",
   "source": "medium:llm",
   "url": "https://uxmag.medium.com/agent-memory-your-agent-saved-the-lesson-why-didnt-it-use-it-ee10a3543fe0",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "ahent-sokhranyl-urok-no-ne-prymenyl-pochemu-pamiat-bez-vyzov"
  },
  {
   "rubric": "Toolbox",
@@ -12785,7 +12786,8 @@
   "date": "2026-10-28",
   "source": "medium:prompt-engineering",
   "url": "https://evernorthtech.medium.com/time-is-money-ai-agents-and-tokenomics-ebecf969a5b3",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "kak-ne-platyt-za-lyshnye-tokeny-strukturnye-otvety-biudzhet"
  },
  {
   "rubric": "Model Watch",
@@ -12859,7 +12861,8 @@
   "date": "2026-10-28",
   "source": "medium:llm",
   "url": "https://aihubmix.medium.com/half-the-price-per-token-not-always-half-the-bill-gpt-6-1-terra-vs-gpt-5-6-terra-bd06b667d667",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "gpt-6-1-terra-token-podeshevel-vdvoe-no-schet-zavysyt-ot-uro"
  },
  {
   "rubric": "Время и фокус",
@@ -12935,7 +12938,8 @@
   "date": "2026-10-28",
   "source": "src:hnrss.org",
   "url": "https://oioannou.com/blog/ai-promised-less-work/",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "yy-ahenty-obeshchaly-menshe-raboty-no-vklad-v-github-vyros-d"
  },
  {
   "rubric": "Research Digest",
@@ -13009,7 +13013,8 @@
   "date": "2026-10-28",
   "source": "Інформатор",
   "url": "https://informator.ua/uk/navit-korotka-sesiya-zi-shtuchnim-intelektom-poslablyuye-navichki-mislennya",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "yssledovanye-berkly-posle-otkliuchenyia-chatgpt-uchastnyky-r"
  },
  {
   "rubric": "AI Signals",
@@ -13083,7 +13088,8 @@
   "date": "2026-10-28",
   "source": "src:habr.com",
   "url": "https://habr.com/ru/articles/1099402/",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "litellm-1-107-0-kak-atakuiushchyi-zakhvatyl-ukreplennyi-rely"
  },
  {
   "rubric": "AI Signals",
@@ -13159,7 +13165,8 @@
   "date": "2026-10-28",
   "source": "medium:ai-agents",
   "url": "https://abvcreative.medium.com/anthropic-thinks-you-have-too-many-ai-agents-and-it-might-be-right-1d3f776fcfaa",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "menshe-ahentov-luchshe-chemu-uchyt-anthropic-razbor-svertyva"
  },
  {
   "rubric": "AI Signals",
@@ -13233,7 +13240,8 @@
   "date": "2026-10-28",
   "source": "src:hnrss.org",
   "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "kak-volontery-vykypedyy-loviat-yy-teksty-ot-shtampov-2023-ho"
  },
  {
   "rubric": "Policy Radar",
@@ -13305,7 +13313,8 @@
   "date": "2026-10-28",
   "source": "discover: ссылаются 2 источников",
   "url": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "76-otvetov-na-konsultatsyiu-o-zaprete-odnorazovykh-veipov-v"
  },
  {
   "rubric": "AI Signals",
@@ -13379,6 +13388,7 @@
   "date": "2026-10-28",
   "source": "src:habr.com",
   "url": "https://habr.com/ru/articles/1089244/",
-  "minutes": 71
+  "minutes": 71,
+  "slug": "kak-podkliuchyt-llm-k-samodelnomu-robotu-datchyky-pd-rehulia"
  }
 ]
