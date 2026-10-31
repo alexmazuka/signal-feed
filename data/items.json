@@ -13467,7 +13467,8 @@
   "date": "2026-10-31",
   "source": "medium:ai-agents",
   "url": "https://medium.com/design-bootcamp/building-rubrics-for-ai-agents-a-starter-guide-for-designers-and-researchers-68227b3bc6b0",
-  "minutes": 18
+  "minutes": 18,
+  "slug": "rubryky-dlia-yy-ahentov-kak-prevratyt-kachestvo-v-proveriaem"
  },
  {
   "rubric": "AI Signals",
@@ -13541,7 +13542,8 @@
   "date": "2026-10-31",
   "source": "medium:artificial-intelligence",
   "url": "https://medium.com/@rakesh1608/the-silent-drift-of-ai-authority-when-enterprise-systems-start-changing-decisions-without-changing-bdd08d99d629",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "tykhyi-dreif-polnomochyi-yy-kak-korporatyvnye-systemy-nachyn"
  },
  {
   "rubric": "AI Signals",
@@ -13617,7 +13619,8 @@
   "date": "2026-10-31",
   "source": "medium:llm",
   "url": "https://medium.com/israeli-tech-radar/stop-hiring-an-ai-agent-to-flip-a-light-switch-12b54d3ac9d5",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "determynyrovannaia-obolochka-veroiatnostnoe-iadro-kohda-yy-a"
  },
  {
   "rubric": "Toolbox",
@@ -13693,7 +13696,8 @@
   "date": "2026-10-31",
   "source": "medium:llm",
   "url": "https://medium.com/@imrancodes/%EF%B8%8F-how-to-test-multi-agent-ai-systems-with-google-adk-python-pytest-a28b8520c1ed",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "kak-testyrovat-multyahentnye-systemy-na-google-adk-y-pytest"
  },
  {
   "rubric": "Toolbox",
@@ -13767,7 +13771,8 @@
   "date": "2026-10-31",
   "source": "medium:llm",
   "url": "https://nexgentech.medium.com/inside-an-ai-agent-how-reasoning-tools-state-and-control-work-together-11fb008f7381",
-  "minutes": 14
+  "minutes": 14,
+  "slug": "chto-vnutry-yy-ahenta-model-predlahaet-a-doverennyi-kod-resh"
  },
  {
   "rubric": "Research Digest",
@@ -13843,7 +13848,8 @@
   "date": "2026-10-31",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/articles/1101548/",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "shum-v-embeddynhakh-ne-skryvaet-dokumenty-pry-100-yzvestnykh"
  },
  {
   "rubric": "Время и фокус",
@@ -13917,7 +13923,8 @@
   "date": "2026-10-31",
   "source": "medium:ai-agents",
   "url": "https://discoveryleader.medium.com/the-ai-productivity-paradox-when-doing-more-leaves-us-with-less-4e372a58c62a",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "paradoks-produktyvnosty-yy-ahentov-chem-bolshe-ony-delaiut-t"
  },
  {
   "rubric": "Policy Radar",
@@ -13997,7 +14004,8 @@
   "date": "2026-10-31",
   "source": "src:stackoverflow.blog",
   "url": "https://stackoverflow.blog/2026/10/28/a-json-schema-is-not-an-ai-governance-layer/",
-  "minutes": 15
+  "minutes": 15,
+  "slug": "governance-yy-ahentov-zakanchyvaetsia-bulevym-znachenyem-poc"
  },
  {
   "rubric": "AI Signals",
@@ -14071,7 +14079,8 @@
   "date": "2026-10-31",
   "source": "src:openai.com",
   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-  "minutes": 14
+  "minutes": 14,
+  "slug": "kak-openai-lovyt-rassohlasovanye-u-peredovykh-modelei-mnohou"
  },
  {
   "rubric": "Policy Radar",
@@ -14145,7 +14154,8 @@
   "date": "2026-10-31",
   "source": "src:technologyreview.com",
   "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "ahenty-yy-deistvuiut-vne-kontrolia-pochemu-nuzhna-nabliudaem"
  },
  {
   "rubric": "Toolbox",
@@ -14219,7 +14229,8 @@
   "date": "2026-10-31",
   "source": "src:habr.com",
   "url": "https://habr.com/ru/companies/ruvds/articles/1101674/",
-  "minutes": 14
+  "minutes": 14,
+  "slug": "baton-kak-perenesty-sessyiu-mezhdu-claude-code-codex-antigra"
  },
  {
   "rubric": "Research Digest",
@@ -14295,7 +14306,8 @@
   "date": "2026-10-31",
   "source": "medium:llm",
   "url": "https://dali-abid.medium.com/before-you-fine-tune-an-llm-a-map-for-when-lora-rlhf-and-sft-all-sound-the-same-931ad42314d8",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "karta-doobuchenyia-llm-try-voprosa-kotorye-razvodiat-lora-rl"
  },
  {
   "rubric": "AI Signals",
@@ -14369,6 +14381,7 @@
   "date": "2026-10-31",
   "source": "источник Signal Feed",
   "url": "https://ai.plainenglish.io/ai-is-not-a-subtraction-operator-2d90430dc9f7",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "vdvoe-produktyvnee-vdvoe-menshe-liudei-pochemu-aryfmetyka-ai"
  }
 ]
