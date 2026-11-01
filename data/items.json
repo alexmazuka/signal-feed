@@ -14456,7 +14456,8 @@
   "date": "2026-11-01",
   "source": "medium:artificial-intelligence",
   "url": "https://chaitanyagaur7.medium.com/the-scariest-bug-in-enterprise-rag-isnt-hallucination-it-s-cross-tenant-leakage-784d8b69c82a",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "kross-tenantnaia-utechka-v-korporatyvnom-rag-pochemu-prompt"
  },
  {
   "rubric": "Время и фокус",
@@ -14530,6 +14531,7 @@
   "date": "2026-11-01",
   "source": "medium:productivity",
   "url": "https://monixette.medium.com/a-d%C3%B3nde-se-va-el-tiempo-que-nos-ahorra-la-ia-8190cb9d8890",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "kuda-ukhodyt-vremia-kotoroe-ekonomyt-yy-zadacha-uskoriaetsia"
  }
 ]
