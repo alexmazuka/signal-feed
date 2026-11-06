@@ -1,7 +1,6 @@
 name: daily-issue
 on:
-  schedule:
-    - cron: "17 2 * * *"   # ~05:17 Киев; GitHub часто запускает с опозданием на 2–4 часа
+  # 06.11.2026: выпуск собирает сервер Нестора (подписка Claude); здесь — только ручной запуск
   workflow_dispatch:
 permissions:
   contents: write

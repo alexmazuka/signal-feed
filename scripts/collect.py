@@ -3,7 +3,8 @@ import json, os, re, datetime, urllib.request, html
 import feedparser, trafilatura
 
 SRC = json.load(open("scripts/sources.json"))
-KEY = os.environ["ANTHROPIC_API_KEY"]
+KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+CLI = os.environ.get("SF_CLAUDE_CLI")   # сервер Нестора: подписка Claude владельца через Claude Code CLI (06.11.2026)
 TODAY = datetime.date.today().isoformat()
 MAX_ITEMS = int(os.environ.get("MAX_ITEMS", "25"))
 RUBRICS = ["AI Signals","Model Watch","Policy Radar","Toolbox","Research Digest","PKM","Время и фокус","Письмо"]
@@ -21,6 +22,12 @@ def feeds():
     yield from SRC["extra"]
 
 def claude(model, prompt, max_tokens):
+    if CLI:
+        import subprocess
+        m = "haiku" if "haiku" in model else "sonnet"
+        r = subprocess.run([CLI, "-p", "--model", m, "--output-format", "text"], input=prompt, capture_output=True, text=True, timeout=900)
+        if r.returncode != 0: raise RuntimeError(r.stderr[-300:] or r.stdout[-300:])
+        return r.stdout
     body = json.dumps({"model": model, "max_tokens": max_tokens,
                        "messages": [{"role": "user", "content": prompt}]}).encode()
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", body,
