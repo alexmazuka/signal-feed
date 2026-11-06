@@ -14606,7 +14606,8 @@
   "date": "2026-11-06",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/articles/1103668/",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "llm-pravyt-vesa-druhoi-modely-bez-obuchenyia-ne-chtenye-veso"
  },
  {
   "rubric": "Research Digest",
@@ -14680,7 +14681,8 @@
   "date": "2026-11-06",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@ravikiran.veldanda/your-gpu-says-100-busy-its-delivering-14-of-its-spec-3fb6a72b95f7",
-  "minutes": 16
+  "minutes": 16,
+  "slug": "zahruzhen-na-100-ne-znachyt-rabotaet-t4-pry-polnoi-utylyzats"
  },
  {
   "rubric": "AI Signals",
@@ -14756,7 +14758,8 @@
   "date": "2026-11-06",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@abhi.ai/ai-agents-have-a-model-but-do-they-have-the-infrastructure-to-work-in-production-1bc2309254eb",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "ahentam-nuzhna-ne-tolko-umnaia-model-shest-sloev-ynfrastrukt"
  },
  {
   "rubric": "Research Digest",
@@ -14830,7 +14833,8 @@
   "date": "2026-11-06",
   "source": "medium:llm",
   "url": "https://pub.towardsai.net/a-netflix-scientist-says-resample-your-llm-judge-5-runs-cut-the-error-bar-13-f07c836de085",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "pereotsenka-llm-sudy-piat-prohonov-vmesto-odnoho-suzhaiut-po"
  },
  {
   "rubric": "Toolbox",
@@ -14904,7 +14908,8 @@
   "date": "2026-11-06",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@yashfaldessai1414/why-claude-code-agents-break-after-10-steps-and-the-fix-most-builders-miss-acfe42a4ac23",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "pochemu-ahenty-claude-code-lomaiutsia-posle-desiaty-shahov-f"
  },
  {
   "rubric": "AI Signals",
@@ -14978,7 +14983,8 @@
   "date": "2026-11-06",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@mayaresearcher/the-ai-agent-told-me-everything-was-fine-my-database-said-otherwise-9ae1d30f8dc6",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "ahent-otchytalsia-ob-uspekhe-a-baza-dannykh-pokazala-obratno"
  },
  {
   "rubric": "AI Signals",
@@ -15052,7 +15058,8 @@
   "date": "2026-11-06",
   "source": "medium:llm",
   "url": "https://medium.com/@smhassanraza1/indirect-prompt-injection-defending-a-small-ai-agent-181c973aa483",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "plan-do-chtenyia-y-shliuz-v-kode-kak-ataky-cherez-podsunutye"
  },
  {
   "rubric": "AI Signals",
@@ -15126,7 +15133,8 @@
   "date": "2026-11-06",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@dzyatkovskiy.a2/our-own-code-banned-codex-from-research-reading-the-ban-showed-it-banned-the-opposite-thing-ad6b71772e61",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "zapret-na-codex-v-yssledovanyiakh-okazalsia-zapretom-na-druh"
  },
  {
   "rubric": "PKM",
@@ -15202,7 +15210,8 @@
   "date": "2026-11-06",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@ohadi.anoush/my-ai-coding-sessions-had-the-code-they-were-missing-the-decisions-9cdebd252698",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "pamiat-proekta-dlia-yy-kodynha-khranyt-ne-kod-a-reshenyia-ys"
  },
  {
   "rubric": "PKM",
@@ -15276,7 +15285,8 @@
   "date": "2026-11-06",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@sequierh/my-second-brain-was-full-of-lessons-my-agents-never-used-9417c14f7d47",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "126-urokov-5-prymenenyi-kak-prevratyt-vtoroi-mozh-ahentov-v"
  },
  {
   "rubric": "AI Signals",
@@ -15350,7 +15360,8 @@
   "date": "2026-11-06",
   "source": "medium:llm",
   "url": "https://medium.com/neuralnotions/more-agents-isnt-the-innovation-better-organization-is-ef0d98e77960",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "multyahentnye-systemy-vyyhrysh-daiut-ne-novye-ahenty-a-orhan"
  },
  {
   "rubric": "AI Signals",
@@ -15426,7 +15437,8 @@
   "date": "2026-11-06",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@itsabdulbasitbuilds/7-reasons-the-next-ai-breakthrough-may-come-from-teams-of-agents-not-smarter-models-6a7ba0d43cca",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "komandy-ahentov-vmesto-umnykh-modelei-sem-dovodov-pochemu-sl"
  },
  {
   "rubric": "AI Signals",
@@ -15504,7 +15516,8 @@
   "date": "2026-11-06",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@sbnraju/the-hidden-backbone-of-multi-agent-ai-designing-shared-state-460795089af0",
-  "minutes": 17
+  "minutes": 17,
+  "slug": "obshchee-sostoianye-v-multyahentnykh-systemakh-chto-khranyt"
  },
  {
   "rubric": "AI Signals",
@@ -15576,7 +15589,8 @@
   "date": "2026-11-06",
   "source": "medium:llm",
   "url": "https://medium.com/@dilipnswamy/naive-vs-adaptive-rag-working-python-examples-for-a-small-business-4c39fbe77b9c",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "nayvnyi-y-adaptyvnyi-rag-na-prymere-obzharochnoi-klassyfykat"
  },
  {
   "rubric": "Research Digest",
@@ -15652,7 +15666,8 @@
   "date": "2026-11-06",
   "source": "medium:llm",
   "url": "https://nurhayatyurtaslan.medium.com/rag-cag-kag-a-decision-model-by-corpus-volatility-and-query-logic-206815477251",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "rag-cag-yly-kag-kak-vybrat-arkhytekturu-po-razmeru-korpusa-c"
  },
  {
   "rubric": "Toolbox",
@@ -15726,7 +15741,8 @@
   "date": "2026-11-06",
   "source": "medium:llm",
   "url": "https://medium.com/@tidianestano/1m-token-context-isnt-enough-fix-your-rag-pipeline-ebc9eb7f1a84",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "myllyon-tokenov-bez-paiplaina-ne-rabotaet-retryval-poriadok"
  },
  {
   "rubric": "Toolbox",
@@ -15802,7 +15818,8 @@
   "date": "2026-11-06",
   "source": "medium:llm",
   "url": "https://pub.towardsai.net/model-routing-with-nvidias-nemo-switchyard-9f52edda0af2",
-  "minutes": 15
+  "minutes": 15,
+  "slug": "marshrutyzatsyia-modelei-v-nvidia-nemo-switchyard-pochemu-ek"
  },
  {
   "rubric": "AI Signals",
@@ -15876,7 +15893,8 @@
   "date": "2026-11-06",
   "source": "medium:artificial-intelligence",
   "url": "https://medium.com/@k.pranav_22/llm-caching-in-production-prompt-cache-vs-exact-cache-vs-semantic-cache-12a59a9e052f",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "try-sloia-keshyrovanyia-llm-chto-vnedriat-pervym-a-chto-poch"
  },
  {
   "rubric": "Research Digest",
@@ -15954,10 +15972,11 @@
   "date": "2026-11-06",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@paulhoke/why-the-same-prompt-gives-different-answers-7b755ef1a98f",
-  "minutes": 15
+  "minutes": 15,
+  "slug": "pochemu-odyn-y-tot-zhe-prompt-daet-raznye-otvety-kak-rabotae"
  },
  {
-  "rubric": "Prompt Engineering",
+  "rubric": "AI Signals",
   "author": "CJ Lanner",
   "title": "Поднять планку ответов ИИ: что дали сохранённые инструкции и пошаговый «каркас» на 27 бытовых вопросах",
   "thesis": "Автор сравнил три конфигурации Claude – обычную, с абзацем сохранённых инструкций и с семишаговым каркасом – и показал, что каркас повышает долю хороших первых ответов на короткие вопросы, но стоит втрое дороже. Дешёвые сохранённые инструкции дают заметную часть выигрыша в надёжности источников.",
@@ -16030,7 +16049,8 @@
   "date": "2026-11-06",
   "source": "medium:prompt-engineering",
   "url": "https://medium.com/@cjlanner/raising-the-floor-on-ai-answers-be2ea38b11bb",
-  "minutes": 18
+  "minutes": 18,
+  "slug": "podniat-planku-otvetov-yy-chto-daly-sokhranennye-ynstruktsyy"
  },
  {
   "rubric": "Toolbox",
@@ -16106,7 +16126,8 @@
   "date": "2026-11-06",
   "source": "medium:prompt-engineering",
   "url": "https://medium.com/@gaille.amolong1/i-built-a-tool-to-test-prompt-changes-and-it-said-the-same-prompt-beat-itself-f04aa926bce6",
-  "minutes": 19
+  "minutes": 19,
+  "slug": "promptcheckup-kak-proveriat-pravky-prompta-parnym-sravnenyem"
  },
  {
   "rubric": "Toolbox",
@@ -16180,7 +16201,8 @@
   "date": "2026-11-06",
   "source": "medium:llm",
   "url": "https://medium.com/@vanshaj.kakkar/i-gave-9-free-ai-coding-models-the-same-real-bug-here-is-what-happened-8061afc507ec",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "9-besplatnykh-yy-modelei-na-odnom-realnom-bahe-8-pochynyly-n"
  },
  {
   "rubric": "Research Digest",
@@ -16254,7 +16276,8 @@
   "date": "2026-11-06",
   "source": "medium:artificial-intelligence",
   "url": "https://medium.com/@mevishnums/weight-space-programming-a-new-paradigm-or-llm-guided-model-debugging-4ba9669d7caa",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "weight-space-programming-rost-tochnosty-qwen-v-6-raz-eto-pro"
  },
  {
   "rubric": "Model Watch",
@@ -16330,7 +16353,8 @@
   "date": "2026-11-06",
   "source": "medium:llm",
   "url": "https://paradigma-digital.medium.com/jev-and-system-one-models-does-every-decision-need-an-llm-c3f564c96826",
-  "minutes": 20
+  "minutes": 20,
+  "slug": "jev-y-modely-systemy-1-nuzhen-ly-llm-dlia-kazhdoho-reshenyia"
  },
  {
   "rubric": "Toolbox",
@@ -16406,6 +16430,7 @@
   "date": "2026-11-06",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/companies/timeweb/articles/1103368/",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "myny-analoh-jev-na-besplatnom-t4-reshenye-chytaem-yz-lohytov"
  }
 ]
