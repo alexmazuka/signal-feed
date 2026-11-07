@@ -16505,7 +16505,8 @@
   "date": "2026-11-07",
   "source": "medium:llm",
   "url": "https://medium.com/@sushvarma2/your-llm-is-not-always-right-why-reliable-ai-systems-need-more-than-prompt-engineering-da718655fd89",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "llm-ne-dolzhen-byt-edynstvennym-sudei-faktov-shestysloinaia"
  },
  {
   "rubric": "AI Signals",
@@ -16579,7 +16580,8 @@
   "date": "2026-11-07",
   "source": "medium:llm",
   "url": "https://medium.com/@alicankaya268/tek-ajandan-kurula-birbirine-cevap-veren-yapay-zek%C3%A2-ajanlar%C4%B1-i%C3%A7in-bir-orkestrasyon-tasar%C4%B1m%C4%B1-d4f0c6856f4e",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "kabynet-yz-ahentov-vmesto-odnoho-kak-avtor-proektyruet-dvukh"
  },
  {
   "rubric": "Toolbox",
@@ -16655,7 +16657,8 @@
   "date": "2026-11-07",
   "source": "medium:llm",
   "url": "https://medium.com/@sedha007aakash/beyond-the-demo-8-production-patterns-for-building-agentic-ai-systems-that-actually-survive-8b7a87ffc935",
-  "minutes": 22
+  "minutes": 22,
+  "slug": "ot-demo-k-produ-8-ynzhenernykh-patternov-bez-kotorykh-ahentn"
  },
  {
   "rubric": "AI Signals",
@@ -16727,7 +16730,8 @@
   "date": "2026-11-07",
   "source": "medium:llm",
   "url": "https://markusvk.medium.com/when-the-ai-says-no-3f6c73994eff",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "otkaz-yy-kak-starshyi-kolleha-kak-otklonennyi-veb-termynal-d"
  },
  {
   "rubric": "AI Signals",
@@ -16803,7 +16807,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@navaneethanjuly1998/ai-technical-debt-managing-what-ai-systems-accumulate-b5917007ab68",
-  "minutes": 16
+  "minutes": 16,
+  "slug": "miahkaia-dehradatsyia-piat-vydov-tekhnycheskoho-dolha-v-ai-s"
  },
  {
   "rubric": "PKM",
@@ -16877,7 +16882,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@syedkazimjamal/context-engineering-for-professionals-why-better-prompts-arent-enough-anymore-7f7f27d53927",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "ot-promptov-k-kontekstu-kak-menedzheru-proektov-nastroyt-yy"
  },
  {
   "rubric": "Research Digest",
@@ -16951,7 +16957,8 @@
   "date": "2026-11-07",
   "source": "medium:artificial-intelligence",
   "url": "https://medium.com/@foramadeshara/rag-vs-fine-tuning-choosing-the-right-llm-strategy-53488263a28a",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "rag-yly-doobuchenye-kak-vybrat-stratehyiu-dlia-llm-dyahnosty"
  },
  {
   "rubric": "Toolbox",
@@ -17027,7 +17034,8 @@
   "date": "2026-11-07",
   "source": "medium:llm",
   "url": "https://levelup.gitconnected.com/caching-in-llms-the-layers-that-make-ai-systems-fast-and-affordable-70a83a21688c",
-  "minutes": 14
+  "minutes": 14,
+  "slug": "keshyrovanye-v-llm-chetyre-sloia-kotorye-delaiut-yy-systemy"
  },
  {
   "rubric": "PKM",
@@ -17101,7 +17109,8 @@
   "date": "2026-11-07",
   "source": "medium:artificial-intelligence",
   "url": "https://medium.com/@kacperwlodarczyk/build-a-small-llm-wiki-in-an-agenticos-project-e7e95657ee18",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "llm-vyky-v-proekte-agenticos-ystochnyky-sviazannye-zametky-y"
  },
  {
   "rubric": "PKM",
@@ -17175,7 +17184,8 @@
   "date": "2026-11-07",
   "source": "medium:knowledge-management",
   "url": "https://ratnadeepdeyroy.medium.com/llm-wiki-vs-vector-database-does-your-ai-still-need-embeddings-f4a25538592f",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "llm-wiki-protyv-vektornoi-bazy-kohda-yy-nuzhny-embeddynhy-a"
  },
  {
   "rubric": "Toolbox",
@@ -17249,7 +17259,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@muhammad.awais.professional/beyond-the-hype-5-impactful-insights-on-safely-executing-ai-generated-code-04de9a49ab49",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "pesochnytsy-dlia-koda-ot-yy-pochemu-pyodide-y-deno-obhoniaiu"
  },
  {
   "rubric": "AI Signals",
@@ -17325,7 +17336,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@martin.jordanovski/proving-what-your-ai-coding-agent-did-the-sixth-layer-368bf57844d1",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "dokazatelstvo-vmesto-zapreta-kak-oformyt-audytorskyi-sled-de"
  },
  {
   "rubric": "Research Digest",
@@ -17399,7 +17411,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@nk.vinod/writing-the-design-document-after-the-code-documentation-retrofit-as-a-verification-method-3a5d64e39626",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "dyzain-dokument-posle-koda-kak-fyksyrovannaia-forma-opysanyi"
  },
  {
   "rubric": "AI Signals",
@@ -17473,7 +17486,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@claire_ai/about-45-of-review-send-backs-were-the-same-shape-fixing-only-one-of-two-things-that-come-as-a-5792aceb5981",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "pochty-polovyna-vozvratov-s-reviu-odna-y-ta-zhe-oshybka-poch"
  },
  {
   "rubric": "Письмо",
@@ -17547,7 +17561,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@fquirosledesma/workslop-when-ai-does-the-producing-its-time-to-think-875d37313dfa",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "workslop-kak-otlychyt-proverennuiu-rabotu-s-yy-ot-krasyvoi-u"
  },
  {
   "rubric": "Research Digest",
@@ -17621,7 +17636,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@SaiSantoshV17/the-intelligence-dependency-are-we-outsourcing-our-ability-to-think-1886110f709e",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "zavysymost-ot-yntellekta-kohda-pomoshch-yy-v-myshlenyy-prevr"
  },
  {
   "rubric": "AI Signals",
@@ -17697,7 +17713,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://sementkovskayak.medium.com/ai-for-business-scale-or-stall-my-takeaways-from-a-conference-in-prague-f957846e4b03",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "ai-ahenty-v-byznese-masshtabyrovanye-upyraetsia-ne-v-tekhnol"
  },
  {
   "rubric": "Письмо",
@@ -17771,7 +17788,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@brian.phillips.work/ai-slop-isnt-just-an-ai-problem-it-s-a-human-problem-too-ee60799e1a29",
-  "minutes": 15
+  "minutes": 15,
+  "slug": "ai-slop-eto-ne-tolko-problema-yy-khaltura-sushchestvovala-za"
  },
  {
   "rubric": "PKM",
@@ -17845,7 +17863,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@ZoyaVasquez/notion-vs-obsidian-stop-comparing-features-and-answer-this-one-question-6bfe08a995da",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "notion-yly-obsidian-vybor-reshaet-odyn-vopros-kto-budet-reda"
  },
  {
   "rubric": "Письмо",
@@ -17919,7 +17938,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://medium.com/the-infinite-within/i-used-to-finish-one-article-a-week-now-i-publish-10-a-month-d603206d9078",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "statia-kak-kod-chetyre-stadyy-45-mynutnye-sprynty-y-perekhod"
  },
  {
   "rubric": "AI Signals",
@@ -17993,7 +18013,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@granerog.ai/claude-code-hands-flagged-sessions-to-an-older-model-i-found-the-table-that-picks-which-one-18d01da4cec8",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "claude-code-y-umnyi-otkat-na-staruiu-model-tablytsa-marshrut"
  },
  {
   "rubric": "Research Digest",
@@ -18067,7 +18088,8 @@
   "date": "2026-11-07",
   "source": "medium:artificial-intelligence",
   "url": "https://medium.com/@omanyuk/llm-as-judge-evaluation-audit-the-evaluator-before-trusting-the-score-c47a6338e9a9",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "otsenka-cherez-llm-sudiu-snachala-proverte-samoho-otsenshchy"
  },
  {
   "rubric": "AI Signals",
@@ -18141,7 +18163,8 @@
   "date": "2026-11-07",
   "source": "medium:artificial-intelligence",
   "url": "https://medium.com/@khushijigenshah/can-you-prevent-ai-hallucinations-in-a-customer-facing-product-my-take-a34ab18e58a8",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "halliutsynatsyy-yy-v-klyentskom-produkte-nelzia-ustranyt-no"
  },
  {
   "rubric": "Время и фокус",
@@ -18215,7 +18238,8 @@
   "date": "2026-11-07",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/companies/outlines_tech/articles/1103868/",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "yt-rynok-truda-v-2026-hodu-vakansyi-menshe-yy-v-shtate-y-kak"
  },
  {
   "rubric": "AI Signals",
@@ -18291,6 +18315,7 @@
   "date": "2026-11-07",
   "source": "medium:ai-agents",
   "url": "https://medium.com/analytics-vidhya/your-agent-is-a-goldfish-a-practical-guide-to-memory-in-ai-agents-efd0bbea0045",
-  "minutes": 21
+  "minutes": 21,
+  "slug": "ahent-zolotaia-rybka-shest-vydov-pamiaty-kotorye-nuzhny-yy-a"
  }
 ]
