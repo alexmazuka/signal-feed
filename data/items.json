@@ -18388,7 +18388,8 @@
   "date": "2026-11-08",
   "source": "medium:llm",
   "url": "https://medium.com/@aakashpawar1999/every-tool-you-give-your-agent-costs-you-on-every-turn-34c5337fff09",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "skrytaia-tsena-mcp-ynstrumentov-tysiachy-tokenov-v-kazhdom-z"
  },
  {
   "rubric": "AI Signals",
@@ -18462,7 +18463,8 @@
   "date": "2026-11-08",
   "source": "medium:llm",
   "url": "https://medium.com/@anibha88/i-indexed-3-tenants-in-one-retriever-every-top-5-also-contained-another-customers-policy-2cc9a4aa2fd4",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "obshchyi-yndeks-rag-dlia-trekh-klyentov-v-kazhdoi-top-5-vyda"
  },
  {
   "rubric": "AI Signals",
@@ -18536,7 +18538,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@vivek.neuralvibe/how-do-you-stop-an-ai-agent-from-publishing-claims-your-repo-cannot-support-ddd6d11e99d4",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "switch-studio-kak-zastavyt-yy-ahentov-pysat-relyz-noty-tolko"
  },
  {
   "rubric": "AI Signals",
@@ -18610,7 +18613,8 @@
   "date": "2026-11-08",
   "source": "medium:llm",
   "url": "https://medium.com/@thisisyashgarg/a-cheaper-ai-model-made-my-slide-decks-better-then-it-started-making-things-up-9a90ac61faae",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "deshevaia-model-gemini-uluchshyla-slaidy-y-v-piat-raz-sokrat"
  },
  {
   "rubric": "Research Digest",
@@ -18684,7 +18688,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@tidaschandoopasilva/i-built-a-robot-that-learned-to-stand-still-two-honest-negative-results-in-low-cost-social-21a184659330",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "robot-kotoryi-nauchylsia-stoiat-na-meste-dva-chestnykh-nehat"
  },
  {
   "rubric": "Research Digest",
@@ -18758,7 +18763,8 @@
   "date": "2026-11-08",
   "source": "medium:llm",
   "url": "https://aiadvances.org/measure-the-seam-what-reaches-the-fabric-iq-ontology-through-foundry-iq-and-how-much-the-answer-900149636d66",
-  "minutes": 36
+  "minutes": 36,
+  "slug": "chto-dokhodyt-do-ontolohyy-fabric-iq-cherez-foundry-iq-y-nas"
  },
  {
   "rubric": "Model Watch",
@@ -18832,7 +18838,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@iamsupcat/i-ran-3-local-ai-image-models-on-a-macbook-14-art-styles-3-prompt-rewrites-ai-image-model-lab-46c179d5b030",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "try-lokalnye-modely-na-macbook-14-stylei-y-try-versyy-prompt"
  },
  {
   "rubric": "AI Signals",
@@ -18906,7 +18913,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@omanyuk/why-a-signed-ai-receipt-does-not-prove-the-result-is-true-0beea4c196e0",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "podpys-na-kvytantsyy-yy-ahenta-ne-dokazyvaet-chto-rezultat-r"
  },
  {
   "rubric": "Toolbox",
@@ -18980,7 +18988,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://divineogbe.medium.com/your-agents-tests-pass-so-why-is-it-doing-something-different-c57269b45154",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "lithe-kak-testyrovat-yy-ahentov-kak-obychnyi-kod-y-vydet-na"
  },
  {
   "rubric": "AI Signals",
@@ -19054,7 +19063,8 @@
   "date": "2026-11-08",
   "source": "medium:llm",
   "url": "https://medium.com/@ipsitaamondal/hindsight-made-my-incident-bot-say-dont-roll-back-275049612f43",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "pager-memory-kak-pamiat-ob-proshlykh-avaryiakh-nauchyla-bota"
  },
  {
   "rubric": "AI Signals",
@@ -19128,7 +19138,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@yashfaldessai1414/why-running-more-ai-agents-does-not-mean-more-gets-done-75775321a1ec",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "pochemu-bolshe-yy-ahentov-ne-znachyt-bolshe-sdelannoho-uzkoe"
  },
  {
   "rubric": "Время и фокус",
@@ -19202,7 +19213,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@erez.kikingil/the-time-economy-part-1-3-the-cost-we-dont-count-1a315782c75f",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "ekonomyka-vremeny-pochemu-yndustryia-schytaet-tokeny-a-stoym"
  },
  {
   "rubric": "AI Signals",
@@ -19278,7 +19290,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@yashfaldessai1414/the-real-risk-of-using-ai-as-a-sounding-board-is-not-bad-advice-3c12bedd0f13",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "yy-kak-sobesednyk-dlia-razmyshlenyi-rysk-ne-v-plokhykh-sovet"
  },
  {
   "rubric": "AI Signals",
@@ -19352,7 +19365,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@asaadeff/ai-in-2026-its-not-taking-your-job-it-s-rewriting-it-bc49b0e247c8",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "yy-perepysyvaet-rabotu-a-ne-otmeniaet-ee-try-hruppy-professy"
  },
  {
   "rubric": "AI Signals",
@@ -19428,7 +19442,8 @@
   "date": "2026-11-08",
   "source": "medium:llm",
   "url": "https://medium.com/@u.ipkdzn/marketdesk-where-the-model-is-free-and-where-code-locks-it-down-f6a2ec57d1b3",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "marketdesk-model-otvechaet-za-ponymanye-kod-za-reshenyia-pra"
  },
  {
   "rubric": "Toolbox",
@@ -19502,7 +19517,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@happyendpointhq/real-estate-api-mcp-one-dubai-property-search-costs-an-ai-agent-17-000-tokens-92fdabc12b2e",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "odna-stranytsa-vydachy-po-nedvyzhymosty-dubaia-sedaet-17-000"
  },
  {
   "rubric": "Research Digest",
@@ -19576,7 +19592,8 @@
   "date": "2026-11-08",
   "source": "medium:llm",
   "url": "https://medium.com/@asish_kumar/an-ai-opened-another-ais-brain-changed-0-016-of-it-and-its-math-score-went-up-6x-bbbf5d714db4",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "yy-perepysal-0-016-vesov-druhoi-modely-y-ee-rezultat-po-mate"
  },
  {
   "rubric": "AI Signals",
@@ -19650,7 +19667,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@nidhinvm60/the-ai-that-remembers-everything-might-be-the-one-you-should-trust-the-least-e54889b14704",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "otravlenye-pamiaty-yy-ahentov-pochemu-pomnyt-vse-opasno-y-ka"
  },
  {
   "rubric": "Toolbox",
@@ -19726,7 +19744,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@calculatorai.app/how-to-make-money-setting-up-ai-agents-for-small-businesses-without-being-a-developer-b62752c4217f",
-  "minutes": 14
+  "minutes": 14,
+  "slug": "ahenty-yy-dlia-maloho-byznesa-skolko-stoyt-zapusk-kak-naznac"
  },
  {
   "rubric": "Письмо",
@@ -19798,7 +19817,8 @@
   "date": "2026-11-08",
   "source": "medium:copywriting",
   "url": "https://medium.com/@salahdinemess/your-about-page-is-a-cv-wearing-a-cardigan-ffd1163799d8",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "stranytsa-obo-mne-u-psykhoterapevta-kak-zamenyt-reziume-na-y"
  },
  {
   "rubric": "AI Signals",
@@ -19872,7 +19892,8 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@intelheartland/what-if-software-could-verify-govern-and-improve-itself-4e7d2fc9137a",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "ahenty-predlahaiut-determynyrovannaia-systema-reshaet-ydeia"
  },
  {
   "rubric": "Письмо",
@@ -19946,6 +19967,7 @@
   "date": "2026-11-08",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@solidarcashnetwork/writing-and-sharing-is-an-act-of-generosity-5d21cc226c2c",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "pysat-y-delytsia-znachyt-byt-shchedrym-zachem-pysat-samomu-d"
  }
 ]
