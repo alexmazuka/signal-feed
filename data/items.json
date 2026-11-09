@@ -20042,7 +20042,8 @@
   "date": "2026-11-09",
   "source": "источник Signal Feed",
   "url": "https://ratnadeepdeyroy.medium.com/agent-memory-architecture-how-ai-agents-remember-forget-and-get-fooled-78398d25fcad",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "pamiat-yy-ahentov-chetyre-typa-tsykl-obnovlenyia-y-zashchyta"
  },
  {
   "rubric": "Toolbox",
@@ -20116,7 +20117,8 @@
   "date": "2026-11-09",
   "source": "источник Signal Feed",
   "url": "https://whodeven.medium.com/i-click-dont-ask-again-in-claude-code-all-the-time-44de439f0544",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "knopka-bolshe-ne-sprashyvat-v-claude-code-sokhraniaet-komand"
  },
  {
   "rubric": "AI Signals",
@@ -20192,7 +20194,8 @@
   "date": "2026-11-09",
   "source": "источник Signal Feed",
   "url": "https://shaheryaryousaf.medium.com/6-planning-patterns-for-ai-agents-and-when-each-one-fits-809d01c09a95",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "shest-patternov-planyrovanyia-dlia-yy-ahentov-kak-vybrat-pod"
  },
  {
   "rubric": "Toolbox",
@@ -20266,7 +20269,8 @@
   "date": "2026-11-09",
   "source": "discover: ссылаются 2 источников",
   "url": "https://github.com/waywardgeek/ensemble",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "development-driven-specs-kak-spetsyfykatsyia-dlia-yy-ahenta"
  },
  {
   "rubric": "Research Digest",
@@ -20340,7 +20344,8 @@
   "date": "2026-11-09",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/companies/airi/articles/1101686/",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "kak-otsenyt-uverennost-llm-v-kazhdom-dyahnoze-esly-osnovnaia"
  },
  {
   "rubric": "Toolbox",
@@ -20414,7 +20419,8 @@
   "date": "2026-11-09",
   "source": "источник Signal Feed",
   "url": "https://antonlytvynov.medium.com/stop-pasting-the-same-prompt-let-skill-creator-turn-it-into-a-skill-e06287242774",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "pravylo-treteho-raza-kak-skill-creator-prevrashchaet-povtori"
  },
  {
   "rubric": "Research Digest",
@@ -20490,6 +20496,7 @@
   "date": "2026-11-09",
   "source": "источник Signal Feed",
   "url": "https://andreasstamatis.medium.com/is-ai-making-your-people-more-productive-or-less-capable-6b4bcf32d1fd",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "rost-vyrabotky-yly-poteria-navykov-kak-rukovodyteliu-provery"
  }
 ]
