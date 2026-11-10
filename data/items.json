@@ -20571,7 +20571,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@hemanthchakravarthy/two-in-three-failed-ai-agents-looked-finished-microsoft-checked-the-database-1934a72f349a",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "ahent-skazal-hotovo-a-baza-dannykh-ne-sohlasna-chto-pokazal"
  },
  {
   "rubric": "Время и фокус",
@@ -20647,7 +20648,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/engineering-playbook/our-ceo-gave-the-ai-team-8-million-the-database-engineer-asked-for-40k-and-got-fired-a35dca0364d9",
-  "minutes": 19
+  "minutes": 19,
+  "slug": "vosem-myllyonov-na-yy-nol-na-bazu-dannykh-kak-uvolnenye-ynzh"
  },
  {
   "rubric": "Toolbox",
@@ -20721,7 +20723,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://levelup.gitconnected.com/entra-agent-id-sidecar-a-practical-guide-to-building-secure-ai-agents-067d86ba7b16",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "ahent-bez-sekretov-kak-entra-agent-id-y-sidecar-konteiner-za"
  },
  {
   "rubric": "Model Watch",
@@ -20795,7 +20798,8 @@
   "date": "2026-11-10",
   "source": "medium:llm",
   "url": "https://medium.com/@maruhana/ollama-vs-llama-cpp-on-the-same-gguf-the-15-speed-gap-was-the-defaults-not-the-engine-ef89861f2a83",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "ollama-protyv-llama-cpp-na-odnom-gguf-razryv-v-15-obiasnyly"
  },
  {
   "rubric": "Toolbox",
@@ -20869,7 +20873,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@adatiyavinayshaileshbhai/your-old-prompts-are-quietly-bankrupting-your-ai-budget-and-making-claude-worse-8fe97142aa54",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "starye-prompty-razoriaiut-biudzhet-na-claude-try-rychaha-kot"
  },
  {
   "rubric": "AI Signals",
@@ -20941,7 +20946,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@vrajtalatii/cheap-tokens-expensive-agents-24f0fc393360",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "deshevye-tokeny-dorohye-ahenty-pochemu-schytat-nado-stoymost"
  },
  {
   "rubric": "AI Signals",
@@ -21017,7 +21023,8 @@
   "date": "2026-11-10",
   "source": "medium:llm",
   "url": "https://medium.com/@erwindev/i-built-a-self-healing-api-using-ai-agents-heres-what-broke-82aeae8e0854",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "samolechashchyisia-api-na-yy-ahentakh-47-yntsydentov-za-mesi"
  },
  {
   "rubric": "Research Digest",
@@ -21093,7 +21100,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@gulsaba.fiha/i-built-a-rag-evaluation-pipeline-to-find-out-why-my-ai-was-hallucinating-9c1f634a7c65",
-  "minutes": 16
+  "minutes": 16,
+  "slug": "pochemu-rag-halliutsynyruet-kak-otdelno-yzmeriat-poysk-konte"
  },
  {
   "rubric": "AI Signals",
@@ -21167,7 +21175,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@pranjoy822/we-argued-too-much-so-we-built-an-ai-agent-to-argue-for-us-74aa6921a326",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "debate-arena-sem-yy-ahentov-sporiat-za-komandu-v-discord-a-r"
  },
  {
   "rubric": "Toolbox",
@@ -21241,7 +21250,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/articles/1105036/",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "fix-it-in-wine-y-dllmgr-yy-chynyt-sovmestymost-wine-a-ysprav"
  },
  {
   "rubric": "Research Digest",
@@ -21313,7 +21323,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@kiranyenaganti9/llm-api-relays-and-ai-agents-what-a-20-relay-audit-found-about-tool-calls-and-token-billing-1bd3cc11b6fc",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "audyt-20-llm-releev-otkliuchennye-ynstrumenty-vse-ravno-vyzy"
  },
  {
   "rubric": "AI Signals",
@@ -21389,7 +21400,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@moekthona/github-ai-agent-prompt-injection-scanner-coverage-and-limits-e557228545d8",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "skaner-github-dlia-yy-ahentov-chto-on-lovyt-v-prompt-injecti"
  },
  {
   "rubric": "AI Signals",
@@ -21463,7 +21475,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@yashfaldessai1414/why-the-biggest-security-risk-in-ai-coding-tools-is-not-bad-code-f00bca1aca66",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "2539-sekretov-yz-odnoho-faila-hlavnyi-rysk-yy-kodynha-sydyt"
  },
  {
   "rubric": "AI Signals",
@@ -21537,7 +21550,8 @@
   "date": "2026-11-10",
   "source": "discover: ссылаются 2 источников",
   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "claude-code-y-bolshe-ne-sprashyvat-kak-paroly-y-kliuchy-yz-r"
  },
  {
   "rubric": "Toolbox",
@@ -21613,7 +21627,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@squalliahmed/the-best-use-of-ai-agents-for-analysts-isnt-writing-it-s-checking-d07edf73ecfb",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "ahenty-kak-audytory-pochemu-analytyku-vyhodnee-poruchat-yy-p"
  },
  {
   "rubric": "Research Digest",
@@ -21685,7 +21700,8 @@
   "date": "2026-11-10",
   "source": "medium:llm",
   "url": "https://medium.com/ai-engineering-simplified/ai-is-helping-build-its-own-successor-are-we-ready-for-what-comes-next-539730b49eef",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "metr-yy-uskoriaet-sozdanye-sleduiushcheho-yy-prymerno-vdvoe"
  },
  {
   "rubric": "AI Signals",
@@ -21761,7 +21777,8 @@
   "date": "2026-11-10",
   "source": "medium:llm",
   "url": "https://medium.com/cloud-bricks/the-economy-of-tokens-c1bb907773bf",
-  "minutes": 15
+  "minutes": 15,
+  "slug": "ekonomyka-tokenov-pochemu-zamena-cheloveka-yy-stoyt-dorozhe"
  },
  {
   "rubric": "Toolbox",
@@ -21835,7 +21852,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@alisherataev/carrying-agent-work-between-sessions-and-machines-5ebdbbc57513",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "try-proverky-pered-perenosom-raboty-ahenta-mezhdu-sessyiamy"
  },
  {
   "rubric": "Toolbox",
@@ -21909,7 +21927,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@marcellhavlik_83469/claude-code-for-non-coders-and-non-coding-tasks-what-works-what-doesnt-and-what-to-run-for-the-251f7e5dcd02",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "claude-code-vne-koda-hde-ahent-polezen-hde-upyraetsia-v-sten"
  },
  {
   "rubric": "Model Watch",
@@ -21985,7 +22004,8 @@
   "date": "2026-11-10",
   "source": "src:tproger.ru",
   "url": "https://tproger.ru/articles/anthropic-obyasnila-kakuyu-model-claude-i-kakoj-effort-stavit",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "kakuiu-model-claude-brat-pod-zadachu-opus-5-5-na-medium-kak"
  },
  {
   "rubric": "AI Signals",
@@ -22059,7 +22079,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/codestrap/express-your-application-as-a-graph-how-we-generate-and-verify-full-enterprise-use-cases-378acfe6f140",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "hraf-kak-kontrakt-kak-codestrap-heneryruet-y-proveriaet-korp"
  },
  {
   "rubric": "Время и фокус",
@@ -22133,7 +22154,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://igmoni.medium.com/the-trap-of-building-projects-instead-of-solving-problems-0767bcdfcb4a",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "lovushka-proektov-rady-proektov-kak-razrabotchyku-pereity-ot"
  },
  {
   "rubric": "Письмо",
@@ -22207,7 +22229,8 @@
   "date": "2026-11-10",
   "source": "medium:llm",
   "url": "https://pierce-lamb.medium.com/prompting-is-programming-and-philosophy-helps-a8bf4470e20e",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "promptynh-kak-prohrammyrovanye-pochemu-fylosofskaia-podhotov"
  },
  {
   "rubric": "Письмо",
@@ -22277,7 +22300,8 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@inshalbacklinks/why-ai-text-sounds-robotic-and-how-to-fix-it-5195844f2d3a",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "pochemu-tekst-yy-zvuchyt-kak-robot-piat-pryznakov-y-pravky-k"
  },
  {
   "rubric": "Письмо",
@@ -22351,6 +22375,7 @@
   "date": "2026-11-10",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@yashfaldessai1414/why-the-real-problem-with-ai-content-is-not-how-it-sounds-908899fe2201",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "problema-yy-kontenta-ne-v-mashynnom-zvuchanyy-a-v-otsutstvyy"
  }
 ]
