@@ -22452,7 +22452,8 @@
   "date": "2026-11-11",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/articles/1105712/",
-  "minutes": 17
+  "minutes": 17,
+  "slug": "ahent-v-prode-pochemu-1-sboev-na-shah-roniaet-kazhduiu-chetv"
  },
  {
   "rubric": "Toolbox",
@@ -22528,7 +22529,8 @@
   "date": "2026-11-11",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/articles/1104778/",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "deepseek-harness-na-praktyke-183-shaha-99-kesha-y-brauzernai"
  },
  {
   "rubric": "AI Signals",
@@ -22600,7 +22602,8 @@
   "date": "2026-11-11",
   "source": "источник Signal Feed",
   "url": "https://yasasramanayaka.medium.com/book-it-for-me-letting-a-personal-ai-agent-act-for-you-at-a-third-party-service-a939d4dc0637",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "ahent-so-svoym-udostoverenyem-kak-bezopasno-doveryt-yy-deist"
  },
  {
   "rubric": "Policy Radar",
@@ -22676,7 +22679,8 @@
   "date": "2026-11-11",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/articles/1105816/",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "chto-studyia-mozhet-obeshchat-klyentu-esly-kod-pysal-ai-ot-p"
  },
  {
   "rubric": "Model Watch",
@@ -22750,7 +22754,8 @@
   "date": "2026-11-11",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/companies/studyai/articles/1105430/",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "skolko-stoyt-obuchyt-flahmanskyi-yy-ot-1-4-tysiach-za-gpt-1"
  },
  {
   "rubric": "Время и фокус",
@@ -22824,7 +22829,8 @@
   "date": "2026-11-11",
   "source": "medium:time-management",
   "url": "https://excelguru.medium.com/stop-managing-your-time-start-managing-your-decisions-576b211a761e",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "matrytsa-eizenkhauera-kak-perestat-upravliat-vremenem-y-nach"
  },
  {
   "rubric": "AI Signals",
@@ -22900,7 +22906,8 @@
   "date": "2026-11-11",
   "source": "источник Signal Feed",
   "url": "https://abdulkerimkaraman.medium.com/yapay-zeka-ajanlar%C4%B1n%C4%B1-y%C3%B6netmek-yaz%C4%B1l%C4%B1mc%C4%B1dan-teknik-lidere-1d5d9d89e687",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "ot-razrabotchyka-k-tekhlydu-kak-upravliat-komandoi-yy-ahento"
  },
  {
   "rubric": "Toolbox",
@@ -22974,6 +22981,7 @@
   "date": "2026-11-11",
   "source": "medium:llm",
   "url": "https://anamul-haque.medium.com/grounding-checks-making-rag-applications-more-reliable-f6b4b6a5e02a",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "proverka-obosnovannosty-v-rag-kak-poimat-vydumky-modely-dazh"
  }
 ]
