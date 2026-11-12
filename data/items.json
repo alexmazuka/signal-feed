@@ -23056,7 +23056,8 @@
   "date": "2026-11-12",
   "source": "medium:knowledge-management",
   "url": "https://lezclevero.medium.com/consulting-firms-dont-have-a-knowledge-problem-they-have-a-knowledge-flow-problem-bb5f4b39683a",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "znanyia-v-konsaltynhe-teriaiutsia-ne-v-khranylyshche-a-na-tr"
  },
  {
   "rubric": "AI Signals",
@@ -23130,7 +23131,8 @@
   "date": "2026-11-12",
   "source": "medium:llm",
   "url": "https://pub.towardsai.net/your-ai-agent-shouldnt-grade-its-own-homework-576d90149254",
-  "minutes": 17
+  "minutes": 17,
+  "slug": "ahent-ne-dolzhen-proveriat-sam-sebia-freimvork-hde-model-pys"
  },
  {
   "rubric": "Toolbox",
@@ -23204,7 +23206,8 @@
   "date": "2026-11-12",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/companies/oxygendc/articles/1106496/",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "vaibkodynh-dlia-fynansysta-kak-raschet-premyi-otdela-prodazh"
  },
  {
   "rubric": "Research Digest",
@@ -23278,7 +23281,8 @@
   "date": "2026-11-12",
   "source": "discover: ссылаются 3 источников",
   "url": "https://yougov.com/reports/55929-challenge-to-ai-simulators",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "yougov-proveryl-yy-dvoinykov-na-1-008-zhyvykh-panelystakh-y"
  },
  {
   "rubric": "Время и фокус",
@@ -23352,6 +23356,7 @@
   "date": "2026-11-12",
   "source": "источник Signal Feed",
   "url": "https://arunis100.medium.com/agi-as-a-liberating-cognitive-partner-8692d175bcf8",
-  "minutes": 14
+  "minutes": 14,
+  "slug": "yy-kak-avtomobyl-dlia-uma-professor-ucsd-o-tom-kak-agi-menia"
  }
 ]
