@@ -23431,7 +23431,8 @@
   "date": "2026-11-13",
   "source": "medium:productivity",
   "url": "https://antonlytvynov.medium.com/we-timed-our-claude-agent-loop-on-real-client-tasks-the-model-was-never-the-slow-part-02b13bb5ff47",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "526-zadach-s-ahentamy-claude-model-rabotala-0-2-vremeny-osta"
  },
  {
   "rubric": "Toolbox",
@@ -23507,7 +23508,8 @@
   "date": "2026-11-13",
   "source": "medium:llm",
   "url": "https://pub.towardsai.net/7-ways-to-test-an-llm-application-when-outputs-are-never-the-same-twice-840fa4f062bc",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "sem-sposobov-testyrovat-llm-prylozhenye-kohda-otvety-kazhdyi"
  },
  {
   "rubric": "AI Signals",
@@ -23583,7 +23585,8 @@
   "date": "2026-11-13",
   "source": "medium:llm",
   "url": "https://reuglewiczjeanedouard.medium.com/prompt-injection-when-ai-follows-the-wrong-instructions-249de5ff082b",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "prompt-injection-kak-semeistvo-atak-pochemu-llm-ahent-nelzia"
  },
  {
   "rubric": "AI Signals",
@@ -23657,7 +23660,8 @@
   "date": "2026-11-13",
   "source": "источник Signal Feed",
   "url": "https://nighticonsulting.medium.com/ai-progress-is-accelerating-why-it-matters-2bac83f6c3fa",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "yy-uskoriaetsia-bystree-testov-benchmarky-rastut-a-nadezhnos"
  },
  {
   "rubric": "AI Signals",
@@ -23733,6 +23737,7 @@
   "date": "2026-11-13",
   "source": "medium:llm",
   "url": "https://alexandra272003.medium.com/vectors-embeddings-know-similar-graphs-know-connected-df1b2d4bae3a",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "vektory-znaiut-pokhozhee-hrafy-sviazannoe-pochemu-sylnye-rag"
  }
 ]
