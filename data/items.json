@@ -23812,7 +23812,8 @@
   "date": "2026-11-14",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/companies/magnus-tech/articles/1106682/",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "yy-ahenty-v-rabote-cv-ynzhenera-hde-ony-uskoriaiut-v-razy-a"
  },
  {
   "rubric": "Research Digest",
@@ -23886,7 +23887,8 @@
   "date": "2026-11-14",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/companies/rwb/articles/1106046/",
-  "minutes": 29
+  "minutes": 29,
+  "slug": "sem-metodov-spekuliatyvnoho-dekodynha-na-odnom-stende-pochem"
  },
  {
   "rubric": "AI Signals",
@@ -23960,7 +23962,8 @@
   "date": "2026-11-14",
   "source": "medium:ai-agents",
   "url": "https://nandanpriyadarshi.medium.com/does-this-workflow-need-an-ai-agent-4caa87511cb9",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "nuzhen-ly-ahent-etomu-protsessu-try-zadachy-otdela-prodazh-y"
  },
  {
   "rubric": "Письмо",
@@ -24034,7 +24037,8 @@
   "date": "2026-11-14",
   "source": "источник Signal Feed",
   "url": "https://info-sarthakfeeds.medium.com/why-we-stop-writing-code-and-start-writing-blueprints-rfcs-aff334739031",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "pochemu-senior-ynzhener-pyshet-rfc-vmesto-koda-chertezh-koto"
  },
  {
   "rubric": "AI Signals",
@@ -24108,7 +24112,8 @@
   "date": "2026-11-14",
   "source": "discover: ссылаются 2 источников",
   "url": "https://www.slopmanifesto.com/",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "manyfest-nykakoho-ai-slopa-tsennosty-y-obiazatelstva-ynzhene"
  },
  {
   "rubric": "Toolbox",
@@ -24180,7 +24185,8 @@
   "date": "2026-11-14",
   "source": "источник Signal Feed",
   "url": "https://augmentedstartups.medium.com/please-do-not-embarrass-us-a-6-month-video-backlog-built-in-2-weeks-f885789fee83",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "bekloh-vydeo-na-polhoda-za-dve-nedely-konveier-vmesto-semoch"
  },
  {
   "rubric": "AI Signals",
@@ -24252,7 +24258,8 @@
   "date": "2026-11-14",
   "source": "источник Signal Feed",
   "url": "https://garymarcus.substack.com/p/the-great-generative-ai-unraveling",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "marcus-fynansovaia-model-heneratyvnoho-yy-treshchyt-a-nvidia"
  },
  {
   "rubric": "Toolbox",
@@ -24326,7 +24333,8 @@
   "date": "2026-11-14",
   "source": "medium:llm",
   "url": "https://sinhaanwesha16.medium.com/the-case-of-order-4512-part-1-why-mcp-exists-e07d989faf53",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "zachem-nuzhen-mcp-kak-odyn-protokol-zameniaet-n-m-samopysnyk"
  },
  {
   "rubric": "Toolbox",
@@ -24402,7 +24410,8 @@
   "date": "2026-11-14",
   "source": "medium:knowledge-management",
   "url": "https://medium.com/ai-pace/in-the-face-of-ai-re-engineering-the-bid-process-for-better-client-and-supplier-outcomes-26698c57e3f5",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "yy-v-tenderakh-kak-perestroyt-protsess-zakupok-chtoby-vyyhry"
  },
  {
   "rubric": "Policy Radar",
@@ -24478,7 +24487,8 @@
   "date": "2026-11-14",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@gerry_18825/write-your-own-meaningful-use-for-ai-cloudticity-f3f7fe778d70",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "meaningful-use-dlia-yy-v-zdravookhranenyy-esly-rehuliator-ne"
  },
  {
   "rubric": "Письмо",
@@ -24554,7 +24564,8 @@
   "date": "2026-11-14",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@emilyhustlenyc/system-design-interview-you-rolled-back-why-is-it-still-broken-d0b624b89e5d",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "otkat-ne-pomoh-pochemu-staryi-kod-ne-chytaet-dannye-kotorye"
  },
  {
   "rubric": "AI Signals",
@@ -24632,6 +24643,7 @@
   "date": "2026-11-14",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@Sanjay-K-Mohindroo/the-automation-paradox-b609238bf269",
-  "minutes": 21
+  "minutes": 21,
+  "slug": "paradoks-avtomatyzatsyy-pochemu-sboi-microsoft-v-noiabre-202"
  }
 ]
