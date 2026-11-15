@@ -24722,7 +24722,8 @@
   "date": "2026-11-15",
   "source": "medium:ai-agents",
   "url": "https://pub.towardsai.net/your-traces-are-evidence-retention-legal-hold-and-discovery-for-agent-logs-0d606c870cac",
-  "minutes": 20
+  "minutes": 20,
+  "slug": "treisy-ahentov-kak-ulyky-sroky-khranenyia-iurydycheskoe-uder"
  },
  {
   "rubric": "Research Digest",
@@ -24798,7 +24799,8 @@
   "date": "2026-11-15",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/articles/1107838/",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "skorynh-upyraetsia-v-chyslo-defoltov-a-ne-v-razmer-vyborky-t"
  },
  {
   "rubric": "PKM",
@@ -24872,7 +24874,8 @@
   "date": "2026-11-15",
   "source": "источник Signal Feed",
   "url": "https://levelup.gitconnected.com/your-ai-agent-starts-every-morning-from-zero-fast-teams-dont-406f32c37a6b",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "karta-vmesto-pamiaty-kak-komandy-uskoriaiut-yy-ahentov-zapys"
  },
  {
   "rubric": "Policy Radar",
@@ -24946,7 +24949,8 @@
   "date": "2026-11-15",
   "source": "источник Signal Feed",
   "url": "https://jazz-twk.medium.com/how-do-you-know-which-agent-you-are-talking-to-87838c84d532",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "kakoi-ahent-eto-sdelal-pochemu-yy-ahentam-nuzhny-sobstvennye"
  },
  {
   "rubric": "Research Digest",
@@ -25020,7 +25024,8 @@
   "date": "2026-11-15",
   "source": "medium:llm",
   "url": "https://brajens.medium.com/lora-fine-tuning-made-simple-concepts-and-math-explained-d4e71e0d7d9a",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "lora-na-paltsakh-pochemu-adaptery-obuchaiut-v-40-raz-menshe"
  },
  {
   "rubric": "AI Signals",
@@ -25094,7 +25099,8 @@
   "date": "2026-11-15",
   "source": "medium:llm",
   "url": "https://sachinkasana.medium.com/is-ai-making-developers-faster-or-just-generating-more-code-6971db83d9ed",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "yy-uskoriaet-napysanye-koda-no-ne-dostavku-po-hde-uzkoe-mest"
  },
  {
   "rubric": "Policy Radar",
@@ -25168,6 +25174,7 @@
   "date": "2026-11-15",
   "source": "Washington Post — paywall, ТОП-10",
   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTDRWeDgySlpmMWUxZXYyR09XUEhOb0EwTnVVUVpoWnEyNDdYd1BBekZVUXk0R2x0VW5kTEgtMnkzUzV5WGtBcWFmWDZZTzhFS2xmYzNrVkIyWVg1UGZWeWFJeTNMalF2RVFZR2VyN1FLb2kwMFJzMFZ2OFU4TXBCT2hNYm9IZ29SRDRSbHRzTHh6WGxiUHVfOUdwSGx4Mm5SRlRDNGRBUmJWUQ",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "ynternet-ne-pohasnet-a-nachnet-sboyt-kak-yy-delaet-starye-ui"
  }
 ]
