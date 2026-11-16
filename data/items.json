@@ -25249,7 +25249,8 @@
   "date": "2026-11-16",
   "source": "medium:llm",
   "url": "https://medium.com/@sathvikkonduri14/stop-negotiating-with-llms-4-mindset-shifts-from-building-my-first-ai-projects-11d5b78065e2",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "khvatyt-torhovatsia-s-llm-chetyre-sdvyha-v-myshlenyy-posle-p"
  },
  {
   "rubric": "AI Signals",
@@ -25325,7 +25326,8 @@
   "date": "2026-11-16",
   "source": "medium:ai-agents",
   "url": "https://cybernerdie.medium.com/why-ai-agents-work-in-demos-but-break-in-production-af2b5e72db0b",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "pochemu-yy-ahenty-blestiat-v-demo-y-lomaiutsia-v-prodakshene"
  },
  {
   "rubric": "AI Signals",
@@ -25401,7 +25403,8 @@
   "date": "2026-11-16",
   "source": "medium:llm",
   "url": "https://medium.com/@smhassanraza1/ai-agent-discount-twice-idempotency-76a8f1ad7e6f",
-  "minutes": 14
+  "minutes": 14,
+  "slug": "kak-ne-dat-yy-ahentu-dvazhdy-sdelat-skydku-na-odnu-kurtku-sh"
  },
  {
   "rubric": "AI Signals",
@@ -25475,7 +25478,8 @@
   "date": "2026-11-16",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@spacholski99/bringing-ai-into-a-team-people-workshops-processes-and-what-to-measure-d34899e32c46",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "vnedrenye-yy-v-komandu-s-cheho-nachat-kak-obuchat-y-chto-yzm"
  },
  {
   "rubric": "AI Signals",
@@ -25549,7 +25553,8 @@
   "date": "2026-11-16",
   "source": "medium:llm",
   "url": "https://ratnadeepdeyroy.medium.com/memory-poisoning-how-attackers-plant-lies-that-ai-agents-remember-b89cca2a9939",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "otravlenye-pamiaty-yy-ahentov-kak-lozhnye-vospomynanyia-osta"
  },
  {
   "rubric": "Toolbox",
@@ -25623,7 +25628,8 @@
   "date": "2026-11-16",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@Travel4Fun4U/the-solopreneurs-ai-agent-control-plane-2026-stop-being-the-human-router-for-your-own-1f8292486a83",
-  "minutes": 19
+  "minutes": 19,
+  "slug": "kontrolnaia-ploskost-dlia-yy-ahentov-odynochky-try-ahenta-tr"
  },
  {
   "rubric": "AI Signals",
@@ -25697,7 +25703,8 @@
   "date": "2026-11-16",
   "source": "medium:llm",
   "url": "https://medium.com/@jan_82923/a-local-ai-box-wont-cut-your-api-bill-buy-one-anyway-1254d83049b6",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "lokalnyi-ai-server-ne-sokratyt-schet-za-api-no-komande-vse-r"
  },
  {
   "rubric": "Research Digest",
@@ -25771,7 +25778,8 @@
   "date": "2026-11-16",
   "source": "medium:llm",
   "url": "https://medium.com/@fatimasohail.fs.455/the-reranker-made-my-retrieval-worse-and-a-three-line-boost-did-the-most-good-90c2f7a8de01",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "reranker-ukhudshyl-poysk-a-try-stroky-s-bustom-po-yskhodu-da"
  },
  {
   "rubric": "AI Signals",
@@ -25843,7 +25851,8 @@
   "date": "2026-11-16",
   "source": "medium:ai-agents",
   "url": "https://yasasramanayaka.medium.com/your-ai-agent-deserves-a-passkey-not-an-api-key-37b65a683043",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "passkei-vmesto-api-kliucha-kak-dat-avtonomnomu-yy-ahentu-nep"
  },
  {
   "rubric": "AI Signals",
@@ -25917,7 +25926,8 @@
   "date": "2026-11-16",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@aysesimalalpozer/bir-ai-ajan%C4%B1n%C4%B1-test-etmek-%C3%BC%C3%A7-hata-%C3%BCzerinden-i%CC%87zlekin-hik%C3%A2yesi-8cf5c6703a04",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "try-sboia-yy-ahenta-po-vozvratam-kak-testy-na-lokalnoi-qwen"
  },
  {
   "rubric": "Toolbox",
@@ -25993,7 +26003,8 @@
   "date": "2026-11-16",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@aicodeops/how-to-review-an-ai-written-pull-request-a-10-point-checklist-23f57cfe6f35",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "reviu-pull-request-ot-yy-chek-lyst-yz-desiaty-proverok-na-de"
  },
  {
   "rubric": "AI Signals",
@@ -26067,7 +26078,8 @@
   "date": "2026-11-16",
   "source": "medium:llm",
   "url": "https://medium.com/apra-labs-blog/we-shipped-a-reporting-agent-in-a-week-our-loop-took-the-night-shift-6d54a87543df",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "nochnoi-eval-tsykl-podnial-tochnost-ahenta-otchetnyka-s-40-d"
  },
  {
   "rubric": "Research Digest",
@@ -26143,7 +26155,8 @@
   "date": "2026-11-16",
   "source": "medium:llm",
   "url": "https://medium.com/@reddymanojkumar1518/advanced-rag-in-practice-does-query-rewriting-and-reranking-really-help-1f6f5114eb99",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "perepysyvanye-zaprosa-y-rerankynh-v-rag-eksperyment-na-16-vo"
  },
  {
   "rubric": "Policy Radar",
@@ -26219,7 +26232,8 @@
   "date": "2026-11-16",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@veritaschain/when-the-agents-record-is-the-attack-surface-02e9d053ac0e",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "try-yntsydenta-13-noiabria-kohda-zhurnal-ahenta-sam-stanovyt"
  },
  {
   "rubric": "Research Digest",
@@ -26293,7 +26307,8 @@
   "date": "2026-11-16",
   "source": "medium:llm",
   "url": "https://medium.com/@ontostandard/teaching-a-small-model-to-say-not-enough-data-the-full-record-of-six-versions-748eb1a3756b",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "kak-nauchyt-7b-model-otvechat-nedostatochno-dannykh-shest-ve"
  },
  {
   "rubric": "Policy Radar",
@@ -26367,7 +26382,8 @@
   "date": "2026-11-16",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@basilpuglisi/governance-as-engineering-carter-cousineau-and-the-enterprise-baseline-90a4faa1cf07",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "governance-kak-ynzheneryia-kak-karter-kuzyno-vstroyla-kontro"
  },
  {
   "rubric": "AI Signals",
@@ -26441,7 +26457,8 @@
   "date": "2026-11-16",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@satishchauhan2224/why-system-prompts-fail-as-security-boundaries-72aecf9e2a12",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "systemnyi-prompt-ne-seif-pochemu-sekrety-y-prava-dostupa-dol"
  },
  {
   "rubric": "Research Digest",
@@ -26515,7 +26532,8 @@
   "date": "2026-11-16",
   "source": "feed:substack:unknown",
   "url": "https://newsblindspot.substack.com/p/the-emergence-world-ai-experiment",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "emergence-world-pochemu-bezopasnost-avtonomnykh-yy-ahentov-o"
  },
  {
   "rubric": "Время и фокус",
@@ -26589,7 +26607,8 @@
   "date": "2026-11-16",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@koiigrl15/the-three-things-system-how-adults-with-adhd-finally-stick-to-a-daily-plan-cc684c633898",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "systema-trekh-del-kak-pry-sdvh-perestat-brosat-plan-y-nauchy"
  },
  {
   "rubric": "AI Signals",
@@ -26665,7 +26684,8 @@
   "date": "2026-11-16",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@claire_ai/series-recap-3-running-a-youtube-bgm-channel-with-ai-reviews-and-stalled-pipelines-parts-18-23-4f9454ffc41a",
-  "minutes": 33
+  "minutes": 33,
+  "slug": "nochnoi-ai-konveier-dlia-youtube-kanala-shest-sboev-y-chemu"
  },
  {
   "rubric": "PKM",
@@ -26741,7 +26761,8 @@
   "date": "2026-11-16",
   "source": "источник Signal Feed",
   "url": "https://eric-sandosham.medium.com/the-joy-of-note-making-in-the-age-of-ai-efc476c24f61",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "zametky-vmesto-pdf-kak-vernut-vedenye-konspektov-v-epokhu-yy"
  },
  {
   "rubric": "Research Digest",
@@ -26814,7 +26835,8 @@
   "date": "2026-11-16",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/companies/selectel/articles/1107570/",
-  "minutes": 14
+  "minutes": 14,
+  "slug": "failovaia-systema-yz-halliutsynatsyi-kak-qwen3-4b-cherez-fus"
  },
  {
   "rubric": "Toolbox",
@@ -26890,7 +26912,8 @@
   "date": "2026-11-16",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@nuthalapativarun/three-mac-inference-servers-built-for-agents-not-chat-and-no-one-has-benchmarked-them-against-70e53f2f6c25",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "try-servera-ynferensa-dlia-mac-pod-ahentov-inferd-locals-y-r"
  },
  {
   "rubric": "AI Signals",
@@ -26964,7 +26987,8 @@
   "date": "2026-11-16",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@ar.jignesh.m.shah/the-experiment-how-close-is-ai-to-being-human-7bee99a7517c",
-  "minutes": 25
+  "minutes": 25,
+  "slug": "piat-chat-botov-o-neproyzvolnoi-pamiaty-vse-otvetyly-net-no"
  },
  {
   "rubric": "Research Digest",
@@ -27042,6 +27066,7 @@
   "date": "2026-11-16",
   "source": "medium:llm",
   "url": "https://medium.com/@aniketm2598/online-softmax-how-to-compute-softmax-in-pieces-4b41dd095b3e",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "online-softmax-kak-poschytat-softmax-po-chastiam-y-ubrat-n-n"
  }
 ]
