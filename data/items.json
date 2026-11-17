@@ -27141,7 +27141,8 @@
   "date": "2026-11-17",
   "source": "medium:llm",
   "url": "https://raghunitb.medium.com/mcp-threat-model-ai-tools-5a6e9a07546f",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "mcp-assystent-y-piat-uhroz-kazhdaia-zakryta-strukturnym-ohra"
  },
  {
   "rubric": "AI Signals",
@@ -27215,7 +27216,8 @@
   "date": "2026-11-17",
   "source": "medium:ai-agents",
   "url": "https://soulesidibe.medium.com/from-fix-this-bug-to-a-harness-that-runs-my-backlog-28a62ed47152",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "ot-poprav-bah-k-kharnessu-kotoryi-sam-razbyraet-bekloh-hod-r"
  },
  {
   "rubric": "AI Signals",
@@ -27289,7 +27291,8 @@
   "date": "2026-11-17",
   "source": "источник Signal Feed",
   "url": "https://nexgentech.medium.com/mcp-vs-a2a-how-ai-agents-connect-to-tools-and-communicate-with-other-agents-d05515732e55",
-  "minutes": 23
+  "minutes": 23,
+  "slug": "mcp-y-a2a-hde-konchaetsia-dostup-k-ynstrumentam-y-nachynaets"
  },
  {
   "rubric": "AI Signals",
@@ -27363,7 +27366,8 @@
   "date": "2026-11-17",
   "source": "src:importai.substack.com",
   "url": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "yy-subpodriadchyk-samomu-sebe-frontierml-byolaboratoryia-dli"
  },
  {
   "rubric": "Policy Radar",
@@ -27435,7 +27439,8 @@
   "date": "2026-11-17",
   "source": "рассылка издания (подписка владельца)",
   "url": "https://links.message.bloomberg.com/a/sc/0ziSEMMdgB1NgmDt7TnzqUIx90NklESb8hQV4HswGRMkqp3NoeqHaTOIXnT6frDF_jDX2xGvVCcrVCBy4wNOubCRLBCGGm-P5LA-vEIHnZ44MvWaEl94OwDOwSWkVDMCjSaKD3qC_t5T1BNazrYZgE64mJzWJqEfqJZ1-BfvBS7V82DhKKrE2IbBZHA4KpjGJKlafApJjJgrDn4L04PHx9NBxbEnb59KKIei9b7WJpxCPNboTf1zvIcdLvu-h4ZleQ7DpHgsVQCOJAnLWrSZbXke_1V_vZVBrKmCO59TwWAbCp61Cnu-8kRDtkzKhzHVEDCBGK20x7N7pbITJ5y2DYiQv99bU7-42NnSrJeQHDa0ePiihvx5bOavLrFq0nI3SPc0Surct94YyPXg8zcGKgjMbFAeAt9fqj8c7ht9rLtZY_BROZTvEF1w1NarV799Zi5jnGDRq5bogzoX3EWbknBee-as9ZBRZOvys5TotJ6I-08ldwNpNA0FOGZQwyzEzJEWt8geWZivPCm-hA1ibXmfxOsdK56yfQWwdR8AdVlAoa71QrwQFYfzO39CqUOQtoQfcw0SOA/_NTjsuSQQrAq8GjLEPovHMKpfOc3K-rp/26",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "aktsyonery-fynansyruiut-yy-hyhantov-no-ne-mohut-ymy-upravlia"
  },
  {
   "rubric": "AI Signals",
@@ -27509,6 +27514,7 @@
   "date": "2026-11-17",
   "source": "Atlantic Council (США), type rss",
   "url": "https://www.atlanticcouncil.org/dispatches/ai-agents-promise-a-life-free-from-friction-the-cost-could-be-human-judgment/",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "yy-ahenty-ubyraiut-trenye-no-vmeste-s-nym-neopredelennost-y"
  }
 ]
