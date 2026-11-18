@@ -27591,7 +27591,8 @@
   "date": "2026-11-18",
   "source": "src:newsletter.pragmaticengineer.com",
   "url": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
-  "minutes": 16
+  "minutes": 16,
+  "slug": "kak-pereity-s-api-frontier-laboratoryi-na-open-modely-provai"
  },
  {
   "rubric": "Model Watch",
@@ -27665,6 +27666,7 @@
   "date": "2026-11-18",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/companies/syntx_ai/articles/1108586/",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "seedance-2-5-flash-protyv-flahmana-na-4-stsenakh-bystree-v-3"
  }
 ]
