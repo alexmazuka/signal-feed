@@ -27743,7 +27743,8 @@
   "date": "2026-11-19",
   "source": "medium:llm",
   "url": "https://medium.com/@okanyildiz1994/you-gave-your-ai-agent-admin-access-on-day-one-f643501b767f",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "zero-trust-dlia-yy-ahentov-piat-sloev-zashchyty-y-chetyre-st"
  },
  {
   "rubric": "Research Digest",
@@ -27817,7 +27818,8 @@
   "date": "2026-11-19",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@ontostandard/we-failed-our-own-test-that-is-the-point-54cec918ae45",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "shest-versyi-modely-y-piat-provalov-pochemu-chestnyi-otchet"
  },
  {
   "rubric": "AI Signals",
@@ -27893,7 +27895,8 @@
   "date": "2026-11-19",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@chenyuan19920509/1-in-7-agent-sessions-hit-a-stale-todo-83-of-the-detours-were-unprompted-4c756dec9891",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "ustarevshye-todo-kak-lovushka-dlia-yy-ahentov-dannye-google"
  },
  {
   "rubric": "AI Signals",
@@ -27969,7 +27972,8 @@
   "date": "2026-11-19",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@parserdigital/the-vocabulary-gap-harness-scaffold-or-guardrail-naming-the-layers-of-agentic-engineering-bb78b6a7c3aa",
-  "minutes": 37
+  "minutes": 37,
+  "slug": "kharness-skaffold-hardreil-edynyi-slovar-sloev-agentic-engin"
  },
  {
   "rubric": "AI Signals",
@@ -28045,7 +28049,8 @@
   "date": "2026-11-19",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@brian-curry-research/llm-routing-for-enterprise-ai-agents-when-a-cheaper-model-call-is-a-cheaper-task-76d619e8d551",
-  "minutes": 19
+  "minutes": 19,
+  "slug": "marshrutyzatsyia-llm-v-korporatyvnykh-ahentakh-deshevyi-vyzo"
  },
  {
   "rubric": "Model Watch",
@@ -28119,7 +28124,8 @@
   "date": "2026-11-19",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@firestorm-ai/qwen4-max-arrives-keep-the-result-the-route-and-the-bill-together-bb36d4edf802",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "qwen4-max-kak-otsenyvat-novuiu-model-alibaba-po-rezultatu-ma"
  },
  {
   "rubric": "Research Digest",
@@ -28191,7 +28197,8 @@
   "date": "2026-11-19",
   "source": "medium:llm",
   "url": "https://medium.com/@gaur.shalendra2412/why-llm-latency-grows-with-conversation-length-and-the-measured-fix-a-flat-0-1605-7e5bd48064e5",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "zaderzhka-llm-rastet-vmeste-s-chatom-khranenye-sostoianyia-n"
  },
  {
   "rubric": "AI Signals",
@@ -28265,7 +28272,8 @@
   "date": "2026-11-19",
   "source": "medium:llm",
   "url": "https://medium.com/@baskar.sks/llm-servers-already-batch-your-requests-so-why-is-the-batch-api-50-cheaper-93783e7a0c31",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "pochemu-batch-api-vdvoe-deshevle-esly-servery-llm-y-tak-batc"
  },
  {
   "rubric": "Research Digest",
@@ -28339,7 +28347,8 @@
   "date": "2026-11-19",
   "source": "medium:llm",
   "url": "https://medium.com/@ontostandard/your-ai-judge-is-grading-its-own-homework-46a190c320a8",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "sudia-yy-proveriaet-sobstvennuiu-domashku-kak-otsenyvat-nedo"
  },
  {
   "rubric": "Research Digest",
@@ -28415,7 +28424,8 @@
   "date": "2026-11-19",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@nankikaurarora/llm-as-a-judge-designing-and-validating-automated-evaluation-pipelines-18ff7ffb0621",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "llm-sudia-pod-proverkoi-kak-postroyt-rubryku-protestyrovat-s"
  },
  {
   "rubric": "AI Signals",
@@ -28489,7 +28499,8 @@
   "date": "2026-11-19",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@AkindeleMichael/building-an-ai-agent-over-nigerias-tax-laws-what-broke-and-how-i-fixed-it-efb1e75dbc93",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "rag-po-nalohovomu-kodeksu-nyheryy-chto-slomalos-za-dve-nedel"
  },
  {
   "rubric": "Research Digest",
@@ -28563,7 +28574,8 @@
   "date": "2026-11-19",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@shafe786/what-12-javascript-frameworks-cost-an-ai-agent-reading-nolan-lawsons-benchmark-carefully-f5f30bfe2d5d",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "skolko-yy-ahentu-stoyt-odyn-y-tot-zhe-sait-na-12-javascript"
  },
  {
   "rubric": "Policy Radar",
@@ -28637,7 +28649,8 @@
   "date": "2026-11-19",
   "source": "medium:llm",
   "url": "https://medium.com/apex-synthesis/protocol-level-behavioral-fingerprinting-and-silent-drift-detection-58e88077d026",
-  "minutes": 14
+  "minutes": 14,
+  "slug": "bfp-drift-kak-raz-v-chas-proveriat-chto-yy-model-vendora-ne"
  },
  {
   "rubric": "Toolbox",
@@ -28711,7 +28724,8 @@
   "date": "2026-11-19",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@shafe786/agent-skills-are-dependencies-now-what-a-skill-md-can-do-and-how-to-review-one-3302af8c3cf9",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "skylly-dlia-yy-ahentov-eto-zavysymosty-chto-umeet-skill-md-y"
  },
  {
   "rubric": "AI Signals",
@@ -28787,7 +28801,8 @@
   "date": "2026-11-19",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@connectwidamit/my-ai-agents-were-working-b904ee88f4b6",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "orkestratsyia-ne-governance-kak-upravliat-pravamy-kontekstom"
  },
  {
   "rubric": "AI Signals",
@@ -28863,7 +28878,8 @@
   "date": "2026-11-19",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@raell.dottin/how-many-ai-workers-does-a-project-actually-need-6f7104ca2673",
-  "minutes": 17
+  "minutes": 17,
+  "slug": "skolko-yy-ahentov-nuzhno-proektu-snachala-chynyte-rabochyi-p"
  },
  {
   "rubric": "Research Digest",
@@ -28937,7 +28953,8 @@
   "date": "2026-11-19",
   "source": "medium:llm",
   "url": "https://medium.com/@gaur.shalendra2412/axi-by-rajnish-choubey-a-host-side-layer-that-keeps-llm-edited-state-exact-8a9457d6cca8",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "axi-khostovyi-sloi-kotoryi-derzhyt-sostoianye-pravymoe-llm-t"
  },
  {
   "rubric": "PKM",
@@ -29011,7 +29028,8 @@
   "date": "2026-11-19",
   "source": "medium:second-brain",
   "url": "https://medium.com/@liamweathers/retrieval-debt-the-second-brain-problem-nobody-talks-about-568c782afc60",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "dolh-yzvlechenyia-pochemu-zametka-bez-konteksta-ne-aktyv-a-o"
  },
  {
   "rubric": "Письмо",
@@ -29087,7 +29105,8 @@
   "date": "2026-11-19",
   "source": "medium:copywriting",
   "url": "https://medium.com/design-bootcamp/copywriting-taught-me-to-write-ux-writing-taught-me-to-get-out-of-the-way-ebfd5f5cb0d5",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "ot-kopyraitynha-k-ux-pysmu-pochemu-v-ynterfeise-luchshyi-tek"
  },
  {
   "rubric": "Toolbox",
@@ -29161,7 +29180,8 @@
   "date": "2026-11-19",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@karrrrr/stop-starting-prompts-with-act-as-an-expert-copywriter-b1a3531c3d5a",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "rol-v-prompte-odna-stroka-kak-try-chasty-vmesto-act-as-an-ex"
  },
  {
   "rubric": "AI Signals",
@@ -29233,6 +29253,7 @@
   "date": "2026-11-19",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@ivantgam_33304/worker-755-a-terminal-game-where-you-are-an-llms-subagent-69bdf95d9fac",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "worker-755-yhra-hde-chelovek-rabotaet-subahentom-u-iazykovoi"
  }
 ]
