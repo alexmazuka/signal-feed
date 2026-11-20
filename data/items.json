@@ -29328,7 +29328,8 @@
   "date": "2026-11-20",
   "source": "medium:llm",
   "url": "https://adityag28.medium.com/when-ai-meets-deterministic-workflows-understanding-temporals-workflow-activity-boundary-cdb865dd8f04",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "temporal-dlia-yy-ahentov-kak-vynesty-nedetermynyrovannyi-llm"
  },
  {
   "rubric": "AI Signals",
@@ -29404,7 +29405,8 @@
   "date": "2026-11-20",
   "source": "medium:artificial-intelligence",
   "url": "https://redliolabs.medium.com/ai-made-code-cheaper-to-write-your-software-didnt-get-cheaper-b7628cc68f52",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "yy-udeshevyl-napysanye-koda-no-ne-soft-try-yssledovanyia-202"
  },
  {
   "rubric": "Toolbox",
@@ -29478,7 +29480,8 @@
   "date": "2026-11-20",
   "source": "medium:automation",
   "url": "https://matintellect.medium.com/ai-consulting-who-will-check-the-draft-and-how-long-will-it-take-a09ff39b0936",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "kak-otsenyt-yy-chernovyk-do-zapuska-kto-eho-proveryt-y-skolk"
  },
  {
   "rubric": "Toolbox",
@@ -29554,7 +29557,8 @@
   "date": "2026-11-20",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/companies/T1Holding/articles/1105508/",
-  "minutes": 26
+  "minutes": 26,
+  "slug": "yy-v-funktsyonalnom-testyrovanyy-hde-on-uskoriaet-qa-v-razy"
  },
  {
   "rubric": "AI Signals",
@@ -29630,7 +29634,8 @@
   "date": "2026-11-20",
   "source": "medium:ai-agents",
   "url": "https://pub.towardsai.net/the-harness-isnt-the-moat-what-you-learn-from-it-might-be-c313fea3c57d",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "obviazka-ahenta-ne-rov-konkurentnoe-preymushchestvo-daiut-zn"
  },
  {
   "rubric": "Research Digest",
@@ -29706,7 +29711,8 @@
   "date": "2026-11-20",
   "source": "discover: ссылаются 2 источников",
   "url": "https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "pochemu-yy-pryshel-za-prohrammystamy-pervymy-proveriaemost-y"
  },
  {
   "rubric": "AI Signals",
@@ -29780,7 +29786,8 @@
   "date": "2026-11-20",
   "source": "The Economist — paywall, ТОП-10",
   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnRDdExvWG9lXzhGeXByMWlqaFRocjVsbG1PdEZGWW5ZMVVtSHRQYVlvMEMyb3ZNak9DMkpvQjhJanUxS3JhLUZ6SWltQk1EOWFqUE5UVXFJeWhmMzFqWENQWUltVGtNcGlsc2tVamVkTHFvSnpkOHk3Z3lobjRSN3BiVkFQRTZ6UFZKd21zRThOT3I2Q2M0QzBUTmo5YkpIYWxETWRDWlRaS3lJOWpIRQ",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "yy-v-2027-m-rekursyvnoe-samouluchshenye-volna-kyberatak-y-fy"
  },
  {
   "rubric": "Research Digest",
@@ -29854,7 +29861,8 @@
   "date": "2026-11-20",
   "source": "научпоп",
   "url": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "llm-y-klymat-fakty-modely-znaiut-no-provalyvaiutsia-na-polyt"
  },
  {
   "rubric": "AI Signals",
@@ -29928,7 +29936,8 @@
   "date": "2026-11-20",
   "source": "medium:ai-agents",
   "url": "https://aakashgupta.medium.com/how-to-build-product-loops-in-claude-code-with-tyler-folkman-bb3d36d0d840",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "petly-vmesto-promptov-piat-tsyklov-v-claude-code-kotorye-tai"
  },
  {
   "rubric": "Research Digest",
@@ -30004,7 +30013,8 @@
   "date": "2026-11-20",
   "source": "discover: ссылаются 2 источников",
   "url": "https://notesbylex.com/weight-space-programming-1990s",
-  "minutes": 17
+  "minutes": 17,
+  "slug": "prohrammyrovanye-v-prostranstve-vesov-kak-neirosety-1990-kh"
  },
  {
   "rubric": "Research Digest",
@@ -30080,6 +30090,7 @@
   "date": "2026-11-20",
   "source": "источник Signal Feed",
   "url": "https://meetcyber.net/the-security-claim-behind-six-million-lines-of-proof-5307afe5da83",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "6-5-mln-strok-dokazatelstva-dlia-signal-chto-ymenno-proveryl"
  }
 ]
