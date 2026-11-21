@@ -30163,7 +30163,8 @@
   "date": "2026-11-21",
   "source": "medium:llm",
   "url": "https://raghunitb.medium.com/ai-assistant-audit-log-schema-3a9d72f1eea4",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "odna-stroka-na-vopros-kak-ustroyt-zhurnal-audyta-yy-assysten"
  },
  {
   "rubric": "AI Signals",
@@ -30237,7 +30238,8 @@
   "date": "2026-11-21",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@edwinjaya/why-my-first-agent-fell-apart-in-one-file-6798826e40f4",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "ahent-v-44-stroky-chto-pokazal-samodelnyi-harness-s-lokalnoi"
  },
  {
   "rubric": "Research Digest",
@@ -30311,7 +30313,8 @@
   "date": "2026-11-21",
   "source": "medium:llm",
   "url": "https://medium.com/@ayushgarg70/where-does-decode-time-go-profiling-llama-3-1-8b-on-an-h100-token-by-token-c3afbe77a459",
-  "minutes": 24
+  "minutes": 24,
+  "slug": "kuda-ukhodyt-vremia-dekoda-llama-3-1-8b-na-h100-po-myllyseku"
  },
  {
   "rubric": "Research Digest",
@@ -30387,7 +30390,8 @@
   "date": "2026-11-21",
   "source": "medium:llm",
   "url": "https://medium.com/@rf26/fine-tuning-qwen-what-data-and-inference-experiments-taught-me-dfeac9b42852",
-  "minutes": 15
+  "minutes": 15,
+  "slug": "doobuchenye-qwen-dlia-yzvlechenyia-atrybutov-tovarov-chto-po"
  },
  {
   "rubric": "AI Signals",
@@ -30461,7 +30465,8 @@
   "date": "2026-11-21",
   "source": "medium:llm",
   "url": "https://medium.com/@tmucb.all/one-click-five-model-calls-what-we-cut-from-our-ai-assistant-8aa3c2659b81",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "odyn-klyk-piat-vyzovov-modely-kak-audyt-po-polzovatelskym-de"
  },
  {
   "rubric": "Toolbox",
@@ -30535,7 +30540,8 @@
   "date": "2026-11-21",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@thereviewsurface/separate-autofix-evidence-from-remediation-approval-3fd27609f231",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "avtofyks-y-merge-dva-raznykh-reshenyia-kartochka-kotoraia-ra"
  },
  {
   "rubric": "Toolbox",
@@ -30611,7 +30617,8 @@
   "date": "2026-11-21",
   "source": "medium:automation",
   "url": "https://medium.com/@pero819412/script-or-api-two-kinds-of-automation-two-different-ways-to-pay-d778662fa4d2",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "skrypt-yly-api-dva-vyda-avtomatyzatsyy-y-dva-sposoba-platyt"
  },
  {
   "rubric": "AI Signals",
@@ -30685,7 +30692,8 @@
   "date": "2026-11-21",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@singhalyesh/building-an-ai-agent-what-does-it-actually-take-43df9bfec5b3",
-  "minutes": 14
+  "minutes": 14,
+  "slug": "kak-sobrat-yy-ahenta-ot-opysanyia-raboty-do-shesty-komponent"
  },
  {
   "rubric": "AI Signals",
@@ -30761,7 +30769,8 @@
   "date": "2026-11-21",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@socialathen/how-to-summarize-long-documents-with-ai-and-when-not-to-e186c4c339b2",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "kak-summyrovat-dlynnye-dokumenty-s-pomoshchiu-yy-y-kohda-eto"
  },
  {
   "rubric": "AI Signals",
@@ -30835,7 +30844,8 @@
   "date": "2026-11-21",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@dgitalizeme/calculator-problem-ai-profit-margins-abos-2ff65d68587e",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "problema-kalkuliatora-pochemu-yy-nelzia-doveriat-marzhu-y-ka"
  },
  {
   "rubric": "Toolbox",
@@ -30909,7 +30919,8 @@
   "date": "2026-11-21",
   "source": "medium:llm",
   "url": "https://medium.com/@techpotions/claude-code-built-your-website-what-breaks-first-a2b8709376a3",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "sait-ot-claude-code-v-prodakshen-piat-sloev-kotorye-lomaiuts"
  },
  {
   "rubric": "AI Signals",
@@ -30983,7 +30994,8 @@
   "date": "2026-11-21",
   "source": "источник Signal Feed",
   "url": "https://aiadvances.org/how-to-test-devins-40x-more-prs-claim-on-your-own-repo-3f953dd1d808",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "kak-proveryt-zaiavlenye-cognition-o-40-kratnom-roste-pr-skry"
  },
  {
   "rubric": "AI Signals",
@@ -31057,7 +31069,8 @@
   "date": "2026-11-21",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@alyssa-christensen/a-day-with-ai-from-the-alarm-clock-to-the-agent-at-my-desk-22e95a5c5859",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "odyn-den-s-yy-ot-budylnyka-do-ahenta-na-rabochem-stole-y-kak"
  },
  {
   "rubric": "AI Signals",
@@ -31131,7 +31144,8 @@
   "date": "2026-11-21",
   "source": "источник Signal Feed",
   "url": "https://medium.com/the-repo/how-ai-agents-prove-a-human-is-behind-them-5-frameworks-f8d1a91c7faa",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "ahenty-platiat-samy-piat-freimvorkov-kotorye-proveriaiut-cht"
  },
  {
   "rubric": "Toolbox",
@@ -31207,7 +31221,8 @@
   "date": "2026-11-21",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@suddh123/after-an-llm-builds-your-power-bi-dashboard-setting-up-the-relationships-it-didnt-086ca2308acd",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "posle-llm-dashborda-v-power-bi-shest-shahov-nastroiky-sviaze"
  },
  {
   "rubric": "AI Signals",
@@ -31281,7 +31296,8 @@
   "date": "2026-11-21",
   "source": "src:tproger.ru",
   "url": "https://tproger.ru/news/anthropic-dve-nedeli-lomala-claude-docs-silami-claude-code-pered",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "tsykl-khaosa-kak-anthropic-dve-nedely-lomala-claude-docs-ruk"
  },
  {
   "rubric": "Research Digest",
@@ -31357,7 +31373,8 @@
   "date": "2026-11-21",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@a.shamsoshoara/q-learning-watch-a-table-learn-one-experience-at-a-time-82f20585f257",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "q-learning-na-paltsakh-kak-tablytsa-otsenok-uchytsia-na-kazh"
  },
  {
   "rubric": "Model Watch",
@@ -31433,7 +31450,8 @@
   "date": "2026-11-21",
   "source": "medium:llm",
   "url": "https://medium.com/@aristenio/jev-closed-its-weights-laya-opened-them-in-three-days-inside-the-open-source-answer-to-system-one-1d628f7274a2",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "laya-protyv-jev-otkrytaia-model-systemy-1-povtoryla-zakrytui"
  },
  {
   "rubric": "Research Digest",
@@ -31509,7 +31527,8 @@
   "date": "2026-11-21",
   "source": "источник Signal Feed",
   "url": "https://gisellezart.medium.com/designing-for-uncertainty-what-ai-and-statistics-teach-design-95479f7ed8b6",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "dyzain-v-uslovyiakh-neopredelennosty-chemu-dyzainerov-uchat"
  },
  {
   "rubric": "Toolbox",
@@ -31585,7 +31604,8 @@
   "date": "2026-11-21",
   "source": "medium:llm",
   "url": "https://medium.com/@faxy82/fare-ai-in-azienda-senza-lock-in-cosa-abbiamo-imparato-con-ago-955d4572854d",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "kak-vnedriat-yy-v-kompanyy-bez-pryviazky-k-postavshchyku-try"
  },
  {
   "rubric": "AI Signals",
@@ -31659,7 +31679,8 @@
   "date": "2026-11-21",
   "source": "источник Signal Feed",
   "url": "https://dev.ua/news/avenga-1795000805",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "avenga-yy-ahenty-meniaiut-tsenu-autsorsynha-y-sozdaiut-novui"
  },
  {
   "rubric": "AI Signals",
@@ -31735,7 +31756,8 @@
   "date": "2026-11-21",
   "source": "medium:llm",
   "url": "https://medium.com/@v_ganeshraju/the-token-economy-how-smarter-ai-computation-will-reshape-enterprise-costs-and-value-2a930234b051",
-  "minutes": 22
+  "minutes": 22,
+  "slug": "ekonomyka-tokenov-pochemu-hlavnaia-ynvestytsyia-sloi-upravle"
  },
  {
   "rubric": "AI Signals",
@@ -31809,7 +31831,8 @@
   "date": "2026-11-21",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@sushil_25082/ai-agents-for-small-businesses-what-to-hand-over-first-and-what-to-keep-d12ee734bddb",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "pervyi-yy-ahent-dlia-maloho-byznesa-chto-otdat-mashyne-srazu"
  },
  {
   "rubric": "Toolbox",
@@ -31883,7 +31906,8 @@
   "date": "2026-11-21",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@agentdeskshq/get-an-hour-back-each-week-make-a-morning-inbox-digest-your-first-ai-assistant-job-7e2f7a980fa2",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "utrennyi-daidzhest-pochty-kak-pervaia-zadacha-yy-assystenta"
  },
  {
   "rubric": "Toolbox",
@@ -31961,6 +31985,7 @@
   "date": "2026-11-21",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@kramiknakrani100/how-to-automate-shared-inbox-triage-with-ai-info-orders-99347128ecc0",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "avtotryazh-obshchykh-iashchykov-info-y-orders-s-pomoshchiu-y"
  }
 ]
