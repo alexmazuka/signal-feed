@@ -32060,7 +32060,8 @@
   "date": "2026-11-22",
   "source": "medium:writing",
   "url": "https://medium.com/@nabilasialvi/i-couldnt-hear-your-voice-in-the-writing-anymore-97ec19dbb2bc",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "bystro-hladko-y-bez-holosa-kak-frylanseru-polzovatsia-yy-y-n"
  },
  {
   "rubric": "AI Signals",
@@ -32134,7 +32135,8 @@
   "date": "2026-11-22",
   "source": "medium:ai-agents",
   "url": "https://raviduperera.medium.com/beyond-the-prompt-using-ai-harnesses-to-build-agentic-workflows-that-actually-work-9655c5e50e52",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "ne-model-a-obviazka-kak-harness-delaet-yy-ahentov-nadezhnymy"
  },
  {
   "rubric": "AI Signals",
@@ -32210,7 +32212,8 @@
   "date": "2026-11-22",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@hello.archilas/context-windows-are-a-scam-heres-what-your-agent-actually-needs-a778614b4a95",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "bolshoe-kontekstnoe-okno-ne-ponymanye-proekta-pochemu-ahentu"
  },
  {
   "rubric": "Model Watch",
@@ -32284,7 +32287,8 @@
   "date": "2026-11-22",
   "source": "medium:llm",
   "url": "https://medium.com/@myredditacc9393/atom-zero-a-49m-local-assistant-that-says-i-dont-know-df1ebc0e2e78",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "atom-zero-kroshechnaia-lokalnaia-model-na-49-mln-parametrov"
  },
  {
   "rubric": "AI Signals",
@@ -32364,7 +32368,8 @@
   "date": "2026-11-22",
   "source": "medium:llm",
   "url": "https://medium.com/@dabbumothsera/beyond-the-demo-what-actually-happens-when-an-ai-agent-goes-to-production-051fea0e7328",
-  "minutes": 26
+  "minutes": 26,
+  "slug": "ot-demo-k-prodakshenu-kak-prevratyt-yy-ahenta-v-nadezhnuiu-s"
  },
  {
   "rubric": "Policy Radar",
@@ -32440,7 +32445,8 @@
   "date": "2026-11-22",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@jprevanth/if-your-ai-agent-makes-a-mistake-with-your-bank-account-who-pays-88da73ce86db",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "banky-ssha-perelozhyly-rysk-yy-ahentov-na-klyenta-pochemu-be"
  },
  {
   "rubric": "AI Signals",
@@ -32516,7 +32522,8 @@
   "date": "2026-11-22",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@reachout.vmadhu/my-two-cents-on-why-ai-still-needs-a-human-in-the-loop-2a048d740c43",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "yy-kak-vtoroi-pylot-pochemu-hladkyi-otvet-modely-nelzia-pryn"
  },
  {
   "rubric": "Toolbox",
@@ -32590,7 +32597,8 @@
   "date": "2026-11-22",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@maddy.zohadi/the-7-questions-i-ask-before-i-trust-anything-ai-writes-for-me-df2e8f841a79",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "sem-voprosov-pered-tem-kak-doveriat-tekstu-ot-yy-proverka-po"
  },
  {
   "rubric": "Model Watch",
@@ -32666,7 +32674,8 @@
   "date": "2026-11-22",
   "source": "источник Signal Feed",
   "url": "https://pub.towardsai.net/did-claude-get-worse-at-writing-opus-4-6-vs-5-5-vs-fable-5-2-c87c69d46c95",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "stal-ly-claude-khuzhe-pysat-prozu-opus-4-6-opus-5-5-y-fable"
  },
  {
   "rubric": "AI Signals",
@@ -32740,7 +32749,8 @@
   "date": "2026-11-22",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@christian.sepulveda/stop-giving-ai-agents-more-context-start-architecting-the-context-they-receive-2deed868c4ad",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "kontekst-dlia-yy-ahenta-nuzhno-proektyrovat-vneshniaia-obvia"
  },
  {
   "rubric": "Toolbox",
@@ -32816,7 +32826,8 @@
   "date": "2026-11-22",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@cff_26172/how-aria-can-guide-ai-agents-through-web-forms-e3d2fe54f84d",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "aria-kak-podskazky-dlia-yy-ahentov-kak-sostoianyia-form-pomo"
  },
  {
   "rubric": "Toolbox",
@@ -32888,7 +32899,8 @@
   "date": "2026-11-22",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@bhavikagarwal2001/mcp-cli-or-api-choosing-the-right-interface-for-an-ai-agent-that-publishes-to-social-media-3529cb5092ec",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "mcp-cli-yly-api-kak-vybrat-ynterfeis-dlia-yy-ahenta-kotoryi"
  },
  {
   "rubric": "AI Signals",
@@ -32964,7 +32976,8 @@
   "date": "2026-11-22",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@itpro677/i-checked-the-security-flags-in-my-ai-agent-sandbox-6825d6af9c15",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "zdorovye-flahy-bezopasnosty-ne-dokazyvaiut-yzoliatsyiu-ahent"
  },
  {
   "rubric": "Toolbox",
@@ -33036,7 +33049,8 @@
   "date": "2026-11-22",
   "source": "medium:automation",
   "url": "https://medium.com/@v3v.02/my-ai-agent-has-its-own-computer-its-own-memory-and-a-nightly-report-due-at-9-134757213dbb",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "yy-ahent-s-sobstvennym-kompiuterom-y-pamiatiu-kak-vladelets"
  },
  {
   "rubric": "Toolbox",
@@ -33110,7 +33124,8 @@
   "date": "2026-11-22",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@jangsik1986/how-i-filter-blog-topics-in-n8n-using-a-system-one-decision-model-before-calling-an-llm-a8f8e25ccf1f",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "fyltr-tem-v-n8n-do-vyzova-llm-kak-model-systemy-1-otsekaet-s"
  },
  {
   "rubric": "AI Signals",
@@ -33184,7 +33199,8 @@
   "date": "2026-11-22",
   "source": "medium:ai-agents",
   "url": "https://barrmoses.medium.com/ai-is-all-grown-up-what-it-means-when-frontier-labs-trade-on-wall-street-b4e5a136075e",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "ipo-anthropic-kak-rubezh-frontyrnyi-yy-stal-ynfrastrukturoi"
  },
  {
   "rubric": "Research Digest",
@@ -33258,7 +33274,8 @@
   "date": "2026-11-22",
   "source": "medium:llm",
   "url": "https://medium.com/@aristenio/the-inference-bottleneck-has-an-owner-what-patterson-and-google-deepmind-propose-for-llm-memory-f4fa250cc298",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "pamiat-uzkoe-mesto-ynferensa-llm-chetyre-napravlenyia-patter"
  },
  {
   "rubric": "Toolbox",
@@ -33334,7 +33351,8 @@
   "date": "2026-11-22",
   "source": "medium:llm",
   "url": "https://medium.com/@mason.wong.2355/rules-first-embeddings-second-building-a-tiered-intent-classifier-in-go-c07832f9b5a2",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "pravyla-potom-embeddynhy-potom-llm-trekhurovnevyi-klassyfyka"
  },
  {
   "rubric": "Время и фокус",
@@ -33410,7 +33428,8 @@
   "date": "2026-11-22",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@vishalnegal/how-to-become-more-disciplined-without-relying-on-willpower-f6240fb09431",
-  "minutes": 15
+  "minutes": 15,
+  "slug": "dystsyplyna-bez-syly-voly-kak-perestroyt-sredu-start-y-nahra"
  },
  {
   "rubric": "Время и фокус",
@@ -33482,7 +33501,8 @@
   "date": "2026-11-22",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@ipostaboutadhd/5-ways-to-make-time-visible-when-adhd-makes-it-feel-different-b59bbb458423",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "kak-sdelat-vremia-vydymym-pry-sdvh-piat-pryemov-na-osnove-me"
  },
  {
   "rubric": "AI Signals",
@@ -33556,7 +33576,8 @@
   "date": "2026-11-22",
   "source": "источник Signal Feed",
   "url": "https://www.thealgorithmicbridge.com/p/ai-just-cracked-the-hardest-problem",
-  "minutes": 14
+  "minutes": 14,
+  "slug": "hypoteza-rymana-y-claude-chto-znachyt-dokazatelstvo-kotoroe"
  },
  {
   "rubric": "AI Signals",
@@ -33632,7 +33653,8 @@
   "date": "2026-11-22",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@boutahiryounes53/did-ai-just-prove-the-riemann-hypothesis-what-is-verified-what-isnt-and-how-to-read-the-claim-a234c1855b1c",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "claude-y-hypoteza-rymana-chto-v-zaiavlenyy-anthropic-provere"
  },
  {
   "rubric": "AI Signals",
@@ -33706,6 +33728,7 @@
   "date": "2026-11-22",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@chodonghwan/%E1%84%80%E1%85%A1%E1%87%80%E1%84%8B%E1%85%B3%E1%86%AB-ai%E1%84%85%E1%85%B3%E1%86%AF-%E1%84%8A%E1%85%B3%E1%84%82%E1%85%B3%E1%86%AB%E1%84%83%E1%85%A6-%E1%84%8B%E1%85%AB-%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF-%E1%84%89%E1%85%A9%E1%86%A8%E1%84%83%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%83%E1%85%A1%E1%84%85%E1%85%B3%E1%86%AB%E1%84%80%E1%85%A1-ai-assisted%EC%97%90%EC%84%9C-ai-native-sdlc%EB%A1%9C-0dac8dd02cf7",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "pochemu-pry-odnom-y-tom-zhe-yy-skorost-razrabotky-raznaia-ot"
  }
 ]
