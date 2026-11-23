@@ -33801,7 +33801,8 @@
   "date": "2026-11-23",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@naveenkumarbaskaran/enterprises-dont-have-an-ai-problem-they-have-a-trust-problem-0d4d72ea2251",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "korporatyvnym-yy-ahentam-meshaet-ne-tochnost-a-otsutstvye-do"
  },
  {
   "rubric": "AI Signals",
@@ -33877,7 +33878,8 @@
   "date": "2026-11-23",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@alexcarrega/your-ai-agent-is-only-as-trustworthy-as-the-tools-it-uses-318e6e36c093",
-  "minutes": 16
+  "minutes": 16,
+  "slug": "doverye-k-ahentu-ravno-doveryiu-k-eho-ynstrumentam-kak-zashc"
  },
  {
   "rubric": "AI Signals",
@@ -33951,7 +33953,8 @@
   "date": "2026-11-23",
   "source": "medium:ai-agents",
   "url": "https://nandanpriyadarshi.medium.com/how-id-decide-whether-to-keep-an-ai-agent-after-the-pilot-6b3d4d6ba00c",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "ostavyt-yy-ahenta-posle-pylota-povtornoe-yspolzovanye-vremia"
  },
  {
   "rubric": "AI Signals",
@@ -34027,7 +34030,8 @@
   "date": "2026-11-23",
   "source": "medium:llm",
   "url": "https://medium.com/@minonexus/not-everything-is-a-token-what-llms-owe-to-their-harness-ac5ef0191d44",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "ne-vse-token-chto-llm-berut-u-svoei-obviazky-y-pochemu-domen"
  },
  {
   "rubric": "AI Signals",
@@ -34101,7 +34105,8 @@
   "date": "2026-11-23",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@mahdi.nasermoghadasi/why-your-server-will-fetch-any-url-you-hand-it-including-its-own-secrets-7ff907691183",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "ssrf-v-epokhu-yy-ahentov-pochemu-server-khodyt-po-liuboi-ssy"
  },
  {
   "rubric": "AI Signals",
@@ -34173,7 +34178,8 @@
   "date": "2026-11-23",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@RaviMansuriya/the-agent-ran-for-seven-days-who-watched-it-c2e370e50b70",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "ahent-otrabotal-sem-dnei-y-uspeshno-zavershyl-ne-tu-zadachu"
  },
  {
   "rubric": "AI Signals",
@@ -34251,7 +34257,8 @@
   "date": "2026-11-23",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@ionionascu/turning-claude-code-into-an-autonomous-developer-85b8b0874af0",
-  "minutes": 22
+  "minutes": 22,
+  "slug": "avtonomnyi-razrabotchyk-na-claude-code-model-reshaet-tolko-v"
  },
  {
   "rubric": "AI Signals",
@@ -34325,7 +34332,8 @@
   "date": "2026-11-23",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@AdamLesage/how-we-work-with-ai-at-a-100m-arr-scale-up-a547de057c96",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "adoptsyia-eto-lehko-chetyre-pryntsypa-myshlenyia-s-yy-v-scal"
  },
  {
   "rubric": "Время и фокус",
@@ -34397,7 +34405,8 @@
   "date": "2026-11-23",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@ginolouiepena/i-asked-ai-to-replace-70-of-my-job-heres-what-was-left-and-why-i-m-not-scared-83cf23f34948",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "audyt-uiazvymosty-k-yy-razlozhyt-rabochuiu-nedeliu-na-try-ko"
  },
  {
   "rubric": "Toolbox",
@@ -34473,7 +34482,8 @@
   "date": "2026-11-23",
   "source": "src:habr.com",
   "url": "https://habr.com/ru/articles/1110354/",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "pomoshchnyk-kotoryi-ne-podskazyvaet-kak-repetytor-uchyla-mod"
  },
  {
   "rubric": "Toolbox",
@@ -34549,7 +34559,8 @@
   "date": "2026-11-23",
   "source": "src:habr.com",
   "url": "https://habr.com/ru/companies/infostart/articles/1109938/",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "yy-v-razrabotke-na-1s-bezopasnyi-start-ot-chtenyia-koda-k-pr"
  },
  {
   "rubric": "Research Digest",
@@ -34623,7 +34634,8 @@
   "date": "2026-11-23",
   "source": "medium:llm",
   "url": "https://medium.com/@sidicamara/teaching-a-4b-llm-to-say-yes-or-no-fine-tuning-qwen3-to-trigger-kyc-refreshes-3b415a810cec",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "doobuchenye-qwen3-4b-na-1000-prymerakh-kak-malenkaia-llm-vyb"
  },
  {
   "rubric": "Research Digest",
@@ -34699,7 +34711,8 @@
   "date": "2026-11-23",
   "source": "medium:llm",
   "url": "https://medium.com/@dugboryeleprince/fitting-is-not-serving-what-an-8-gb-gpu-can-actually-do-with-concurrent-llm-requests-4878f37632cb",
-  "minutes": 15
+  "minutes": 15,
+  "slug": "vlezt-v-vydeopamiat-ne-znachyt-obsluzhyvat-chto-8-hb-gpu-rea"
  },
  {
   "rubric": "Model Watch",
@@ -34775,7 +34788,8 @@
   "date": "2026-11-23",
   "source": "medium:llm",
   "url": "https://medium.com/@eduardonamba/what-makes-an-ai-model-good-i-asked-7-models-the-same-10-questions-to-find-out-70945ca53eae",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "parametry-protyv-kvantyzatsyy-chto-pokazal-test-semy-modelei"
  },
  {
   "rubric": "Toolbox",
@@ -34849,7 +34863,8 @@
   "date": "2026-11-23",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@ysrgozudeli/kubernetes-secrets-in-the-ai-agent-era-why-sealed-secrets-matter-3c20ef4ca6fe",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "sealed-secrets-dlia-epokhy-yy-ahentov-kak-ne-dat-ahentu-uvyd"
  },
  {
   "rubric": "AI Signals",
@@ -34923,7 +34938,8 @@
   "date": "2026-11-23",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@chijiokeuhegwu/stop-buying-expensive-gpus-how-to-prep-company-docs-for-ai-search-on-standard-hardware-0dd742bf99bc",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "rag-bez-gpu-kak-podhotovyt-korporatyvnye-dokumenty-k-yy-poys"
  },
  {
   "rubric": "PKM",
@@ -34997,7 +35013,8 @@
   "date": "2026-11-23",
   "source": "medium:knowledge-management",
   "url": "https://medium.com/webeconoscenza/rag-e-second-brain-dalle-idee-agli-usi-concreti-401fa119f3e9",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "rag-y-second-brain-v-piaty-kontekstakh-kakye-ystochnyky-nuzh"
  },
  {
   "rubric": "PKM",
@@ -35073,7 +35090,8 @@
   "date": "2026-11-23",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@madebypixels3/building-a-second-brain-with-ai-without-becoming-dependent-on-it-4592c94e16d1",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "vtoroi-mozh-s-yy-bez-zavysymosty-shest-pryntsypov-y-rabochai"
  },
  {
   "rubric": "AI Signals",
@@ -35147,7 +35165,8 @@
   "date": "2026-11-23",
   "source": "источник Signal Feed",
   "url": "https://satyammohanty.medium.com/dont-be-a-meat-proxy-0a2a7bea787b",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "miasnoi-proksy-pochemu-peresylka-otvetov-yy-bez-proverky-per"
  },
  {
   "rubric": "Письмо",
@@ -35221,7 +35240,8 @@
   "date": "2026-11-23",
   "source": "New York Times — paywall, ТОП-10",
   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLVp4aWJkcGpQRlEyN0FtM2lrLWoycWxlbWVCZ0ZTblV3eFlURUNKcFF5eHZoTTRsaE1yUUVkUDJfQzRYMmRuVzVhMWNlczVSRDJuN0RVY3FkWmFFYXdsVEZSSW5NMERlNFBLdng5cEFrbkJIRWJfVFBwaG5Zc1kwbkdvTnJHTEVrSlJyNDRxM2c",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "kto-pyshet-kak-robot-chelovechnost-teksta-kak-kolonyalnoe-na"
  },
  {
   "rubric": "AI Signals",
@@ -35295,7 +35315,8 @@
   "date": "2026-11-23",
   "source": "medium:ai-agents",
   "url": "https://nazoorahmed.medium.com/running-a-local-agent-like-a-factory-the-standards-it-meets-and-the-roadmap-a89424feeec5",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "lokalnyi-yy-ahent-kak-fabryka-sootvetstvye-standartam-kaches"
  },
  {
   "rubric": "Policy Radar",
@@ -35367,6 +35388,7 @@
   "date": "2026-11-23",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@jalpatidar91g/who-should-control-artificial-intelligence-8989bafb8aaf",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "kto-dolzhen-upravliat-yy-kompanyy-stroiat-hosudarstva-prover"
  }
 ]
