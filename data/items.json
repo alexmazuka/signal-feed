@@ -35463,7 +35463,8 @@
   "date": "2026-11-24",
   "source": "medium:ai-agents",
   "url": "https://pub.towardsai.net/how-to-control-what-your-ai-agent-can-spend-send-and-access-646e93bd73d1",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "orhstruktura-dlia-yy-ahentov-kak-zadat-lymyty-na-traty-rassy"
  },
  {
   "rubric": "Toolbox",
@@ -35539,7 +35540,8 @@
   "date": "2026-11-24",
   "source": "medium:llm",
   "url": "https://gilvandrofneto.medium.com/i-built-it-with-ai-5c1b5ca0ff57",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "147-zelenykh-testov-y-7-yz-10-vnedrennykh-bahov-bez-edynoho"
  },
  {
   "rubric": "Research Digest",
@@ -35615,7 +35617,8 @@
   "date": "2026-11-24",
   "source": "src:huggingface.co",
   "url": "https://huggingface.co/blog/agentic-evals",
-  "minutes": 35
+  "minutes": 35,
+  "slug": "kak-postroyt-y-podderzhyvat-otsenku-ahentov-vosem-shahov-osh"
  },
  {
   "rubric": "Research Digest",
@@ -35689,7 +35692,8 @@
   "date": "2026-11-24",
   "source": "medium:llm",
   "url": "https://aiadvances.org/why-llama-isnt-3x-faster-when-the-file-is-3x-smaller-d06ab77b797d",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "pochemu-llama-ne-uskoriaetsia-v-3-raza-pry-szhatyy-faila-v-3"
  },
  {
   "rubric": "Research Digest",
@@ -35767,7 +35771,8 @@
   "date": "2026-11-24",
   "source": "src:habr.com",
   "url": "https://habr.com/ru/articles/1110964/",
-  "minutes": 39
+  "minutes": 39,
+  "slug": "poltora-hoda-popytok-dokazat-hypotezu-rymana-s-lean-y-modeli"
  },
  {
   "rubric": "Model Watch",
@@ -35839,7 +35844,8 @@
   "date": "2026-11-24",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/companies/airi/articles/1111066/",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "qwen3-5-unloop-kak-dpo-na-razreze-posle-otveta-otuchyl-malen"
  },
  {
   "rubric": "PKM",
@@ -35913,7 +35919,8 @@
   "date": "2026-11-24",
   "source": "medium:ai-agents",
   "url": "https://blog.stackademic.com/the-four-parts-of-a-company-brain-704cbdfe9488",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "chetyre-chasty-korporatyvnoho-mozha-sbor-pamiat-chystka-y-do"
  },
  {
   "rubric": "Research Digest",
@@ -35989,7 +35996,8 @@
   "date": "2026-11-24",
   "source": "discover: ссылаются 4 источников",
   "url": "https://www.psypost.org/massive-field-experiment-suggests-classroom-phone-bans-modestly-improve-college-grades/",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "zapret-telefonov-na-lektsyiakh-eksperyment-na-16-683-student"
  },
  {
   "rubric": "Research Digest",
@@ -36065,7 +36073,8 @@
   "date": "2026-11-24",
   "source": "научпоп",
   "url": "https://bigthink.com/history-society/what-happens-when-ai-splits-up-your-friend-group/",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "yy-kak-novoe-tabu-v-druzhbe-pochemu-o-nem-molchat-kak-on-pod"
  },
  {
   "rubric": "Research Digest",
@@ -36137,7 +36146,8 @@
   "date": "2026-11-24",
   "source": "discover: ссылаются 5 источников",
   "url": "https://www.jungewelt.de/artikel/533984.künstliche-intelligenz-die-syntaktische-mühle.html",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "syntaksycheskaia-melnytsa-pochemu-yy-prevoskhodyt-cheloveka"
  },
  {
   "rubric": "Policy Radar",
@@ -36211,7 +36221,8 @@
   "date": "2026-11-24",
   "source": "discover: ссылаются 3 источников",
   "url": "https://oko.press/cyfrowi-giganci-zarabiaja-media-traca-czy-mozna-to-zmienic",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "google-meta-y-denhy-yzdatelei-kak-polsha-y-es-pytaiutsia-ver"
  },
  {
   "rubric": "Policy Radar",
@@ -36285,6 +36296,7 @@
   "date": "2026-11-24",
   "source": "Council on Foreign Relations (США), type rss",
   "url": "https://www.cfr.org/articles/canadas-ai-playbook-how-a-middle-power-can-rely-less-on-u-s-tech-giants",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "kanada-vmesto-obshcheho-zakona-ob-yy-suverennye-moshchnosty"
  }
 ]
