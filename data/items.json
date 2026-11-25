@@ -36375,7 +36375,8 @@
   "date": "2026-11-25",
   "source": "discover: ссылаются 2 источников",
   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "ahent-rabotaet-na-korporatsyiu-a-ne-na-vas-pochemu-avtor-kho"
  },
  {
   "rubric": "AI Signals",
@@ -36449,7 +36450,8 @@
   "date": "2026-11-25",
   "source": "источник Signal Feed",
   "url": "https://nurhayatyurtaslan.medium.com/memory-across-runs-is-not-context-in-a-window-ba17563f184f",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "try-raznykh-pamiaty-u-yy-ahenta-okno-konteksta-pamiat-mezhdu"
  },
  {
   "rubric": "Время и фокус",
@@ -36523,7 +36525,8 @@
   "date": "2026-11-25",
   "source": "источник Signal Feed",
   "url": "https://ahaduasreslegesse.medium.com/why-your-project-schedule-is-too-optimistic-and-how-to-build-one-people-can-trust-3a63a9a98c42",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "pochemu-sroky-proekta-slyshkom-optymystychny-y-kak-sostavyt"
  },
  {
   "rubric": "Research Digest",
@@ -36599,7 +36602,8 @@
   "date": "2026-11-25",
   "source": "источник Signal Feed",
   "url": "https://elliot-teachingu-ai.medium.com/how-llms-work-trace-one-answer-from-tokens-to-text-c624509996d1",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "put-odnoho-otveta-llm-ot-tokenov-do-teksta-y-hde-v-nem-mesto"
  },
  {
   "rubric": "AI Signals",
@@ -36675,7 +36679,8 @@
   "date": "2026-11-25",
   "source": "discover: ссылаются 11 источников",
   "url": "https://de-rt.com/international/298309-billionen-dollar-frage-warum-koennen/",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "pochemu-nazemnye-roboty-poka-ne-zameniaiut-pekhotu-arhumenty"
  },
  {
   "rubric": "Toolbox",
@@ -36749,7 +36754,8 @@
   "date": "2026-11-25",
   "source": "источник Signal Feed",
   "url": "https://homie-mac.vercel.app/fast",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "homie-kak-zastavyt-lokalnuiu-4b-model-na-macbook-otvechat-za"
  },
  {
   "rubric": "AI Signals",
@@ -36821,6 +36827,7 @@
   "date": "2026-11-25",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@rembiq/the-agent-that-committed-the-keys-aadf3adac7f6",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "ahent-zakommytyl-kliuch-kak-utechka-u-together-ai-pokazala-c"
  }
 ]
