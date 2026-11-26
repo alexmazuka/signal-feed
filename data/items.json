@@ -36904,7 +36904,8 @@
   "date": "2026-11-26",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@syed_ali/the-95-trap-why-a-twenty-step-ai-pipeline-finishes-the-job-36-of-the-time-on-paper-a0309f8d2a27",
-  "minutes": 15
+  "minutes": 15,
+  "slug": "lovushka-95-pochemu-dvadtsatyshahovyi-yy-konveier-po-formule"
  },
  {
   "rubric": "Research Digest",
@@ -36978,7 +36979,8 @@
   "date": "2026-11-26",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@padalajagadeesh578/i-built-a-waiting-list-analytics-system-then-made-the-ai-prove-every-number-it-wrote-e8f1aedb370b",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "analytyka-lystov-ozhydanyia-hde-yy-obiazan-dokazat-kazhduiu"
  },
  {
   "rubric": "Toolbox",
@@ -37054,7 +37056,8 @@
   "date": "2026-11-26",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@tidianestano/can-your-ai-agent-finish-the-job-after-you-close-chat-d407bf077749",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "ahent-skazal-hotovo-kak-proveryt-rezultat-y-peredat-rabotu-s"
  },
  {
   "rubric": "Policy Radar",
@@ -37128,7 +37131,8 @@
   "date": "2026-11-26",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@rinudhanaraj/governing-ai-agents-the-way-we-govern-apis-e8a5556749cd",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "upravlenye-yy-ahentamy-po-obraztsu-api-chetyre-urovnia-posle"
  },
  {
   "rubric": "Research Digest",
@@ -37202,7 +37206,8 @@
   "date": "2026-11-26",
   "source": "источник Signal Feed",
   "url": "https://zeeshan-amjad.medium.com/mutation-testing-for-ai-generated-code-a-test-that-cannot-fail-proves-nothing-f6c3a9443b35",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "test-kotoryi-ne-mozhet-upast-nycheho-ne-dokazyvaet-mutatsyon"
  },
  {
   "rubric": "AI Signals",
@@ -37276,7 +37281,8 @@
   "date": "2026-11-26",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@signadot/async-coding-agents-need-a-verifier-that-isnt-a-person-60ffd1002bf6",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "asynkhronnym-kodynh-ahentam-nuzhen-veryfykator-kotorym-ne-ia"
  },
  {
   "rubric": "Toolbox",
@@ -37352,7 +37358,8 @@
   "date": "2026-11-26",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@Dahatake/your-ai-agent-can-work-for-hours-now-your-prompt-should-be-a-contract-401c3690fa43",
-  "minutes": 46
+  "minutes": 46,
+  "slug": "kontrakt-na-zadachu-dlia-yy-ahenta-rabotaiut-otvety-chelovek"
  },
  {
   "rubric": "AI Signals",
@@ -37424,7 +37431,8 @@
   "date": "2026-11-26",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@nichishacho/if-you-hand-work-to-ai-5-things-got-stuck-in-one-week-who-noticed-first-389ae456a58d",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "piat-sboev-za-nedeliu-v-rabote-s-yy-komandoi-kto-zametyl-per"
  },
  {
   "rubric": "AI Signals",
@@ -37500,7 +37508,8 @@
   "date": "2026-11-26",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@josetguevara108/you-bought-the-capacity-but-can-you-actually-use-it-b87030f46d28",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "kupyt-moshchnosty-malo-chem-ustanovlennaia-emkost-yy-ynfrast"
  },
  {
   "rubric": "AI Signals",
@@ -37574,7 +37583,8 @@
   "date": "2026-11-26",
   "source": "medium:llm",
   "url": "https://medium.com/@kartik.nvj/i-made-my-rag-pipeline-agentic-and-watched-latency-d516beb28bbc",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "ahentnyi-rag-pochemu-latentnost-nycheho-ne-hovoryt-a-schytat"
  },
  {
   "rubric": "Policy Radar",
@@ -37650,7 +37660,8 @@
   "date": "2026-11-26",
   "source": "medium:ai-agents",
   "url": "https://brendanlongvt.medium.com/your-bank-just-said-no-to-your-ai-agent-that-was-the-right-call-for-now-b457fa3e3d8a",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "banky-zakryly-dvery-pered-yy-ahentamy-pochemu-net-opravdanno"
  },
  {
   "rubric": "AI Signals",
@@ -37722,7 +37733,8 @@
   "date": "2026-11-26",
   "source": "src:habr.com",
   "url": "https://habr.com/ru/articles/1111958/",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "ahenty-y-obnovlenye-byblyotek-russkyi-iazyk-otkliuchaet-poys"
  },
  {
   "rubric": "AI Signals",
@@ -37796,7 +37808,8 @@
   "date": "2026-11-26",
   "source": "источник Signal Feed",
   "url": "https://danluu.com/no-slow/",
-  "minutes": 21
+  "minutes": 21,
+  "slug": "optymyzatsyia-podeshevela-na-poriadky-kak-kodynh-ahenty-dela"
  },
  {
   "rubric": "Toolbox",
@@ -37870,7 +37883,8 @@
   "date": "2026-11-26",
   "source": "medium:llm",
   "url": "https://nazoorahmed.medium.com/the-setup-a-27b-model-on-a-m1-max-ollama-and-the-settings-that-matter-45145eea68db",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "27b-model-na-macbook-s-m1-max-kak-nastroyt-ollama-okno-konte"
  },
  {
   "rubric": "Toolbox",
@@ -37944,6 +37958,7 @@
   "date": "2026-11-26",
   "source": "источник Signal Feed",
   "url": "https://syntheticbrew.medium.com/how-to-reduce-ai-hallucinations-when-business-information-is-missing-da0d9f405e3d",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "kak-snyzyt-halliutsynatsyy-yy-ahenta-kohda-dannykh-o-kompany"
  }
 ]
