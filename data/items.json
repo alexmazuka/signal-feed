@@ -38033,7 +38033,8 @@
   "date": "2026-11-27",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@dandigam.raju/one-local-model-three-apis-testing-portability-with-docker-model-runner-68b7ab401dd4",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "sovmestymost-ne-perenosymost-kak-kontraktnye-testy-na-docker"
  },
  {
   "rubric": "AI Signals",
@@ -38107,7 +38108,8 @@
   "date": "2026-11-27",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@maikonjm/um-time-de-agentes-de-ia-que-resolve-incidentes-sozinho-com-guardrails-a300a868da8f",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "sem-ahentov-vmesto-odnoho-kak-yy-komanda-sama-zakryvaet-ynts"
  },
  {
   "rubric": "AI Signals",
@@ -38183,7 +38185,8 @@
   "date": "2026-11-27",
   "source": "medium:llm",
   "url": "https://reuglewiczjeanedouard.medium.com/prompt-injections-from-a-manipulated-answer-to-a-real-security-incident-4371b174ad13",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "prompt-injection-kak-yntsydent-bezopasnosty-ot-podmeny-otvet"
  },
  {
   "rubric": "AI Signals",
@@ -38257,7 +38260,8 @@
   "date": "2026-11-27",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@vallandassudheer/how-ai-agents-work-explained-by-someone-who-builds-them-2b80d2b138b8",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "kak-ustroeny-yy-ahenty-model-v-tsykle-s-ynstrumentamy-y-poch"
  },
  {
   "rubric": "AI Signals",
@@ -38331,7 +38335,8 @@
   "date": "2026-11-27",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@anishvv212002/stop-agent-loops-how-to-build-cyclic-graphs-that-dont-get-stuck-51e4bbffb5bf",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "kak-ne-dat-yy-ahentu-zatsyklytsia-zamknutyi-kontur-s-nezavys"
  },
  {
   "rubric": "Toolbox",
@@ -38407,7 +38412,8 @@
   "date": "2026-11-27",
   "source": "medium:llm",
   "url": "https://medium.com/@techpotions/building-an-ai-agent-swarm-without-burning-your-token-budget-3dfbb2e7514f",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "roi-yy-ahentov-bez-shorevsheho-biudzheta-kohda-parallelyt-ka"
  },
  {
   "rubric": "AI Signals",
@@ -38481,7 +38487,8 @@
   "date": "2026-11-27",
   "source": "источник Signal Feed",
   "url": "https://medium.com/prodrescue-business/the-most-dangerous-ai-failure-is-an-answer-that-looks-completely-correct-79226fa00277",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "pravdopodobnyi-no-nevernyi-otvet-yy-pochemu-monytorynh-eho-n"
  },
  {
   "rubric": "AI Signals",
@@ -38555,7 +38562,8 @@
   "date": "2026-11-27",
   "source": "medium:ai-agents",
   "url": "https://medium.com/prodrescue-business/your-ai-agent-worked-perfectly-in-the-demo-then-production-happened-d643ca7940bd",
-  "minutes": 10
+  "minutes": 10,
+  "slug": "ot-demo-k-produ-pochemu-yy-ahenty-lomaiutsia-na-ynfrastruktu"
  },
  {
   "rubric": "Toolbox",
@@ -38629,7 +38637,8 @@
   "date": "2026-11-27",
   "source": "medium:prompt-engineering",
   "url": "https://medium.com/@er.rajatlakhina/your-claude-md-is-legacy-code-how-to-audit-prompt-debt-after-opus-5-5-93fea078f1bd",
-  "minutes": 7
+  "minutes": 7,
+  "slug": "claude-md-kak-lehasy-kod-kak-naity-ustarevshye-think-hard-po"
  },
  {
   "rubric": "PKM",
@@ -38703,7 +38712,8 @@
   "date": "2026-11-27",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@hackastak/your-second-brain-is-an-attack-surface-what-happens-when-ai-reads-your-notes-c351121375f5",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "vtoroi-mozh-kak-poverkhnost-ataky-try-pravyla-zashchyty-zame"
  },
  {
   "rubric": "Toolbox",
@@ -38779,7 +38789,8 @@
   "date": "2026-11-27",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@josephkhan515/part-1-why-ai-gets-business-documents-wrong-and-how-im-fixing-it-245e1fbce62b",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "chetyre-sposoba-kotorymy-yy-portyt-kommercheskye-predlozheny"
  },
  {
   "rubric": "AI Signals",
@@ -38853,7 +38864,8 @@
   "date": "2026-11-27",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@Innovify/can-you-draw-it-on-a-whiteboard-then-you-probably-dont-need-an-agent-8d96d35d733c",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "tsepochka-yly-ahent-vybyraite-mynymum-avtonomyy-kotoroho-dos"
  },
  {
   "rubric": "AI Signals",
@@ -38927,7 +38939,8 @@
   "date": "2026-11-27",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@oscar_11019/we-repaired-the-models-numbers-twice-95638cfda7d6",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "dva-remonta-chysel-modely-kak-avtomatycheskaia-pochynka-vkho"
  },
  {
   "rubric": "Время и фокус",
@@ -39001,7 +39014,8 @@
   "date": "2026-11-27",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@fwdthinkingllc/meeting-pages-that-end-rambling-agendas-minutes-and-the-one-pager-4b2fa8b5346b",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "try-stranytsy-protyv-boltovny-povestka-protokol-reshenyi-y-o"
  },
  {
   "rubric": "Письмо",
@@ -39075,7 +39089,8 @@
   "date": "2026-11-27",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@arthuraef/e-se-o-designer-tomar-o-seu-emprego-de1e8bdbef65",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "esly-dyzainer-zaberet-vashu-rabotu-hranytsy-mezhdu-dyzainom"
  },
  {
   "rubric": "Toolbox",
@@ -39147,7 +39162,8 @@
   "date": "2026-11-27",
   "source": "src:habr.com",
   "url": "https://habr.com/ru/articles/1112810/",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "langhelper-kak-za-chetyre-vechera-sobrat-s-claude-personalny"
  },
  {
   "rubric": "Model Watch",
@@ -39221,7 +39237,8 @@
   "date": "2026-11-27",
   "source": "medium:llm",
   "url": "https://medium.com/@aipruner1991/inkling-2-mini-local-model-benchmark-rtx-4060-ti-16gb-0a10acaddf51",
-  "minutes": 21
+  "minutes": 21,
+  "slug": "inkling-2-mini-na-rtx-4060-ti-16-hb-zatsyklyvaetsia-po-umolc"
  },
  {
   "rubric": "Research Digest",
@@ -39295,7 +39312,8 @@
   "date": "2026-11-27",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@mdpman/google-cloud-%EB%B0%A9%ED%96%A5%EC%84%B1-%EB%A6%AC%EA%B7%B8%EB%A0%9B-paired-regret-%EA%B3%BC-soft-hurt-%EA%B2%8C%EC%9D%B4%ED%8A%B8-%EA%B8%B0%EB%B0%98-%EB%AC%B4%EA%B0%90%EB%8F%85-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%ED%95%98%EB%84%A4%EC%8A%A4-%EC%9E%90%EA%B0%80-%EA%B0%9C%EC%84%A0-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-guard-%EB%B6%84%EC%84%9D-42e37c0fdae1",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "guard-kak-ahentu-bezopasno-uluchshat-sobstvennye-prompty-y-n"
  },
  {
   "rubric": "Research Digest",
@@ -39369,7 +39387,8 @@
   "date": "2026-11-27",
   "source": "источник Signal Feed",
   "url": "https://habr.com/ru/companies/ru_mts/articles/1108662/",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "sage-kak-obuchat-llm-otsenyvat-ne-tolko-ytoh-no-y-strukturu"
  },
  {
   "rubric": "Research Digest",
@@ -39445,7 +39464,8 @@
   "date": "2026-11-27",
   "source": "medium:prompt-engineering",
   "url": "https://beyondthestacknotes.medium.com/the-ai-said-i-cant-tell-the-search-had-given-it-the-wrong-pages-0db4140261d3",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "ne-mohu-skazat-ot-yy-v-rag-systeme-oshybsia-poysk-a-ne-model"
  },
  {
   "rubric": "Toolbox",
@@ -39521,7 +39541,8 @@
   "date": "2026-11-27",
   "source": "medium:ai-agents",
   "url": "https://viktor-sirotin.medium.com/peoples-ai-agents-and-platforms-part-2-a-working-prototype-b1ded235e986",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "holosovye-yy-ahenty-v-brauzere-kak-ustroen-prototyp-na-gemin"
  },
  {
   "rubric": "Письмо",
@@ -39597,6 +39618,7 @@
   "date": "2026-11-27",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@ayase_88640/if-the-price-is-in-paragraph-three-the-quote-isnt-ready-658b54f3919b",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "tsena-v-tretem-abzatse-pysmo-ne-hotovo-kak-sobrat-kommerches"
  }
 ]
