@@ -39693,7 +39693,8 @@
   "date": "2026-11-28",
   "source": "medium:ai-agents",
   "url": "https://alt.ctrlmag.com/ai-agents-are-entering-the-enterprise-the-hard-part-is-controlling-what-they-can-do-7105a60e6e04",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "ahenty-v-korporatyvnoi-srede-google-y-sailpoint-pokazyvaiut"
  },
  {
   "rubric": "AI Signals",
@@ -39767,7 +39768,8 @@
   "date": "2026-11-28",
   "source": "medium:llm",
   "url": "https://designer-venkat.medium.com/what-an-ai-agent-really-is-and-when-you-dont-need-one-c0db4fa4043e",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "chto-takoe-yy-ahent-na-samom-dele-y-kohda-on-ne-nuzhen-model"
  },
  {
   "rubric": "Toolbox",
@@ -39843,7 +39845,8 @@
   "date": "2026-11-28",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@mehdigolzari.official/ai-agents-can-make-green-tests-lie-heres-the-2-minute-check-5e5a180300c6",
-  "minutes": 8
+  "minutes": 8,
+  "slug": "zelenye-testy-mohut-vrat-kak-yy-ahenty-oslabliaiut-proverky"
  },
  {
   "rubric": "AI Signals",
@@ -39917,7 +39920,8 @@
   "date": "2026-11-28",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@srivatsan_innov/a-filter-is-not-a-boundary-the-ai-guardrails-every-enterprise-needs-in-the-agentic-era-284e2eb23ef6",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "fyltr-ne-hranytsa-shest-sloev-zashchyty-dlia-korporatyvnykh"
  },
  {
   "rubric": "Toolbox",
@@ -39993,7 +39997,8 @@
   "date": "2026-11-28",
   "source": "medium:ai-agents",
   "url": "https://medium.com/@saurabhraj042/i-set-up-claude-duet-to-run-my-job-hunt-side-business-and-content-copy-my-setup-e46f506e763c",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "claude-duet-kak-operatsyonnyi-menedzher-try-ocheredy-raboty"
  },
  {
   "rubric": "Research Digest",
@@ -40071,7 +40076,8 @@
   "date": "2026-11-28",
   "source": "medium:llm",
   "url": "https://medium.com/@muhammad.hassan.99.cs/i-tested-where-llm-agent-fixes-belong-my-triage-tool-got-it-right-a-third-of-the-time-e12105f34317",
-  "minutes": 12
+  "minutes": 12,
+  "slug": "hde-chynyt-ahenta-pravylo-ne-v-systemnom-prompte-podtverdylo"
  },
  {
   "rubric": "Toolbox",
@@ -40145,7 +40151,8 @@
   "date": "2026-11-28",
   "source": "medium:llm",
   "url": "https://medium.com/@grokybotster/stop-pasting-whole-call-transcripts-into-your-llm-6a9512b341e2",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "rasshyfrovky-zvonkov-dlia-llm-kak-pochystyt-vtt-narezat-po-r"
  },
  {
   "rubric": "Toolbox",
@@ -40223,7 +40230,8 @@
   "date": "2026-11-28",
   "source": "medium:ai-agents",
   "url": "https://pub.towardsai.net/fryday-15-before-you-send-another-task-to-a-frontier-model-99f9eafba65c",
-  "minutes": 11
+  "minutes": 11,
+  "slug": "15-klassov-malykh-modelei-vmesto-frontyrnoi-chto-vziat-v-pro"
  },
  {
   "rubric": "AI Signals",
@@ -40301,7 +40309,8 @@
   "date": "2026-11-28",
   "source": "medium:prompt-engineering",
   "url": "https://medium.com/@jha.sanjiv1/what-prompt-engineering-became-c62d42f33e3a",
-  "minutes": 13
+  "minutes": 13,
+  "slug": "chem-stal-prompt-engineering-v-2026-hodu-kontekst-skhemy-tes"
  },
  {
   "rubric": "Письмо",
@@ -40377,7 +40386,8 @@
   "date": "2026-11-28",
   "source": "medium:automation",
   "url": "https://medium.com/@arturormk/the-meat-proxy-25fc16d85dc4",
-  "minutes": 24
+  "minutes": 24,
+  "slug": "miasnoi-proksy-kohda-chelovek-v-tsepochke-vnosyt-suzhdenye-a"
  },
  {
   "rubric": "PKM",
@@ -40451,7 +40461,8 @@
   "date": "2026-11-28",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@bdeng1018/the-information-organizations-forget-ef0e79c0610c",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "dannye-zhyvut-desiatyletyiamy-a-ponymanye-hodamy-pochemu-orh"
  },
  {
   "rubric": "Время и фокус",
@@ -40525,7 +40536,8 @@
   "date": "2026-11-28",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@ran.sister.business/the-59-minutes-after-the-meeting-let-ai-draft-just-the-follow-up-445ac8f4b0e9",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "chas-posle-vstrechy-pust-yy-hotovyt-tolko-chernovyky-bumah-a"
  },
  {
   "rubric": "Время и фокус",
@@ -40599,7 +40611,8 @@
   "date": "2026-11-28",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@onepagefix/your-inbox-has-200-messages-six-rules-to-sort-it-when-you-work-alone-b4312e164a47",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "shest-pravyl-dlia-razbora-pochty-u-odynochky-piat-papok-deis"
  },
  {
   "rubric": "Время и фокус",
@@ -40673,7 +40686,8 @@
   "date": "2026-11-28",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@moneylucknotes/every-deadline-lands-in-the-same-week-a-calmer-way-to-stack-design-projects-79a33f53c8ee",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "dedlainy-skhodiatsia-v-odnu-nedeliu-kak-planyrovat-dyzain-pr"
  },
  {
   "rubric": "Время и фокус",
@@ -40747,7 +40761,8 @@
   "date": "2026-11-28",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@manikandanjaganathan1/40-to-buy-back-time-beat-40-on-stuff-the-proven-happiness-purchase-that-really-works-0124d7da072f",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "40-dollarov-na-vozvrat-vremeny-pochemu-pokupka-svobodnykh-ch"
  },
  {
   "rubric": "Письмо",
@@ -40819,7 +40834,8 @@
   "date": "2026-11-28",
   "source": "medium:copywriting",
   "url": "https://medium.com/@doublemindai/what-teaching-an-ai-brand-voice-taught-us-about-brand-voice-9d33e2395a4d",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "pochemu-prylahatelnye-ne-zadaiut-holos-brenda-prymery-spysok"
  },
  {
   "rubric": "Toolbox",
@@ -40895,7 +40911,8 @@
   "date": "2026-11-28",
   "source": "medium:prompt-engineering",
   "url": "https://medium.com/@MR.Insight/why-your-nano-banana-text-has-typos-and-the-prompt-rules-that-fix-most-of-them-41377913dfd1",
-  "minutes": 4
+  "minutes": 4,
+  "slug": "opechatky-v-tekste-nano-banana-pochemu-ony-voznykaiut-y-shes"
  },
  {
   "rubric": "Toolbox",
@@ -40971,7 +40988,8 @@
   "date": "2026-11-28",
   "source": "medium:llm",
   "url": "https://medium.com/@mason.wong.2355/go-for-ai-backends-where-it-beats-python-and-where-it-hurts-515ce11c206d",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "go-dlia-bekenda-yy-produktov-hde-on-vyyhryvaet-u-python-y-hd"
  },
  {
   "rubric": "Research Digest",
@@ -41047,7 +41065,8 @@
   "date": "2026-11-28",
   "source": "medium:llm",
   "url": "https://rizumita.medium.com/zero-regression-kv-hot-patching-and-zero-shot-cross-model-control-transfer-kestrom-kv-and-kestrom-e4dc84e35cbc",
-  "minutes": 6
+  "minutes": 6,
+  "slug": "kestrom-kassety-prefix-kv-dlia-horiacheho-obnovlenyia-faktov"
  },
  {
   "rubric": "Письмо",
@@ -41123,7 +41142,8 @@
   "date": "2026-11-28",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@wecrafte/how-to-write-a-book-description-that-sells-6adbb3348351",
-  "minutes": 9
+  "minutes": 9,
+  "slug": "opysanye-knyhy-kak-prodaiushchyi-tekst-piat-chastei-150-250"
  },
  {
   "rubric": "Время и фокус",
@@ -41197,7 +41217,8 @@
   "date": "2026-11-28",
   "source": "источник Signal Feed",
   "url": "https://medium.com/@haroldmediam212/gratitude-is-a-productivity-habit-5-im-keeping-into-2027-b82e0d470335",
-  "minutes": 3
+  "minutes": 3,
+  "slug": "blahodarnost-kak-rabochaia-pryvychka-piat-practices-yz-ekspe"
  },
  {
   "rubric": "AI Signals",
@@ -41271,6 +41292,7 @@
   "date": "2026-11-28",
   "source": "The Economist — paywall, ТОП-10",
   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXVGRjE5dERHSklyWnlwcGlXQzhHMHp4aUFrWlE2UFE2OTBrczh1WlE4b1pzRUdjVngyeTZEc3FYVXV3eVBsSF9VRW8yVG5rNm9QZlN6Zk44ZTFTMU1mV3hLaTR5WGszcGM4Q0YteTdWNWhuLTJSM1FSYUI2YVdlZGlJVmpJOWV3YVRteTZuZHhJUGZT",
-  "minutes": 5
+  "minutes": 5,
+  "slug": "roboty-humanoydy-kak-masshtabyrovanye-yy-mozhet-perekroyt-tr"
  }
 ]
